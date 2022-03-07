@@ -33,7 +33,7 @@ Each of the eight arms on Orchestrator have three outputs each along with severa
 
 Starting from the body working out there is the `New Sequene` input and button. Either will change the internal signature/pattern of that arm. See [Modulation mode](#Modulation-Mode) or [Drum mode](#Drum-Mode) for specifics.
 
-![Image of arm mode](images/Orchestrator/arm_seq.png)
+![Image of arm mode](images/Orchestrator/arm_mode.png)
 
 Next is the `Arm Mode` switch. This toggles between [modulation mode](#Modulation-Mode) and [drum mode](#Drum-Mode). Both are described in more detail bellow.
 
