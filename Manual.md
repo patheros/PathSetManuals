@@ -4,7 +4,7 @@
 
 ![Image of Orchestrator module](images/Orchestrator.png)
 
-Plugin: [PathSet - Infinity](https://library.vcvrack.com/PathSet-Infinity)
+Plugin: [PathSet - Infinity](https://library.vcvrack.com/PathSet-Infinity) <br/>
 Examples: [Orchestrator](Examples.md#orchestrator) 
 
 Orchestrator is a modulation and gate source designed to be the conductor of a repeatable modular song. The Module is divided into a central head and eight arms. The head controls the overall length of the song. It also "moves" each arm creating macro oscillations or movements in the overall song. Each arm then takes that macro oscillation and either adds micro oscillation to form a modulation output or uses it turn on and off a gate sequence.
@@ -29,20 +29,16 @@ Tip: Patch the `EOC` to `New Head Trigger` to get a never ending song.
 
 Each of the eight arms on Orchestrator have three outputs each along with several configuration options:
 
-![Image of arm sequence](images/Orchestrator/arm_seq.png)
-
+![Image of arm sequence](images/Orchestrator/arm_seq.png)<br/>
 Starting from the body working out there is the `New Sequene` input and button. Either will change the internal signature/pattern of that arm. See [Modulation mode](#Modulation-Mode) or [Drum mode](#Drum-Mode) for specifics.
 
-![Image of arm mode](images/Orchestrator/arm_mode.png)
-
+![Image of arm mode](images/Orchestrator/arm_mode.png)<br/>
 Next is the `Arm Mode` switch. This toggles between [modulation mode](#Modulation-Mode) and [drum mode](#Drum-Mode). Both are described in more detail bellow.
 
-![Image of arm knobs](images/Orchestrator/arm_knobs.png)
-
+![Image of arm knobs](images/Orchestrator/arm_knobs.png)<br/>
 Next is `Arm Length` and `Arm Rate`.  These control how fast each arm's internal sequence/pattern plays and how often it repeats. These knobs are independent form the knobs on the head. Note that while you are turning `Arm Rate` the song's position will move creating more movement temporarily.
 
-![Image of arm knobs](images/Orchestrator/arm_output.png)
-
+![Image of arm knobs](images/Orchestrator/arm_output.png)<br/>
 Finally we have the three outputs pre arm along with individual `Power` and `Offset` knobs per output. Note the positioning of these knobs above or bellow each arm alternates. The following sections describe how they affect behavior depending on the arm's mode.
 
 ### Modulation Mode
@@ -70,7 +66,7 @@ The `Wave Arms` ignores the main signature/pattern of the macro oscillator, and 
 
 ![Image of QuantumCompass module](images/QuantumCompass.png)
 
-Plugin: [PathSet - Infinity](https://library.vcvrack.com/PathSet-Infinity)
+Plugin: [PathSet - Infinity](https://library.vcvrack.com/PathSet-Infinity)<br/>
 Examples: [QuantumCompass ](Examples.md#quantum-compass ) 
 
 Quantum Compass is a sequencer where instead of controlling each step, you instead turn on certain notes and it decides when to play each note. For a quick-start guide, connect an external clock to the `Clock or Position` input. Then press 2 or more of the note buttons on the bottom of the module.  You will see the central ring of LEDs light up showing you sequence generated. You can hook up your voice to the `1V/octtive` and `Main Gate` outputs. Feel free to add more notes or **hold down a note to remove it**.
@@ -129,7 +125,7 @@ If all the above wasn't enough, the Quantum Compass has one more twist. Next to 
 
 ![Image of WarpDrive module](images/WarpDrive.png)
 
-Plugin: [PathSet - Infinity](https://library.vcvrack.com/PathSet-Infinity)
+Plugin: [PathSet - Infinity](https://library.vcvrack.com/PathSet-Infinity)<br/>
 Examples: [WarpDrive](Examples.md#warp-drive) 
 
 Warp Drive is a massive two-engine starship. Each engine is a voice with its own LFO and envelope. Each engine's voice consists of three audio oscillators, called coils. The main coil is piped through it's envelope and is frequency modulated by the high and low coils.
@@ -197,7 +193,7 @@ The `Mixture` knob controls whether the Envelope or the LFO is used for that mod
 
 ![Image of AstroVibe module](images/AstroVibe.png)
 
-Plugin: [PathSet (Free)](https://library.vcvrack.com/PathSet)
+Plugin: [PathSet (Free)](https://library.vcvrack.com/PathSet)<br/>
 Examples: [AstroVibe](Examples.md#astro-vibe)
 
 Astro Vibe is three planetary obiters that can operate as VCOs or LFOs. Each orbiter has a wide range of controllable settings as well as internal planetary signature that affects the waveform. There are over three septillion planetary signatures and once you leave one your unlikely to ever find it again.
@@ -242,7 +238,7 @@ Each orbiter has a `Gain` knob under its output. This gain is applied in both `A
 
 ![Image of IceTray module](images/IceTray.png)
 
-Plugin: [PathSet (Free)](https://library.vcvrack.com/PathSet)
+Plugin: [PathSet (Free)](https://library.vcvrack.com/PathSet)<br/>
 Examples: [IceTray](Examples.md#ice-tray)
 
 Ice Tray is a speed shifter and six tape delays, called ice cubes. Each cube can solidify, capturing what ever was last recorded into it for an indefinite amount of time.
@@ -294,7 +290,7 @@ The `Feedback` knob and corresponding CVs at the bottom of Ice Tray feed the out
 
 ![Image of IceTray module](images/Shifty.png)
 
-Plugin: [Path Set (Free)](https://library.vcvrack.com/PathSet)
+Plugin: [Path Set (Free)](https://library.vcvrack.com/PathSet)<br/>
 Examples: [Shifty](Examples.md#shifty)
 
 Shifty is a shift register for gates / triggers with controllable lookback / delay. Shifty lets you take a simple gate sequence and create seven varied gate outputs.
