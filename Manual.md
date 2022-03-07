@@ -1,3 +1,4 @@
+# Manual for PathSet Modules
 
 ## Orchestrator 
 
@@ -12,22 +13,35 @@ Bipass: Does nothing.
 
 ### Head
 
+![Image head](images/Orchestrator/head.png)
+
 The knobs that are the eyes of Orchestrator are`Sequence Complexity` and `Sequence Length`.  The right one,`Sequence Length` controls how often *all outputs* of Orchestrator repeat. Note that if Orchestrator is running at 10x or 100x speed from the contextual menu, the sequence length is also scaled accordingly. `Sequence Complexity` controls how fast the arms of the Orchestrator move during the song. This in turn affects how much the song changes. The position of each arm is shown through the eight sequence lights. Note that while you are turning `Sequence Complexity` the song's position will move creating more movement temporarily. 
 
 The mouth of Orchestrator contains the `New Head Trigger` and `New Head Button`. Either will change the internal signature/pattern of the macro oscillations. Once you change it though, there is no way to go back. 
+
+![Image of left side of head](images/Orchestrator/head_left.png) ![Image of right side of head](images/Orchestrator/head_right.png)
 
 Above Orchestrator's head are several more controls related to the overall song. To the upper left there is `Run Mode` which can be set to repeat or one-shot. As well as `Run Input` and `Run` button/light which control weather the song is playing. The input and button generally toggles the current running state. The one exception is in one-shot mode, the run input always turns the running state on and can never turn it off. To  the upper right of the head are a `Reset` input and a `End of Cycle` output. `Reset` brings the song back to the start but does not change the running state. `End of Cycle` is high for one sample when the song ends.
  
 Tip: Patch the `EOC` to `New Head Trigger` to get a never ending song.
 
 ### Arms
+
 Each of the eight arms on Orchestrator have three outputs each along with several configuration options:
+
+![Image of arm sequence](images/Orchestrator/arm_seq.png)
 
 Starting from the body working out there is the `New Sequene` input and button. Either will change the internal signature/pattern of that arm. See [Modulation mode](#Modulation-Mode) or [Drum mode](#Drum-Mode) for specifics.
 
+![Image of arm mode](images/Orchestrator/arm_seq.png)
+
 Next is the `Arm Mode` switch. This toggles between [modulation mode](#Modulation-Mode) and [drum mode](#Drum-Mode). Both are described in more detail bellow.
 
+![Image of arm knobs](images/Orchestrator/arm_knobs.png)
+
 Next is `Arm Length` and `Arm Rate`.  These control how fast each arm's internal sequence/pattern plays and how often it repeats. These knobs are independent form the knobs on the head. Note that while you are turning `Arm Rate` the song's position will move creating more movement temporarily.
+
+![Image of arm knobs](images/Orchestrator/arm_output.png)
 
 Finally we have the three outputs pre arm along with individual `Power` and `Offset` knobs per output. Note the positioning of these knobs above or bellow each arm alternates. The following sections describe how they affect behavior depending on the arm's mode.
 
@@ -66,21 +80,39 @@ The rest of the knobs affect the sequence that comes out of the compass. The com
 Bipass: Does nothing.
 
 ### Steps 
+
+![Image of step controls](images/QuantumCompass/steps.png)
+
 The `Max Steps Count`, `Steps Attenuveter` and `Steps CV` all control how many steps are in the sequence. Anywhere between 1 and 64 steps are supported. Increasing or decreasing the step count does not change the underlying pattern of notes, it only truncates it.
 
 ### Ratchets
+
+![Image of ratchet controls](images/QuantumCompass/ratchet.png)
+
 Turning up the `Ratchet` knob adds ratcheting to some steps in the sequence. Ratcheted steps can play 2, 3 or 4 times in a single clock cycle. The switches bellow the ratchet know control which of these options are available.  Ratchet also has an attenuveter and CV input. Note that ratcheting pulls from the next 3 notes in the sequence creating more melodic interest. Note that with the `Chaos` knob set to 0 the ratcheting effect is consistent each time the pattern repeats.
 
 ### Mutes
+
+![Image of mute controls](images/QuantumCompass/mutes.png)
+
 Turning up the `Mutes` knob adds silence to some steps in the sequence. The `Mutes` knob also has a attenuverter and CV input. 
 
 ### (Auto) Reset
+
+![Image of auto reset controls](images/QuantumCompass/auto_reset.png)
+
 Inside the compass are a `Reset` button and `Reset Trigger` input. Either of these return the sequencer to the start. There are also an `Reset Odds` knob. Turning this up creates a chance that the sequencer will auto reset part way through its sequence. When turning this knob the compass will show a green light on the first step in the sequence and red lights where it has a chance to reset. The `Reset Step` knob controls which steps in the sequence have chance to reset.
 
 ### Accidentals & Octaves
+
+![Image of ratchet accidental controls](images/QuantumCompass/acc.png) ![Image of octive shift controls](images/QuantumCompass/oct.png)
+
 The upper left and upper right of the compass have controls and outputs for Accidentals (Flats and Sharps) and Octave Shifts (up or down one octave). These two sections work very similarly. The main `Accidental` or `Octave Shift` knobs can be turned left or right to add steps to the sequence that will have their corresponding effect. As you turn the knob the compass will show you which steps have which effects. If you turn the knobs far in either direction you will get both types of events (Flats and sharps or up and down shifts). Both knobs also have attenuverters and CVs inputs. All four events also have output gates at the top. These gates are high the whole clock cycle that they are in effect.
 
 ### Chaos
+
+![Image of ratchet chaos controls](images/QuantumCompass/chaos.png)
+
 After you've got a fun sequence dialed in you can use the central `Chaos` knob on the Quantum Compass add some randomness to break up the monotony. The compass display will show the effect of the Chaos on whatever other knob you last turned (or you can change the display from the contextual menu). Generally speaking the chaos knob adds more of whatever settings you have dialed in. Though if you turn the chaos knob up too far you'll soon see things become a blur. 
 
 The chaos knob affects Accidentals, Octave Shifts, Ratchets and Mutes. It does not affect the notes entered, the sequence length, or the auto reset.
@@ -88,6 +120,9 @@ The chaos knob affects Accidentals, Octave Shifts, Ratchets and Mutes. It does n
 The `Chaos` knob also has a attenuverter and CV input. Enjoy :)
 
 ### Sequence Mode
+
+![Image of clock and position control switch](images/QuantumCompass/seq.png)
+
 If all the above wasn't enough, the Quantum Compass has one more twist. Next to the clock input is a switch labeled `Clk` and `Seq` labeled `Position Control`. In the default clock position the clock input expects a trigger/gate and advanced a sequence every time a trigger/gate is received. In the sequence mode that input expects a control voltage. That control voltage directly selects which step the Quantum Compass is playing. When the value changes enough to select a new position a `Gate` is generated. Hook this up to an LFO to create your own or a sample and hold to get even more variation out of the Quantum Compass.
 
 ## Warp Drive
@@ -106,6 +141,9 @@ When initialized the two engines are independent of each-other but there are sev
 Bipass: Does nothing.
 
 ### LFO & Clock
+
+![Image of LFO and clocks on WarpDrive](images/WarpDrive/lfo.png)
+
 The left of the panel has the LFO section. The LFO has an internal `signature` that can be randomized through a button or a trigger. The LFO also has a `rate` that controls the overall rate at which the LFO plays.
 
 The LFO signal is also used to generate a chaotic clock signal. Both the LFO and clock signals are available as outputs on the left of the module.
@@ -116,6 +154,9 @@ The `LFO/Clock Coupling` switch controls which engine's clock signals are routed
 * **+Mod** - The left clock is used by both envelopes but the right LFO modulates the left LFO's rate.  
 
 ### Envelope
+
+![Image of envelope on WarpDrive](images/WarpDrive/envelope.png)
+
 The right of the panel has the Envelope section connected with blue lines. The Envelope has an internal `signature` that can be randomized through a button or a trigger. The envelope also has a `rate` that controls how fast the envelope develops. 
 
 Each envelope is triggered by an independent `clock input` that normalized to the clocks from the engine section of the Warp Drive.
@@ -123,9 +164,15 @@ Each envelope is triggered by an independent `clock input` that normalized to th
 The `envelope coupling` switch links the right envelope's signature to the left envelope. When the envelopes are linked they share the same wave form, but can have independent rates and triggers.
 
 ### Gravitation
+
+![Image of gravitation on WarpDrive](images/WarpDrive/gravitation.png)
+
 The right of the panel has the `gravitation` section in orange. Gravitation affects the shape of the of all wave forms on that side of the ship. This includes the three audio coils, the LFO and the envelope. 
 
 ### Coils
+
+![Image of coils on WarpDrive](images/WarpDrive/coils.png)
+
 The heart of the sound of Warp Drive comes from `Main Coil` of each engine. Each main coil which is controlled by a `V/oct` input as well as`Coarse` and `Fine` knobs. The main coil has a `signature` button and trigger. There is also an `engine coupling` switch which connects the left and right engine's main coil signatures.
 
 The main coils can also be frequency modulated by the `high coil` and `low coil`. This modulation can be controlled through the `high coil power` and `low coil power` knobs in each engine. When the power knobs are at 0 (12 o'clock) they provide no modulation. Turning the knob to the left runs the high coil at 2x the speed and the low coil at 1/2 the speed. Turning the knobs to the right runs the high coil at 4x the speed and the low coil at 1/4th the speed. The further the knobs are turned way from 0 the stronger the frequency modulation is.
@@ -133,9 +180,15 @@ The main coils can also be frequency modulated by the `high coil` and `low coil`
 Note that the low and high coils have their own signatures that can be linked to the main coil or unlinked. Unlinking coils can create very crunchy sounds.
 
 ### Coil Attachment
+
+![Image of coil attachment controls](images/WarpDrive/attachment.png)
+
 The `Coil Attachment` knobs affect how the high and low coil signals are combined before modulating the main coil. When the attachment knob is at 0.5 (12 o'clock) the two side coils are added together, but the dial sweeps between 6 other forms of combination.
 
 ### Alignment and Mixture
+
+![Image of alignment and mixture controls](images/WarpDrive/modulation.png)
+
 The `Alignment` knob can add modulation to the high and low coil's power. By default when alignment is at 0 (12 o'clock) no modulation is added. Turning the `Alignment` knob to the right adds modulation from LFO and/or Envelope from that side of the engine. Turning the `Alignment` knob to the left adds it from the *other* engine's LFO and/or Envelope.
 
 The `Mixture` knob controls whether the Envelope or the LFO is used for that modulation. All the way to the left only the LFO is used. All the way to the right only the envelope is used. In the middle a combination of the two are used and different combination is used for the high coil power vs the low coil power.
