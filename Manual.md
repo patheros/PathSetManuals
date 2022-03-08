@@ -9,7 +9,7 @@ Examples: [Orchestrator](Examples.md#orchestrator)
 
 Orchestrator is a modulation and gate source designed to be the conductor of a repeatable modular song. The Module is divided into a central head and eight arms. The head controls the overall length of the song. It also "moves" each arm creating macro oscillations or movements in the overall song. Each arm then takes that macro oscillation and either adds micro oscillation to form a modulation output or uses it turn on and off a gate sequence.
 
-Bipass: Does nothing.
+Bypass: Does nothing.
 
 ### Head
 
@@ -69,11 +69,11 @@ The `Wave Arms` ignores the main signature/pattern of the macro oscillator, and 
 Plugin: [PathSet - Infinity](https://library.vcvrack.com/PathSet-Infinity)<br/>
 Examples: [QuantumCompass ](Examples.md#quantum-compass ) 
 
-Quantum Compass is a sequencer where instead of controlling each step, you instead turn on certain notes and it decides when to play each note. For a quick-start guide, connect an external clock to the `Clock or Position` input. Then press 2 or more of the note buttons on the bottom of the module.  You will see the central ring of LEDs light up showing you sequence generated. You can hook up your voice to the `1V/octtive` and `Main Gate` outputs. Feel free to add more notes or **hold down a note to remove it**.
+Quantum Compass is a sequencer where instead of controlling each step, you instead turn on certain notes and it decides when to play each note. For a quick-start guide, connect an external clock to the `Clock or Position` input. Then select two or more notes from the keyboard buttons at the bottom of the module. You will see the central ring of LEDs light up showing you sequence generated. You can hook up your voice to the `1V/octave` and `Main Gate` outputs. Feel free to add more notes or **hold down a note to remove it**.
 
 The rest of the knobs affect the sequence that comes out of the compass. The compass's central LED display will change display based on which knobs you turn. You can also switch the display mode from the contextual menu.
 
-Bipass: Does nothing.
+Bypass: Does nothing.
 
 ### Steps 
 
@@ -103,7 +103,7 @@ Inside the compass are a `Reset` button and `Reset Trigger` input. Either of the
 
 ![Image of ratchet accidental controls](images/QuantumCompass/acc.png) ![Image of octive shift controls](images/QuantumCompass/oct.png)
 
-The upper left and upper right of the compass have controls and outputs for Accidentals (Flats and Sharps) and Octave Shifts (up or down one octave). These two sections work very similarly. The main `Accidental` or `Octave Shift` knobs can be turned left or right to add steps to the sequence that will have their corresponding effect. As you turn the knob the compass will show you which steps have which effects. If you turn the knobs far in either direction you will get both types of events (Flats and sharps or up and down shifts). Both knobs also have attenuverters and CVs inputs. All four events also have output gates at the top. These gates are high the whole clock cycle that they are in effect.
+The upper left and upper right of the compass have controls and outputs for Accidentals (Flats and Sharps) and Octave Shifts (up or down one octave). These two sections work very similarly. The main `Accidental` or `Octave Shift` knobs can be turned left or right to add steps to the sequence that will have their corresponding effect. As you turn the knob the compass will show you which steps have which effects. If you turn the knobs far in either direction you will get both types of events (Flats and sharps or up and down shifts). Both knobs also have attenuverters and CV inputs. All four events also have output gates at the top. These gates are high the whole clock cycle that they are in effect.
 
 ### Chaos
 
@@ -132,9 +132,9 @@ Warp Drive is a massive two-engine starship. Each engine is a voice with its own
 
 Each part of Warp Drive has its own internal signature that controls the shape and pattern of the waveform used. Signatures can be randomized using buttons or triggers.
 
-When initialized the two engines are independent of each-other but there are several settings down the middle that can couple the engines in various ways.
+When initialized the two engines are independent of each other but there are several settings down the middle that can couple the engines in various ways.
 
-Bipass: Does nothing.
+Bypass: Does nothing.
 
 ### LFO & Clock
 
@@ -145,7 +145,7 @@ The left of the panel has the LFO section. The LFO has an internal `signature` t
 The LFO signal is also used to generate a chaotic clock signal. Both the LFO and clock signals are available as outputs on the left of the module.
 
 The `LFO/Clock Coupling` switch controls which engine's clock signals are routed up to envelope generators. The switch has three modes:
-* **Duo** - Each Engine's envelope is clocked independently by each engines' clock. 
+* **Duo** - Each engine's envelope is clocked independently by each engine's clock. 
 * **Sync** - Only the left clock is used and is sent to both envelopes.
 * **+Mod** - The left clock is used by both envelopes but the right LFO modulates the left LFO's rate.  
 
@@ -198,7 +198,7 @@ Examples: [AstroVibe](Examples.md#astro-vibe)
 
 Astro Vibe is three planetary obiters that can operate as VCOs or LFOs. Each orbiter has a wide range of controllable settings as well as internal planetary signature that affects the waveform. There are over three septillion planetary signatures and once you leave one your unlikely to ever find it again.
 
-Bipass: Does nothing.
+Bypass: Does nothing.
 
 ### Planet
 
@@ -243,7 +243,7 @@ Examples: [IceTray](Examples.md#ice-tray)
 
 Ice Tray is a speed shifter and six tape delays, called ice cubes. Each cube can solidify, capturing what ever was last recorded into it for an indefinite amount of time.
 
-Bipass: Left and Right inputs are connected directly to the outputs.
+Bypass: Left and Right inputs are connected directly to the outputs.
 
 ### Ice Cubes
 
@@ -301,7 +301,7 @@ You can control the speed at which the lights shift with the `Clock Rate` knob o
 
 Connect to the seven `Output Gates` to tap into those delayed clock signals.
 
-Bipass: All seven outputs are connected directly to the `Trigger`.
+Bypass: All seven outputs are connected directly to the `Trigger`.
 
 ### Delay
 
