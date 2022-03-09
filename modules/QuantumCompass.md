@@ -1,6 +1,8 @@
 # Quantum Compass
 ![Image of QuantumCompass module](../images/QuantumCompass.png)
 
+Quantum Compass is a sequencer where instead of controlling each step, you instead turn on certain notes and it decides when to play each note.
+
 ## Quick Start
 
 ![Image of step controls](../images/QuantumCompass/quick_start_1.png)
@@ -42,7 +44,7 @@
 25. **Reset Step** - Controls which steps the sequence might automatically reset at.
 26. **Steps Attenuverter** - Modifies CV for Max Step Count knob
 27.  **Steps CV** - Modulates CV for Max Step Count knob
-28. **Third Notes** - Toggles if Ratcheted notes can be third notes.
+28. **Third Notes** - Toggles if Ratcheted notes can be triplets.
 29. **Ratchet CV** - Modifies CV for Ratchet knob.
 26. **Mutes** - Controls how many notes in the sequence are silent.
 27. **Mutes Attenuverter** - Modifies CV for Mutes knob.
@@ -99,4 +101,13 @@ When Quantum Compass is bypassed all outputs stay at 0V.
 
 ## Patch Examples
 
-TODO Put Examples Here
+![Image of step controls](../images/QuantumCompass/example_1.png)
+
+This example patch uses 5 modules. Left to right: [A clock](https://library.vcvrack.com/ImpromptuModular/Clocked-Clkd), an LFO, Quantum Compass, a [Voice](https://library.vcvrack.com/Bogaudio/Bogaudio-FMOp) and Audio Output.
+
+1. The Clock drives Quantum Compass.
+2. The clock also modulates Ratching.
+3. The LFO modulates Chaos
+4. The 1V/Octave and Gate go into the Voice.
+5. The Octive Up Gate modulates the sustane on the Voice.
+6. The Sharp Gate modulates the feedback
