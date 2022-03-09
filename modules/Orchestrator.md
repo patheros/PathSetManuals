@@ -1,6 +1,6 @@
 # Orchestrator 
 
-![Image of Orchestrator module](images/Orchestrator.png)
+![Image of Orchestrator module](../images/Orchestrator.png)
 
 Orchestrator is a modulation and gate source designed to be the conductor of a repeatable modular song. The Module is divided into a central head and eight arms. The head controls the overall length of the song. It also "moves" each arm creating macro oscillations or movements in the overall song. Each arm then takes that macro oscillation and either adds micro oscillation to form a modulation output or uses it turn on and off a gate sequence.
 
@@ -16,7 +16,7 @@ Orchestrator is a modulation and gate source designed to be the conductor of a r
 
 ## Panel
 
-![Image of step controls](../images/QuantumCompass/labels.png)
+![Image of step controls](../images/Orchestrator/labels.png)
 
 1. **Power # C** - Adjusts the intensity of the far output on that arm.
 2. **Power # B** - Adjusts the intensity of the middle output on that arm.
