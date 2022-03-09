@@ -97,4 +97,16 @@ When Ochestrator is bypassed all outputs stay at 0V.
 
 ## Patch Examples
 
-TODO
+![Image of step controls](../images/Orchestrator/example_1.png)
+
+This example patch uses 5 modules. Left to right: [A clock](https://library.vcvrack.com/ImpromptuModular/Clocked-Clkd), Orchestrator, a quantizer,a [Voice](https://library.vcvrack.com/Bogaudio/Bogaudio-FMOp) and Audio Output.
+
+1. Ochestrator is in one-shot mode.
+2. Ochestrator's speed is set to 100x in the contexual menu.
+2. The Clock tigger's Ochestrator to run.
+3. Every 4 clocks Ochestrator's 6th Arm gets a new sequence.
+4. Arm 5 is set to Drum Mode
+5. Output 5 A is the gate for the voice
+6. Output 6 A is run through a quantizer to set the note of the voice.
+7. Output 7 A modulates the feedback on the voice.
+8. Output 8 A modulates the sustain on the voice.
