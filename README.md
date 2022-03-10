@@ -6,30 +6,42 @@ The Path Set is family an eclectic and bespoke of plugins for [VCV Rack](https:/
 ## Path Set - Infinity
 The Infinity set explores modules with near-infinite internal configurations. These internal signatures can be randomizes but are unlikely to be found again once changed.
 
-![Image of Orchestrator module](images/Orchestrator.png)<br/>
-[Orchestrator](modules/Ochestrator.md#orchestrator) - A conniving octopus that bends everything to it's master plan. Orchestrator generates 24 randomish modulation and gate outputs that repeat to create an up to 10 minute long song. 
+### Orchestrator
+<a href="modules/Orchestrator.md">![Image of Orchestrator module](images/Orchestrator.png)</a><br/>
+[Orchestrator Manual](modules/Orchestrator.md)<br/>
+A conniving octopus that bends everything to it's master plan. Orchestrator generates 24 randomish modulation and gate outputs that repeat to create an up to 10 minute long song.
 <br/><br/>
 
-![Image of QuantumCompass module](images/QuantumCompass.png)<br/>
-[Quantum Compass](modules/QuantumCompass.md#quantum-compass) - Sequencer or Quantizer? Its both and neither at the same time. Create a melodic sequence by selecting notes and letting the Quantum Compass guide you on the rest of the path.
+### Quantum Compass
+<a href="modules/QuantumCompass.md">![Image of QuantumCompass module](images/QuantumCompass.png)</a><br/>
+[QuantumCompass Manual](modules/QuantumCompass.md)<br/>
+Sequencer or Quantizer? Its both and neither at the same time. Create a melodic sequence by selecting notes and letting the Quantum Compass guide you on the rest of the path.
 <br/><br/>
 
-![Image of WarpDrive module](images/WarpDrive.png)<br/>
-[Warp Drive](modules/WarpDrive.md#warp-drive) - Ten total oscillators grouped into deep dual-drive systems. Explore a vast range of sounds with built in clocks, lfos, and envelops.
+### Warp Drive
+<a href="modules/WarpDrive.md">![Image of WarpDrive module](images/WarpDrive.png)</a><br/>
+[WarpDrive Manual](modules/WarpDrive.md)<br/>
+Ten total oscillators grouped into deep dual-drive systems. Explore a vast range of sounds with built in clocks, lfos, and envelops.
 <br/><br/>
 
 ## Path Set (Free)
 
-![Image of AstroVibe module](images/AstroVibe.png)<br/>
-[Astro Vibe](https://github.com/patheros/PathSetModules#astro-vibe) - Three stereo oscillators or LFOs with random waveforms. Explore a universe of unique waveforms.
+### Astro Vibe
+<a href="https://github.com/patheros/PathSetModules#astro-vibe">![Image of AstroVibe module](images/AstroVibe.png)</a><br/>
+[AstroVibe Manual](https://github.com/patheros/PathSetModules#astro-vibe)<br/>
+Three stereo oscillators or LFOs with random waveforms. Explore a universe of unique waveforms.
 <br/><br/>
 
-![Image of IceTray module](images/IceTray.png)<br/>
-[Ice Tray](https://github.com/patheros/PathSetModules#ice-tray) - Speed shifter and tape delay with selective memory. Perform into this and it will never forget your mistakes.
+### Ice Tray
+<a href="https://github.com/patheros/PathSetModules#ice-tray">![Image of IceTray module](images/IceTray.png)</a><br/>
+[IceTray Manual](https://github.com/patheros/PathSetModules#ice-tray)<br/>
+Speed shifter and tape delay with selective memory. Perform into this and it will never forget your mistakes.
 <br/><br/>
 
-![Image of Shifty module](images/Shifty.png)<br/>
-[Shifty](https://github.com/patheros/PathSetModules#shifty) - Gate shift register with controllable delays. Create generative gate sequences from a simple clock.
+### Shifty
+<a href="https://github.com/patheros/PathSetModules#shifty">![Image of Shifty module](images/Shifty.png)</a><br/>
+[Shifty Manual](https://github.com/patheros/PathSetModules#shifty)<br/>
+Gate shift register with controllable delays. Create generative gate sequences from a simple clock.
 <br/><br/>
 
 ## License
