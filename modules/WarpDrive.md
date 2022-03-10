@@ -1,6 +1,6 @@
 
 # Warp Drive
-![Image of WarpDrive module](images/WarpDrive.png)
+![Image of WarpDrive module](../images/WarpDrive.png)
 
 Warp Drive is a massive two-engine starship. Each engine is a voice with its own LFO and envelope. Each engine's voice consists of three oscillators, called coils. The main coil is the carrier wave and the other two provide the modulation.
 
@@ -117,7 +117,7 @@ When Wapr Drive is bypassed all outputs stay at 0V.
 ![Image of step controls](../images/WarpDrive/example_1.png)
 
 This example patch uses 8 modules.
-Row 1: [A clock](https://library.vcvrack.com/ImpromptuModular/Clocked-Clkd), [A Sequencer](https://library.vcvrack.com/JW-Modules/8Seq)LFO, and [Clock Divider](https://library.vcvrack.com/Ohmer/RKD)
+Row 1: [A clock](https://library.vcvrack.com/ImpromptuModular/Clocked-Clkd), [A Sequencer](https://library.vcvrack.com/JW-Modules/8Seq), and [Clock Divider](https://library.vcvrack.com/Ohmer/RKD)
 Row 2: Warp Drive
 Row 3: VCF, Mixer, Audio Output.
 
