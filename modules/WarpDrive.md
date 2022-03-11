@@ -13,7 +13,7 @@ Warp Drive is a massive two-engine starship. Each engine is a voice with its own
 3. Connect the `Audio Left output` and `Audio Right output` to your mixer.
 4. Connect the `Envelope Left output` to a scope.
 
-[Download Quick Start](../examples/WarpDrive/WarpDrive_QuickStart.vcvs)
+[Download Quick Start](../examples/WarpDrive/WarpDrive_QuickStart.vcvs?raw=true)
 
 ## Panel
 
@@ -135,4 +135,4 @@ Row 3: VCF, Mixer, Audio Output.
 10. WarpDrive's `Audio R output` is connected to the first channel on the mixer.
 11. The VCF's output is connected to the second channel on the mixer.
 
-[Download Example 1](../examples/WarpDrive/WarpDrive_Example1.vcvs)
+[Download Example 1](../examples/WarpDrive/WarpDrive_Example1.vcvs?raw=true)
