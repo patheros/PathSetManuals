@@ -13,6 +13,8 @@ Warp Drive is a massive two-engine starship. Each engine is a voice with its own
 3. Connect the `Audio Left output` and `Audio Right output` to your mixer.
 4. Connect the `Envelope Left output` to a scope.
 
+[Download Quick Start](../examples/WarpDrive/WarpDrive_QuickStart.vcvs)
+
 ## Panel
 
 ![Image of step controls](../images/WarpDrive/labels.png)
@@ -20,11 +22,11 @@ Warp Drive is a massive two-engine starship. Each engine is a voice with its own
 1. **LFO/Clock Rate CV** - Modulates LFO/Clock Rate knob.
 2. **Alignment Attenuverter** - Modifies CV for Alignment knob.
 3. **Alignment CV** - Modulates Alignment knob.
-4. **High Coil Power knob** - Adjusts intesnsity of high coil which frequency modulates the main coil.
+4. **High Coil Power knob** - Adjusts intensity of high coil which frequency modulates the main coil.
 5. **High Coil Power Attenuverter** - Modifies CV for High Coil Power knob.
 6. **High Coil Power CV** - Modulates High Coil Power knob
-7. **Envelope Rate CV** - Modulates Envlope Rate knob
-8. **Gravitation knob** - Adjust the shape of everything wave on that side of the ship.
+7. **Envelope Rate CV** - Modulates Envelope Rate knob
+8. **Gravitation knob** - Adjust the shape of every wave on that side of the ship.
 9. **New LFO/Clock Signature Trigger** - Creates a new pattern for the LFO/Clock.
 10. **LFO/Clock Rate Attenuverter** - Modifies CV for LFO/Clock Rate knob.
 11. **Alignment knob** - Controls internal modulation of the high and low coil power knobs.
@@ -35,7 +37,7 @@ Warp Drive is a massive two-engine starship. Each engine is a voice with its own
 16. **Coil Attachment CV** - Modulates Coil Attachment knob.
 17. **Coil Attachment knob** - Controls how the high and low coil signals are combined before frequency modulating the main coil.
 18. **1V/octave input** - Controls the frequency of all the coils.
-19. **Corse Frequency** - Controls the coarse frequency of all the coils.
+19. **Coarse Frequency** - Controls the coarse frequency of all the coils.
 20. **Fine Tune** - Fine tunes the frequency of all the coils.
 21. **Main Coil output** - Audio output from the main coil.
 22. **High Coil Signature button** - Creates a wave shape for the high coil.
@@ -47,19 +49,19 @@ Warp Drive is a massive two-engine starship. Each engine is a voice with its own
 28. **LFO/Clock Signature button** - Creates a new pattern for the LFO/Clock.
 29. **LFO/Clock Rate knob** - Controls the speed of the LFO/Clock.
 30. **Mixture knob** - Controls where the Alignment knob's internal modulation comes from.
-31. **Mixturte Attenuverter** - Modifies CV for Mixture knob.
+31. **Mixture Attenuverter** - Modifies CV for Mixture knob.
 32. **Coil Attachment Attenuverter** - Modifies CV for Coil Attachment knob.
 33. **Low Coil Power knob** - Adjusts intensity of low coil which frequency modulates the main coil.
 34. **Low Coil Power Attenuverter** - Modifies CV for Low Coil Power knob.
 35. **Low Coil Power CV** - Modulates Low Coil Power knob.
-36. **Low Coul output** - Audio output from the low coil.
+36. **Low Coil output** - Audio output from the low coil.
 37. **Low Coil Signature button** - Creates a wave shape for the low coil.
-38. **New Envlope Signature Trigger** - Creates a new envelope shape.
-39. **Envlope Signature Button** - Creates a new envelope shape.
+38. **New Envelope Signature Trigger** - Creates a new envelope shape.
+39. **Envelope Signature Button** - Creates a new envelope shape.
 40. **Clock Input** - Triggers the envelope to play. Normalized to the Clock output.
-41. **LFO/Clock Coupling** - Controls if the LFO/Clock pattern are the same, or different.
-42. **LFO output** - LFO output.
-43. **Clock output** - Clock output.
+41. **LFO/Clock Coupling** - Controls if the LFO/Clock pattern are the same or different.
+42. **LFO output** - Raw LFO output.
+44. **Clock output** - Clock signal generated from LFO output. 
 44. **Engine Coupling** - When on, the coils on the left and right engine use the same wave shape.
 45. **Enveloper Coupling** - When on, the envelopes on the left and right engine use the same shape.
 
@@ -132,3 +134,5 @@ Row 3: VCF, Mixer, Audio Output.
 9. WarpDrive's `Audio L output` is connected to the input on the VCF.
 10. WarpDrive's `Audio R output` is connected to the first channel on the mixer.
 11. The VCF's output is connected to the second channel on the mixer.
+
+[Download Example 1](../examples/WarpDrive/WarpDrive_Example1.vcvs)

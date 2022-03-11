@@ -1,0 +1,2412 @@
+{
+  "modules": [
+    {
+      "id": 8924135113639901,
+      "plugin": "Core",
+      "model": "AudioInterface2",
+      "version": "2.0.6",
+      "params": [
+        {
+          "value": 1.0,
+          "id": 0
+        }
+      ],
+      "leftModuleId": 7969204338669662,
+      "data": {
+        "audio": {
+          "driver": 6,
+          "deviceName": "Speakers (5- Schiit Modi 3+)",
+          "sampleRate": 48000.0,
+          "blockSize": 256,
+          "inputOffset": 0,
+          "outputOffset": 0
+        },
+        "dcFilter": true
+      },
+      "pos": [
+        49,
+        0
+      ]
+    },
+    {
+      "id": 4998531798983730,
+      "plugin": "PathSet-Infinity",
+      "model": "QuantumCompass",
+      "version": "2.0.0",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        },
+        {
+          "value": 0.0,
+          "id": 5
+        },
+        {
+          "value": 0.0,
+          "id": 6
+        },
+        {
+          "value": 0.0,
+          "id": 7
+        },
+        {
+          "value": 0.0,
+          "id": 8
+        },
+        {
+          "value": 0.0,
+          "id": 9
+        },
+        {
+          "value": 0.0,
+          "id": 10
+        },
+        {
+          "value": 0.0,
+          "id": 11
+        },
+        {
+          "value": 1.0,
+          "id": 12
+        },
+        {
+          "value": 0.0,
+          "id": 13
+        },
+        {
+          "value": 16.0,
+          "id": 14
+        },
+        {
+          "value": 0.0,
+          "id": 15
+        },
+        {
+          "value": 0.0,
+          "id": 16
+        },
+        {
+          "value": 0.5,
+          "id": 17
+        },
+        {
+          "value": 0.0,
+          "id": 18
+        },
+        {
+          "value": 0.0,
+          "id": 19
+        },
+        {
+          "value": 0.0,
+          "id": 20
+        },
+        {
+          "value": 0.0,
+          "id": 21
+        },
+        {
+          "value": 0.0,
+          "id": 22
+        },
+        {
+          "value": 0.43855422735214233,
+          "id": 23
+        },
+        {
+          "value": 0.0,
+          "id": 24
+        },
+        {
+          "value": 0.48192769289016724,
+          "id": 25
+        },
+        {
+          "value": 0.0,
+          "id": 26
+        },
+        {
+          "value": 0.0,
+          "id": 27
+        },
+        {
+          "value": 0.0,
+          "id": 28
+        },
+        {
+          "value": 0.0,
+          "id": 29
+        },
+        {
+          "value": 1.0,
+          "id": 30
+        }
+      ],
+      "leftModuleId": 205496309466578,
+      "rightModuleId": 7969204338669662,
+      "data": {
+        "version": "2.0.0",
+        "sequence": [
+          {
+            "number": 1,
+            "sharp_Odds": 0.24769611656665802,
+            "flat_Odds": 0.70338535308837891,
+            "OctaveUp_Odds": 0.61304903030395508,
+            "OctaveDown_Odds": 0.3514520525932312,
+            "mute_Odds": 0.30741319060325623,
+            "ratchet_Odds": 0.18743970990180969,
+            "ratchet_Cnt": 0.63951075077056885
+          },
+          {
+            "number": 8,
+            "sharp_Odds": 0.55597788095474243,
+            "flat_Odds": 0.16737858951091766,
+            "OctaveUp_Odds": 0.0,
+            "OctaveDown_Odds": 0.0,
+            "mute_Odds": 0.47367474436759949,
+            "ratchet_Odds": 0.38522279262542725,
+            "ratchet_Cnt": 0.62795215845108032
+          },
+          {
+            "number": 1,
+            "sharp_Odds": 0.56828778982162476,
+            "flat_Odds": 0.44494339823722839,
+            "OctaveUp_Odds": 0.82057660818099976,
+            "OctaveDown_Odds": 0.58199959993362427,
+            "mute_Odds": 0.50267326831817627,
+            "ratchet_Odds": 0.88118505477905273,
+            "ratchet_Cnt": 0.78812998533248901
+          },
+          {
+            "number": 8,
+            "sharp_Odds": 0.44541934132575989,
+            "flat_Odds": 0.035175159573554993,
+            "OctaveUp_Odds": 0.0,
+            "OctaveDown_Odds": 0.0,
+            "mute_Odds": 0.67717528343200684,
+            "ratchet_Odds": 0.6725800633430481,
+            "ratchet_Cnt": 0.75856959819793701
+          },
+          {
+            "number": 1,
+            "sharp_Odds": 0.7557523250579834,
+            "flat_Odds": 0.30031388998031616,
+            "OctaveUp_Odds": 0.53281372785568237,
+            "OctaveDown_Odds": 0.80213111639022827,
+            "mute_Odds": 0.94001829624176025,
+            "ratchet_Odds": 0.63768017292022705,
+            "ratchet_Cnt": 0.79654622077941895
+          },
+          {
+            "number": 5,
+            "sharp_Odds": 0.67918944358825684,
+            "flat_Odds": 0.57677328586578369,
+            "OctaveUp_Odds": 0.39368060231208801,
+            "OctaveDown_Odds": 0.2507498562335968,
+            "mute_Odds": 0.41109386086463928,
+            "ratchet_Odds": 0.7314678430557251,
+            "ratchet_Cnt": 0.083894580602645874
+          },
+          {
+            "number": 5,
+            "sharp_Odds": 0.25073745846748352,
+            "flat_Odds": 0.49967870116233826,
+            "OctaveUp_Odds": 0.0,
+            "OctaveDown_Odds": 0.0,
+            "mute_Odds": 0.21996048092842102,
+            "ratchet_Odds": 0.38111227750778198,
+            "ratchet_Cnt": 0.22063520550727844
+          },
+          {
+            "number": 1,
+            "sharp_Odds": 0.3298543393611908,
+            "flat_Odds": 0.34080138802528381,
+            "OctaveUp_Odds": 0.0,
+            "OctaveDown_Odds": 0.0,
+            "mute_Odds": 0.065381951630115509,
+            "ratchet_Odds": 0.44146105647087097,
+            "ratchet_Cnt": 0.5019758939743042
+          },
+          {
+            "number": 1,
+            "sharp_Odds": 0.85916519165039063,
+            "flat_Odds": 0.70635986328125,
+            "OctaveUp_Odds": 0.75257992744445801,
+            "OctaveDown_Odds": 0.5075947642326355,
+            "mute_Odds": 0.36571013927459717,
+            "ratchet_Odds": 0.47598052024841309,
+            "ratchet_Cnt": 0.14174966514110565
+          },
+          {
+            "number": 8,
+            "sharp_Odds": 0.4087238609790802,
+            "flat_Odds": 0.61393791437149048,
+            "OctaveUp_Odds": 0.0,
+            "OctaveDown_Odds": 0.0,
+            "mute_Odds": 0.82338017225265503,
+            "ratchet_Odds": 0.55013245344161987,
+            "ratchet_Cnt": 0.79256135225296021
+          },
+          {
+            "number": 5,
+            "sharp_Odds": 0.44405755400657654,
+            "flat_Odds": 0.32561564445495605,
+            "OctaveUp_Odds": 0.93409770727157593,
+            "OctaveDown_Odds": 0.88212114572525024,
+            "mute_Odds": 0.26591199636459351,
+            "ratchet_Odds": 0.97093379497528076,
+            "ratchet_Cnt": 0.75906926393508911
+          },
+          {
+            "number": 8,
+            "sharp_Odds": 0.053252954035997391,
+            "flat_Odds": 0.30100899934768677,
+            "OctaveUp_Odds": 0.42360112071037292,
+            "OctaveDown_Odds": 0.89242702722549438,
+            "mute_Odds": 0.22936305403709412,
+            "ratchet_Odds": 0.42531707882881165,
+            "ratchet_Cnt": 0.62210530042648315
+          },
+          {
+            "number": 5,
+            "sharp_Odds": 0.77000480890274048,
+            "flat_Odds": 0.7478606104850769,
+            "OctaveUp_Odds": 0.31769862771034241,
+            "OctaveDown_Odds": 0.88132458925247192,
+            "mute_Odds": 0.80366641283035278,
+            "ratchet_Odds": 0.59798383712768555,
+            "ratchet_Cnt": 0.35500237345695496
+          },
+          {
+            "number": 8,
+            "sharp_Odds": 0.93757706880569458,
+            "flat_Odds": 0.04264603927731514,
+            "OctaveUp_Odds": 0.0,
+            "OctaveDown_Odds": 0.0,
+            "mute_Odds": 0.66790980100631714,
+            "ratchet_Odds": 0.73976385593414307,
+            "ratchet_Cnt": 0.74351835250854492
+          },
+          {
+            "number": 1,
+            "sharp_Odds": 0.41077423095703125,
+            "flat_Odds": 0.3114432692527771,
+            "OctaveUp_Odds": 0.0,
+            "OctaveDown_Odds": 0.0,
+            "mute_Odds": 0.5352059006690979,
+            "ratchet_Odds": 0.23702812194824219,
+            "ratchet_Cnt": 0.43489426374435425
+          },
+          {
+            "number": 1,
+            "sharp_Odds": 0.72401887178421021,
+            "flat_Odds": 0.51243937015533447,
+            "OctaveUp_Odds": 0.0,
+            "OctaveDown_Odds": 0.0,
+            "mute_Odds": 0.22949974238872528,
+            "ratchet_Odds": 0.92912840843200684,
+            "ratchet_Cnt": 0.66321384906768799
+          },
+          {
+            "number": 5,
+            "sharp_Odds": 0.35045585036277771,
+            "flat_Odds": 0.89913839101791382,
+            "OctaveUp_Odds": 0.0,
+            "OctaveDown_Odds": 0.0,
+            "mute_Odds": 0.16674908995628357,
+            "ratchet_Odds": 0.54958570003509521,
+            "ratchet_Cnt": 0.29141789674758911
+          },
+          {
+            "number": 8,
+            "sharp_Odds": 0.89398694038391113,
+            "flat_Odds": 0.49558857083320618,
+            "OctaveUp_Odds": 0.54498708248138428,
+            "OctaveDown_Odds": 0.49643924832344055,
+            "mute_Odds": 0.35630959272384644,
+            "ratchet_Odds": 0.59681296348571777,
+            "ratchet_Cnt": 0.54032182693481445
+          },
+          {
+            "number": 1,
+            "sharp_Odds": 0.79582494497299194,
+            "flat_Odds": 0.68035286664962769,
+            "OctaveUp_Odds": 0.0,
+            "OctaveDown_Odds": 0.0,
+            "mute_Odds": 0.25933927297592163,
+            "ratchet_Odds": 0.60495442152023315,
+            "ratchet_Cnt": 0.42558786273002625
+          },
+          {
+            "number": 1,
+            "sharp_Odds": 0.026708509773015976,
+            "flat_Odds": 0.83730381727218628,
+            "OctaveUp_Odds": 0.58071208000183105,
+            "OctaveDown_Odds": 0.64139080047607422,
+            "mute_Odds": 0.31327512860298157,
+            "ratchet_Odds": 0.71499651670455933,
+            "ratchet_Cnt": 0.22910027205944061
+          },
+          {
+            "number": 8,
+            "sharp_Odds": 0.91997671127319336,
+            "flat_Odds": 0.40316319465637207,
+            "OctaveUp_Odds": 0.71008592844009399,
+            "OctaveDown_Odds": 0.94301003217697144,
+            "mute_Odds": 0.082237266004085541,
+            "ratchet_Odds": 0.286314457654953,
+            "ratchet_Cnt": 0.94720542430877686
+          },
+          {
+            "number": 5,
+            "sharp_Odds": 0.44777098298072815,
+            "flat_Odds": 0.27466028928756714,
+            "OctaveUp_Odds": 0.0,
+            "OctaveDown_Odds": 0.0,
+            "mute_Odds": 0.6356242299079895,
+            "ratchet_Odds": 0.36610338091850281,
+            "ratchet_Cnt": 0.99188047647476196
+          },
+          {
+            "number": 1,
+            "sharp_Odds": 0.95780754089355469,
+            "flat_Odds": 0.46472778916358948,
+            "OctaveUp_Odds": 0.77563875913619995,
+            "OctaveDown_Odds": 0.6880645751953125,
+            "mute_Odds": 0.78040677309036255,
+            "ratchet_Odds": 0.81953722238540649,
+            "ratchet_Cnt": 0.4178260862827301
+          },
+          {
+            "number": 8,
+            "sharp_Odds": 0.31976285576820374,
+            "flat_Odds": 0.414969801902771,
+            "OctaveUp_Odds": 0.0,
+            "OctaveDown_Odds": 0.0,
+            "mute_Odds": 0.41121792793273926,
+            "ratchet_Odds": 0.95043855905532837,
+            "ratchet_Cnt": 0.045428726822137833
+          },
+          {
+            "number": 5,
+            "sharp_Odds": 0.38830378651618958,
+            "flat_Odds": 0.98763364553451538,
+            "OctaveUp_Odds": 0.019462419673800468,
+            "OctaveDown_Odds": 0.80527573823928833,
+            "mute_Odds": 0.5550273060798645,
+            "ratchet_Odds": 0.71271663904190063,
+            "ratchet_Cnt": 0.43438601493835449
+          },
+          {
+            "number": 1,
+            "sharp_Odds": 0.73089087009429932,
+            "flat_Odds": 0.48520603775978088,
+            "OctaveUp_Odds": 0.99589598178863525,
+            "OctaveDown_Odds": 0.50002694129943848,
+            "mute_Odds": 0.99030500650405884,
+            "ratchet_Odds": 0.93468338251113892,
+            "ratchet_Cnt": 0.45499035716056824
+          },
+          {
+            "number": 5,
+            "sharp_Odds": 0.79165381193161011,
+            "flat_Odds": 0.44096270203590393,
+            "OctaveUp_Odds": 0.083557821810245514,
+            "OctaveDown_Odds": 0.33296883106231689,
+            "mute_Odds": 0.16137006878852844,
+            "ratchet_Odds": 0.3540419340133667,
+            "ratchet_Cnt": 0.26550820469856262
+          },
+          {
+            "number": 1,
+            "sharp_Odds": 0.63531523942947388,
+            "flat_Odds": 0.49951517581939697,
+            "OctaveUp_Odds": 0.0,
+            "OctaveDown_Odds": 0.0,
+            "mute_Odds": 0.72587937116622925,
+            "ratchet_Odds": 0.10849310457706451,
+            "ratchet_Cnt": 0.78121030330657959
+          },
+          {
+            "number": 5,
+            "sharp_Odds": 0.49445992708206177,
+            "flat_Odds": 0.83082085847854614,
+            "OctaveUp_Odds": 0.791179358959198,
+            "OctaveDown_Odds": 0.76512646675109863,
+            "mute_Odds": 0.83755475282669067,
+            "ratchet_Odds": 0.89430201053619385,
+            "ratchet_Cnt": 0.28091594576835632
+          },
+          {
+            "number": 5,
+            "sharp_Odds": 0.0046049314551055431,
+            "flat_Odds": 0.82884514331817627,
+            "OctaveUp_Odds": 0.0,
+            "OctaveDown_Odds": 0.0,
+            "mute_Odds": 0.65671831369400024,
+            "ratchet_Odds": 0.95603328943252563,
+            "ratchet_Cnt": 0.49264061450958252
+          },
+          {
+            "number": 1,
+            "sharp_Odds": 0.83844691514968872,
+            "flat_Odds": 0.2772221565246582,
+            "OctaveUp_Odds": 0.0,
+            "OctaveDown_Odds": 0.0,
+            "mute_Odds": 0.83240890502929688,
+            "ratchet_Odds": 0.69737011194229126,
+            "ratchet_Cnt": 0.40094110369682312
+          },
+          {
+            "number": 1,
+            "sharp_Odds": 0.84071892499923706,
+            "flat_Odds": 0.37782707810401917,
+            "OctaveUp_Odds": 0.17473940551280975,
+            "OctaveDown_Odds": 0.91198998689651489,
+            "mute_Odds": 0.35416224598884583,
+            "ratchet_Odds": 0.024783413857221603,
+            "ratchet_Cnt": 0.73430866003036499
+          },
+          {
+            "number": 5,
+            "sharp_Odds": 0.61103290319442749,
+            "flat_Odds": 0.6843220591545105,
+            "OctaveUp_Odds": 0.85560590028762817,
+            "OctaveDown_Odds": 0.84632450342178345,
+            "mute_Odds": 0.34212955832481384,
+            "ratchet_Odds": 0.70078003406524658,
+            "ratchet_Cnt": 0.21761305630207062
+          },
+          {
+            "number": 1,
+            "sharp_Odds": 0.49062100052833557,
+            "flat_Odds": 0.019079536199569702,
+            "OctaveUp_Odds": 0.19170635938644409,
+            "OctaveDown_Odds": 0.39780384302139282,
+            "mute_Odds": 0.095540270209312439,
+            "ratchet_Odds": 0.32073062658309937,
+            "ratchet_Cnt": 0.5078546404838562
+          },
+          {
+            "number": 8,
+            "sharp_Odds": 0.82867562770843506,
+            "flat_Odds": 0.42618647217750549,
+            "OctaveUp_Odds": 0.87402349710464478,
+            "OctaveDown_Odds": 0.45141983032226563,
+            "mute_Odds": 0.38199135661125183,
+            "ratchet_Odds": 0.13320444524288177,
+            "ratchet_Cnt": 0.37846475839614868
+          },
+          {
+            "number": 5,
+            "sharp_Odds": 0.19543276727199554,
+            "flat_Odds": 0.4971320629119873,
+            "OctaveUp_Odds": 0.0,
+            "OctaveDown_Odds": 0.0,
+            "mute_Odds": 0.039863437414169312,
+            "ratchet_Odds": 0.82494580745697021,
+            "ratchet_Cnt": 0.61780852079391479
+          },
+          {
+            "number": 5,
+            "sharp_Odds": 0.24310831725597382,
+            "flat_Odds": 0.49196389317512512,
+            "OctaveUp_Odds": 0.92683672904968262,
+            "OctaveDown_Odds": 0.52097970247268677,
+            "mute_Odds": 0.93071162700653076,
+            "ratchet_Odds": 0.34549614787101746,
+            "ratchet_Cnt": 0.5347895622253418
+          },
+          {
+            "number": 8,
+            "sharp_Odds": 0.65506148338317871,
+            "flat_Odds": 0.7439454197883606,
+            "OctaveUp_Odds": 0.5890776515007019,
+            "OctaveDown_Odds": 0.025964559987187386,
+            "mute_Odds": 0.88633036613464355,
+            "ratchet_Odds": 0.74723124504089355,
+            "ratchet_Cnt": 0.45558202266693115
+          },
+          {
+            "number": 8,
+            "sharp_Odds": 0.23511077463626862,
+            "flat_Odds": 0.12787163257598877,
+            "OctaveUp_Odds": 0.0,
+            "OctaveDown_Odds": 0.0,
+            "mute_Odds": 0.15726305544376373,
+            "ratchet_Odds": 0.29094576835632324,
+            "ratchet_Cnt": 0.072874262928962708
+          },
+          {
+            "number": 1,
+            "sharp_Odds": 0.50642114877700806,
+            "flat_Odds": 0.53962564468383789,
+            "OctaveUp_Odds": 0.22940817475318909,
+            "OctaveDown_Odds": 0.89296221733093262,
+            "mute_Odds": 0.8122248649597168,
+            "ratchet_Odds": 0.40333461761474609,
+            "ratchet_Cnt": 0.59728360176086426
+          },
+          {
+            "number": 1,
+            "sharp_Odds": 0.77328914403915405,
+            "flat_Odds": 0.56877565383911133,
+            "OctaveUp_Odds": 0.0,
+            "OctaveDown_Odds": 0.0,
+            "mute_Odds": 0.3017432689666748,
+            "ratchet_Odds": 0.66423976421356201,
+            "ratchet_Cnt": 0.72938966751098633
+          },
+          {
+            "number": 1,
+            "sharp_Odds": 0.15936760604381561,
+            "flat_Odds": 0.70276963710784912,
+            "OctaveUp_Odds": 0.70270645618438721,
+            "OctaveDown_Odds": 0.54371333122253418,
+            "mute_Odds": 0.70941489934921265,
+            "ratchet_Odds": 0.34798595309257507,
+            "ratchet_Cnt": 0.90054166316986084
+          },
+          {
+            "number": 8,
+            "sharp_Odds": 0.3179568350315094,
+            "flat_Odds": 0.015224304050207138,
+            "OctaveUp_Odds": 0.0,
+            "OctaveDown_Odds": 0.0,
+            "mute_Odds": 0.92145043611526489,
+            "ratchet_Odds": 0.059853211045265198,
+            "ratchet_Cnt": 0.076421059668064117
+          },
+          {
+            "number": 5,
+            "sharp_Odds": 0.304086834192276,
+            "flat_Odds": 0.062137298285961151,
+            "OctaveUp_Odds": 0.0,
+            "OctaveDown_Odds": 0.0,
+            "mute_Odds": 0.023661533370614052,
+            "ratchet_Odds": 0.14398917555809021,
+            "ratchet_Cnt": 0.75878959894180298
+          },
+          {
+            "number": 8,
+            "sharp_Odds": 0.83533269166946411,
+            "flat_Odds": 0.79548996686935425,
+            "OctaveUp_Odds": 0.14081093668937683,
+            "OctaveDown_Odds": 0.23898021876811981,
+            "mute_Odds": 0.60645073652267456,
+            "ratchet_Odds": 0.89912176132202148,
+            "ratchet_Cnt": 0.75356394052505493
+          },
+          {
+            "number": 1,
+            "sharp_Odds": 0.56568676233291626,
+            "flat_Odds": 0.80038905143737793,
+            "OctaveUp_Odds": 0.0,
+            "OctaveDown_Odds": 0.0,
+            "mute_Odds": 0.41610258817672729,
+            "ratchet_Odds": 0.48189705610275269,
+            "ratchet_Cnt": 0.14771796762943268
+          },
+          {
+            "number": 8,
+            "sharp_Odds": 0.90029692649841309,
+            "flat_Odds": 0.57394182682037354,
+            "OctaveUp_Odds": 0.20028242468833923,
+            "OctaveDown_Odds": 0.60748231410980225,
+            "mute_Odds": 0.20246009528636932,
+            "ratchet_Odds": 0.34201124310493469,
+            "ratchet_Cnt": 0.00079780275700613856
+          },
+          {
+            "number": 1,
+            "sharp_Odds": 0.50656634569168091,
+            "flat_Odds": 0.73195093870162964,
+            "OctaveUp_Odds": 0.0,
+            "OctaveDown_Odds": 0.0,
+            "mute_Odds": 0.63065445423126221,
+            "ratchet_Odds": 0.76254791021347046,
+            "ratchet_Cnt": 0.11874407529830933
+          },
+          {
+            "number": 8,
+            "sharp_Odds": 0.06143970787525177,
+            "flat_Odds": 0.65994751453399658,
+            "OctaveUp_Odds": 0.0,
+            "OctaveDown_Odds": 0.0,
+            "mute_Odds": 0.016131453216075897,
+            "ratchet_Odds": 0.4566676914691925,
+            "ratchet_Cnt": 0.99104601144790649
+          },
+          {
+            "number": 5,
+            "sharp_Odds": 0.52755773067474365,
+            "flat_Odds": 0.35919046401977539,
+            "OctaveUp_Odds": 0.66810435056686401,
+            "OctaveDown_Odds": 0.80342847108840942,
+            "mute_Odds": 0.59379786252975464,
+            "ratchet_Odds": 0.41024482250213623,
+            "ratchet_Cnt": 0.66353851556777954
+          },
+          {
+            "number": 8,
+            "sharp_Odds": 0.041197743266820908,
+            "flat_Odds": 0.016494303941726685,
+            "OctaveUp_Odds": 0.0,
+            "OctaveDown_Odds": 0.0,
+            "mute_Odds": 0.50446373224258423,
+            "ratchet_Odds": 0.37367609143257141,
+            "ratchet_Cnt": 0.54630494117736816
+          },
+          {
+            "number": 5,
+            "sharp_Odds": 0.33164376020431519,
+            "flat_Odds": 0.1108519658446312,
+            "OctaveUp_Odds": 0.39603275060653687,
+            "OctaveDown_Odds": 0.94645905494689941,
+            "mute_Odds": 0.32919794321060181,
+            "ratchet_Odds": 0.39229437708854675,
+            "ratchet_Cnt": 0.69585847854614258
+          },
+          {
+            "number": 1,
+            "sharp_Odds": 0.63158392906188965,
+            "flat_Odds": 0.28540632128715515,
+            "OctaveUp_Odds": 0.0,
+            "OctaveDown_Odds": 0.0,
+            "mute_Odds": 0.87016481161117554,
+            "ratchet_Odds": 0.31404644250869751,
+            "ratchet_Cnt": 0.2505471408367157
+          },
+          {
+            "number": 1,
+            "sharp_Odds": 0.26944822072982788,
+            "flat_Odds": 0.18206804990768433,
+            "OctaveUp_Odds": 0.0,
+            "OctaveDown_Odds": 0.0,
+            "mute_Odds": 0.68962538242340088,
+            "ratchet_Odds": 0.033293124288320541,
+            "ratchet_Cnt": 0.021134760230779648
+          },
+          {
+            "number": 5,
+            "sharp_Odds": 0.27150359749794006,
+            "flat_Odds": 0.82094955444335938,
+            "OctaveUp_Odds": 0.0,
+            "OctaveDown_Odds": 0.0,
+            "mute_Odds": 0.16455063223838806,
+            "ratchet_Odds": 0.39940720796585083,
+            "ratchet_Cnt": 0.26317939162254333
+          },
+          {
+            "number": 1,
+            "sharp_Odds": 0.2295246422290802,
+            "flat_Odds": 0.63628065586090088,
+            "OctaveUp_Odds": 0.0,
+            "OctaveDown_Odds": 0.0,
+            "mute_Odds": 0.80050855875015259,
+            "ratchet_Odds": 0.87536090612411499,
+            "ratchet_Cnt": 0.91632097959518433
+          },
+          {
+            "number": 8,
+            "sharp_Odds": 0.57834327220916748,
+            "flat_Odds": 0.55638456344604492,
+            "OctaveUp_Odds": 0.0,
+            "OctaveDown_Odds": 0.0,
+            "mute_Odds": 0.4526088535785675,
+            "ratchet_Odds": 0.24466414749622345,
+            "ratchet_Cnt": 0.21963585913181305
+          },
+          {
+            "number": 5,
+            "sharp_Odds": 0.80947643518447876,
+            "flat_Odds": 0.69068866968154907,
+            "OctaveUp_Odds": 0.92897480726242065,
+            "OctaveDown_Odds": 0.74615103006362915,
+            "mute_Odds": 0.48174324631690979,
+            "ratchet_Odds": 0.94686251878738403,
+            "ratchet_Cnt": 0.46363699436187744
+          },
+          {
+            "number": 5,
+            "sharp_Odds": 0.87681609392166138,
+            "flat_Odds": 0.95513713359832764,
+            "OctaveUp_Odds": 0.0,
+            "OctaveDown_Odds": 0.0,
+            "mute_Odds": 0.057982020080089569,
+            "ratchet_Odds": 0.37184885144233704,
+            "ratchet_Cnt": 0.88653576374053955
+          },
+          {
+            "number": 1,
+            "sharp_Odds": 0.014378296211361885,
+            "flat_Odds": 0.35876569151878357,
+            "OctaveUp_Odds": 0.0,
+            "OctaveDown_Odds": 0.0,
+            "mute_Odds": 0.68069154024124146,
+            "ratchet_Odds": 0.83400094509124756,
+            "ratchet_Cnt": 0.95163184404373169
+          },
+          {
+            "number": 8,
+            "sharp_Odds": 0.31976643204689026,
+            "flat_Odds": 0.16652463376522064,
+            "OctaveUp_Odds": 0.17555335164070129,
+            "OctaveDown_Odds": 0.77786356210708618,
+            "mute_Odds": 0.020159460604190826,
+            "ratchet_Odds": 0.42684110999107361,
+            "ratchet_Cnt": 0.74617016315460205
+          },
+          {
+            "number": 8,
+            "sharp_Odds": 0.2167171835899353,
+            "flat_Odds": 0.88909834623336792,
+            "OctaveUp_Odds": 0.0,
+            "OctaveDown_Odds": 0.0,
+            "mute_Odds": 0.34395071864128113,
+            "ratchet_Odds": 0.48420122265815735,
+            "ratchet_Cnt": 0.3752388060092926
+          },
+          {
+            "number": 8,
+            "sharp_Odds": 0.82685333490371704,
+            "flat_Odds": 0.43467044830322266,
+            "OctaveUp_Odds": 0.20496602356433868,
+            "OctaveDown_Odds": 0.86410582065582275,
+            "mute_Odds": 0.39219620823860168,
+            "ratchet_Odds": 0.58550441265106201,
+            "ratchet_Cnt": 0.95235413312911987
+          },
+          {
+            "number": 8,
+            "sharp_Odds": 0.019654816016554832,
+            "flat_Odds": 0.92614942789077759,
+            "OctaveUp_Odds": 0.0,
+            "OctaveDown_Odds": 0.0,
+            "mute_Odds": 0.89156609773635864,
+            "ratchet_Odds": 0.050350293517112732,
+            "ratchet_Cnt": 0.72138339281082153
+          }
+        ],
+        "sequenceHistory": [
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.52428287267684937,
+              "flat_Odds": 0.99677193164825439,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.99443382024765015,
+              "ratchet_Odds": 0.19604562222957611,
+              "ratchet_Cnt": 0.93740880489349365
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.44419330358505249,
+              "flat_Odds": 0.20378448069095612,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.80764061212539673,
+              "ratchet_Odds": 0.44320774078369141,
+              "ratchet_Cnt": 0.41971942782402039
+            },
+            {
+              "number": 1,
+              "sharp_Odds": 0.48699575662612915,
+              "flat_Odds": 0.91779804229736328,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.40199330449104309,
+              "ratchet_Odds": 0.76259654760360718,
+              "ratchet_Cnt": 0.97343665361404419
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.088682129979133606,
+              "flat_Odds": 0.71502196788787842,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.2962382435798645,
+              "ratchet_Odds": 0.36128690838813782,
+              "ratchet_Cnt": 0.99694555997848511
+            },
+            {
+              "number": 1,
+              "sharp_Odds": 0.75932270288467407,
+              "flat_Odds": 0.10064361244440079,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.0065096574835479259,
+              "ratchet_Odds": 0.024672949686646461,
+              "ratchet_Cnt": 0.13409925997257233
+            },
+            {
+              "number": 5,
+              "sharp_Odds": 0.0069011361338198185,
+              "flat_Odds": 0.094445183873176575,
+              "OctaveUp_Odds": 0.38870114088058472,
+              "OctaveDown_Odds": 0.52484816312789917,
+              "mute_Odds": 0.97446227073669434,
+              "ratchet_Odds": 0.57589888572692871,
+              "ratchet_Cnt": 0.90369957685470581
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.80168485641479492,
+              "flat_Odds": 0.39763832092285156,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.32345253229141235,
+              "ratchet_Odds": 0.55136799812316895,
+              "ratchet_Cnt": 0.939017653465271
+            },
+            {
+              "number": 1,
+              "sharp_Odds": 0.97647380828857422,
+              "flat_Odds": 0.88302570581436157,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.85946077108383179,
+              "ratchet_Odds": 0.77214676141738892,
+              "ratchet_Cnt": 0.1030438244342804
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.027991129085421562,
+              "flat_Odds": 0.63071393966674805,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.08151514083147049,
+              "ratchet_Odds": 0.15850333869457245,
+              "ratchet_Cnt": 0.66515594720840454
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.75869768857955933,
+              "flat_Odds": 0.41076093912124634,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.79426103830337524,
+              "ratchet_Odds": 0.55866694450378418,
+              "ratchet_Cnt": 0.57359170913696289
+            },
+            {
+              "number": 1,
+              "sharp_Odds": 0.82795548439025879,
+              "flat_Odds": 0.67385518550872803,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.062930867075920105,
+              "ratchet_Odds": 0.31623533368110657,
+              "ratchet_Cnt": 0.21677829325199127
+            },
+            {
+              "number": 5,
+              "sharp_Odds": 0.90169763565063477,
+              "flat_Odds": 0.43792182207107544,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.4650803804397583,
+              "ratchet_Odds": 0.091666080057621002,
+              "ratchet_Cnt": 0.11574627459049225
+            },
+            {
+              "number": 8,
+              "sharp_Odds": 0.33610358834266663,
+              "flat_Odds": 0.5323520302772522,
+              "OctaveUp_Odds": 0.19781631231307983,
+              "OctaveDown_Odds": 0.31648457050323486,
+              "mute_Odds": 0.39738979935646057,
+              "ratchet_Odds": 0.75507813692092896,
+              "ratchet_Cnt": 0.79836815595626831
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.30545032024383545,
+              "flat_Odds": 0.80264252424240112,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.85825496912002563,
+              "ratchet_Odds": 0.50774013996124268,
+              "ratchet_Cnt": 0.098642855882644653
+            },
+            {
+              "number": 1,
+              "sharp_Odds": 0.14160051941871643,
+              "flat_Odds": 0.63521689176559448,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.93744832277297974,
+              "ratchet_Odds": 0.56191283464431763,
+              "ratchet_Cnt": 0.79851639270782471
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.12478260695934296,
+              "flat_Odds": 0.97825330495834351,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.2148912250995636,
+              "ratchet_Odds": 0.37980833649635315,
+              "ratchet_Cnt": 0.61123615503311157
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.54502707719802856,
+              "flat_Odds": 0.13755148649215698,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.33331447839736938,
+              "ratchet_Odds": 0.69698405265808105,
+              "ratchet_Cnt": 0.34206444025039673
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.21570172905921936,
+              "flat_Odds": 0.47706642746925354,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.78806638717651367,
+              "ratchet_Odds": 0.53660500049591064,
+              "ratchet_Cnt": 0.016883552074432373
+            },
+            {
+              "number": 1,
+              "sharp_Odds": 0.55662620067596436,
+              "flat_Odds": 0.92521548271179199,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.45821952819824219,
+              "ratchet_Odds": 0.36340445280075073,
+              "ratchet_Cnt": 0.46255502104759216
+            },
+            {
+              "number": 5,
+              "sharp_Odds": 0.38159316778182983,
+              "flat_Odds": 0.1301824152469635,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.1854090690612793,
+              "ratchet_Odds": 0.1984751969575882,
+              "ratchet_Cnt": 0.45246404409408569
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.26781123876571655,
+              "flat_Odds": 0.90698349475860596,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.38592365384101868,
+              "ratchet_Odds": 0.031936507672071457,
+              "ratchet_Cnt": 0.088473312556743622
+            },
+            {
+              "number": 1,
+              "sharp_Odds": 0.22910577058792114,
+              "flat_Odds": 0.1662791520357132,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.88479256629943848,
+              "ratchet_Odds": 0.52727639675140381,
+              "ratchet_Cnt": 0.66292190551757813
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.65424180030822754,
+              "flat_Odds": 0.57966411113739014,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.39005976915359497,
+              "ratchet_Odds": 0.36099398136138916,
+              "ratchet_Cnt": 0.2460106760263443
+            },
+            {
+              "number": 1,
+              "sharp_Odds": 0.35669922828674316,
+              "flat_Odds": 0.67005211114883423,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.99338656663894653,
+              "ratchet_Odds": 0.5266040563583374,
+              "ratchet_Cnt": 0.38559785485267639
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.9480741024017334,
+              "flat_Odds": 0.19815409183502197,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.049628615379333496,
+              "ratchet_Odds": 0.0074841496534645557,
+              "ratchet_Cnt": 0.22826077044010162
+            },
+            {
+              "number": 1,
+              "sharp_Odds": 0.80026286840438843,
+              "flat_Odds": 0.55725044012069702,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.63093686103820801,
+              "ratchet_Odds": 0.035198692232370377,
+              "ratchet_Cnt": 0.12420138716697693
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.33887970447540283,
+              "flat_Odds": 0.16722553968429565,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.15968219935894012,
+              "ratchet_Odds": 0.4288942813873291,
+              "ratchet_Cnt": 0.76516866683959961
+            },
+            {
+              "number": 1,
+              "sharp_Odds": 0.16961705684661865,
+              "flat_Odds": 0.70360881090164185,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.88491195440292358,
+              "ratchet_Odds": 0.51703542470932007,
+              "ratchet_Cnt": 0.71410155296325684
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.25268587470054626,
+              "flat_Odds": 0.22095786035060883,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.44375154376029968,
+              "ratchet_Odds": 0.82615268230438232,
+              "ratchet_Cnt": 0.86177301406860352
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.03863077238202095,
+              "flat_Odds": 0.94575363397598267,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.43131580948829651,
+              "ratchet_Odds": 0.5289311408996582,
+              "ratchet_Cnt": 0.29827708005905151
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.27009779214859009,
+              "flat_Odds": 0.86664223670959473,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.55426192283630371,
+              "ratchet_Odds": 0.73170757293701172,
+              "ratchet_Cnt": 0.62385094165802002
+            },
+            {
+              "number": 1,
+              "sharp_Odds": 0.74059659242630005,
+              "flat_Odds": 0.16440726816654205,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.32815706729888916,
+              "ratchet_Odds": 0.72101300954818726,
+              "ratchet_Cnt": 0.39732092618942261
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.46379175782203674,
+              "flat_Odds": 0.61832606792449951,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.95643657445907593,
+              "ratchet_Odds": 0.6934046745300293,
+              "ratchet_Cnt": 0.030439971014857292
+            },
+            {
+              "number": 1,
+              "sharp_Odds": 0.79059582948684692,
+              "flat_Odds": 0.72898852825164795,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.84474456310272217,
+              "ratchet_Odds": 0.59114265441894531,
+              "ratchet_Cnt": 0.96565604209899902
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.11230573058128357,
+              "flat_Odds": 0.54289191961288452,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.26448267698287964,
+              "ratchet_Odds": 0.95367509126663208,
+              "ratchet_Cnt": 0.73938363790512085
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.63180547952651978,
+              "flat_Odds": 0.44191968441009521,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.078991703689098358,
+              "ratchet_Odds": 0.42992386221885681,
+              "ratchet_Cnt": 0.26851370930671692
+            },
+            {
+              "number": 1,
+              "sharp_Odds": 0.66929662227630615,
+              "flat_Odds": 0.75752532482147217,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.78326141834259033,
+              "ratchet_Odds": 0.49064901471138,
+              "ratchet_Cnt": 0.7829596996307373
+            },
+            {
+              "number": 8,
+              "sharp_Odds": 0.6533927321434021,
+              "flat_Odds": 0.0065151788294315338,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.38175126910209656,
+              "ratchet_Odds": 0.24043664336204529,
+              "ratchet_Cnt": 0.55810868740081787
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.21676862239837646,
+              "flat_Odds": 0.93317389488220215,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.81742233037948608,
+              "ratchet_Odds": 0.98642086982727051,
+              "ratchet_Cnt": 0.13843615353107452
+            },
+            {
+              "number": 1,
+              "sharp_Odds": 0.50075042247772217,
+              "flat_Odds": 0.2686135470867157,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.62188851833343506,
+              "ratchet_Odds": 0.20381349325180054,
+              "ratchet_Cnt": 0.018124211579561234
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.76650989055633545,
+              "flat_Odds": 0.35961544513702393,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.37788194417953491,
+              "ratchet_Odds": 0.37723222374916077,
+              "ratchet_Cnt": 0.78116911649703979
+            },
+            {
+              "number": 1,
+              "sharp_Odds": 0.52511829137802124,
+              "flat_Odds": 0.7882157564163208,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.87188202142715454,
+              "ratchet_Odds": 0.33405053615570068,
+              "ratchet_Cnt": 0.081635706126689911
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.42397794127464294,
+              "flat_Odds": 0.73956030607223511,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.070479623973369598,
+              "ratchet_Odds": 0.10215988010168076,
+              "ratchet_Cnt": 0.32467871904373169
+            },
+            {
+              "number": 1,
+              "sharp_Odds": 0.96910226345062256,
+              "flat_Odds": 0.68036347627639771,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.010141965001821518,
+              "ratchet_Odds": 0.01122975442558527,
+              "ratchet_Cnt": 0.97545439004898071
+            },
+            {
+              "number": 8,
+              "sharp_Odds": 0.83323132991790771,
+              "flat_Odds": 0.96620547771453857,
+              "OctaveUp_Odds": 0.089669480919837952,
+              "OctaveDown_Odds": 0.00039829380693845451,
+              "mute_Odds": 0.10555950552225113,
+              "ratchet_Odds": 0.37820085883140564,
+              "ratchet_Cnt": 0.17406731843948364
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.12607628107070923,
+              "flat_Odds": 0.42899894714355469,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.35363662242889404,
+              "ratchet_Odds": 0.75430595874786377,
+              "ratchet_Cnt": 0.075012393295764923
+            },
+            {
+              "number": 1,
+              "sharp_Odds": 0.0027511413209140301,
+              "flat_Odds": 0.67158514261245728,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.0512726791203022,
+              "ratchet_Odds": 0.78926515579223633,
+              "ratchet_Cnt": 0.32827499508857727
+            },
+            {
+              "number": 5,
+              "sharp_Odds": 0.78971284627914429,
+              "flat_Odds": 0.78821456432342529,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.94011873006820679,
+              "ratchet_Odds": 0.63793247938156128,
+              "ratchet_Cnt": 0.87130564451217651
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.69655466079711914,
+              "flat_Odds": 0.80203193426132202,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.28722444176673889,
+              "ratchet_Odds": 0.62335211038589478,
+              "ratchet_Cnt": 0.31723645329475403
+            },
+            {
+              "number": 1,
+              "sharp_Odds": 0.98770308494567871,
+              "flat_Odds": 0.18745286762714386,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.31230500340461731,
+              "ratchet_Odds": 0.86102062463760376,
+              "ratchet_Cnt": 0.3030601441860199
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.42668482661247253,
+              "flat_Odds": 0.55971014499664307,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.82432663440704346,
+              "ratchet_Odds": 0.77811896800994873,
+              "ratchet_Cnt": 0.63683289289474487
+            },
+            {
+              "number": 1,
+              "sharp_Odds": 0.031682204455137253,
+              "flat_Odds": 0.89293539524078369,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.001129420823417604,
+              "ratchet_Odds": 0.40387147665023804,
+              "ratchet_Cnt": 0.88852190971374512
+            },
+            {
+              "number": 5,
+              "sharp_Odds": 0.34569531679153442,
+              "flat_Odds": 0.82134425640106201,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.91220289468765259,
+              "ratchet_Odds": 0.044517640024423599,
+              "ratchet_Cnt": 0.12992236018180847
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.12384676933288574,
+              "flat_Odds": 0.20995992422103882,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.40960285067558289,
+              "ratchet_Odds": 0.37719494104385376,
+              "ratchet_Cnt": 0.050200846046209335
+            },
+            {
+              "number": 1,
+              "sharp_Odds": 0.7716681957244873,
+              "flat_Odds": 0.90968716144561768,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.021913629025220871,
+              "ratchet_Odds": 0.078364290297031403,
+              "ratchet_Cnt": 0.18143646419048309
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.69161158800125122,
+              "flat_Odds": 0.21111646294593811,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.61172574758529663,
+              "ratchet_Odds": 0.40229383111000061,
+              "ratchet_Cnt": 0.52930551767349243
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.083301842212677002,
+              "flat_Odds": 0.83791309595108032,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.70346879959106445,
+              "ratchet_Odds": 0.62068688869476318,
+              "ratchet_Cnt": 0.0036742908414453268
+            },
+            {
+              "number": 1,
+              "sharp_Odds": 0.37739825248718262,
+              "flat_Odds": 0.31405344605445862,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.90743142366409302,
+              "ratchet_Odds": 0.64827817678451538,
+              "ratchet_Cnt": 0.44846475124359131
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.71887469291687012,
+              "flat_Odds": 0.43124815821647644,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.0039919749833643436,
+              "ratchet_Odds": 0.97530990839004517,
+              "ratchet_Cnt": 0.3283388614654541
+            },
+            {
+              "number": 1,
+              "sharp_Odds": 0.20322959125041962,
+              "flat_Odds": 0.61898696422576904,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.29575011134147644,
+              "ratchet_Odds": 0.87831079959869385,
+              "ratchet_Cnt": 0.87406772375106812
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.093403317034244537,
+              "flat_Odds": 0.81912678480148315,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.10082922130823135,
+              "ratchet_Odds": 0.40676116943359375,
+              "ratchet_Cnt": 0.35524752736091614
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.9134594202041626,
+              "flat_Odds": 0.98381298780441284,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.08461674302816391,
+              "ratchet_Odds": 0.32183563709259033,
+              "ratchet_Cnt": 0.76349622011184692
+            },
+            {
+              "number": 1,
+              "sharp_Odds": 0.83208674192428589,
+              "flat_Odds": 0.33842054009437561,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.20775462687015533,
+              "ratchet_Odds": 0.91028892993927002,
+              "ratchet_Cnt": 0.94493293762207031
+            },
+            {
+              "number": 8,
+              "sharp_Odds": 0.88276678323745728,
+              "flat_Odds": 0.018666131421923637,
+              "OctaveUp_Odds": 0.97664469480514526,
+              "OctaveDown_Odds": 0.60791319608688354,
+              "mute_Odds": 0.52360838651657104,
+              "ratchet_Odds": 0.25892713665962219,
+              "ratchet_Cnt": 0.4405122697353363
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.44780081510543823,
+              "flat_Odds": 0.44444826245307922,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.96277356147766113,
+              "ratchet_Odds": 0.62784451246261597,
+              "ratchet_Cnt": 0.29384759068489075
+            },
+            {
+              "number": 1,
+              "sharp_Odds": 0.68464827537536621,
+              "flat_Odds": 0.65615361928939819,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.94335609674453735,
+              "ratchet_Odds": 0.6194341778755188,
+              "ratchet_Cnt": 0.48702707886695862
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.37212470173835754,
+              "flat_Odds": 0.18995881080627441,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.52699285745620728,
+              "ratchet_Odds": 0.83563828468322754,
+              "ratchet_Cnt": 0.68253844976425171
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.21393227577209473,
+              "flat_Odds": 0.035098545253276825,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.53839904069900513,
+              "ratchet_Odds": 0.19428260624408722,
+              "ratchet_Cnt": 0.090434730052947998
+            },
+            {
+              "number": 1,
+              "sharp_Odds": 0.95908606052398682,
+              "flat_Odds": 0.61189752817153931,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.85495823621749878,
+              "ratchet_Odds": 0.61742377281188965,
+              "ratchet_Cnt": 0.25256800651550293
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.2452363520860672,
+              "flat_Odds": 0.88859850168228149,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.19177784025669098,
+              "ratchet_Odds": 0.59809130430221558,
+              "ratchet_Cnt": 0.21810376644134521
+            },
+            {
+              "number": 1,
+              "sharp_Odds": 0.47116878628730774,
+              "flat_Odds": 0.38365477323532104,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.34484118223190308,
+              "ratchet_Odds": 0.1899341493844986,
+              "ratchet_Cnt": 0.039192359894514084
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.81601989269256592,
+              "flat_Odds": 0.12593396008014679,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.11939681321382523,
+              "ratchet_Odds": 0.80883926153182983,
+              "ratchet_Cnt": 0.43832439184188843
+            },
+            {
+              "number": 1,
+              "sharp_Odds": 0.62469571828842163,
+              "flat_Odds": 0.28660926222801208,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.62215155363082886,
+              "ratchet_Odds": 0.97666138410568237,
+              "ratchet_Cnt": 0.29960030317306519
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.31214764714241028,
+              "flat_Odds": 0.096569955348968506,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.96315175294876099,
+              "ratchet_Odds": 0.60019505023956299,
+              "ratchet_Cnt": 0.64306199550628662
+            },
+            {
+              "number": 1,
+              "sharp_Odds": 0.17476533353328705,
+              "flat_Odds": 0.5835917592048645,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.3382590115070343,
+              "ratchet_Odds": 0.47367629408836365,
+              "ratchet_Cnt": 0.41918900609016418
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.89745903015136719,
+              "flat_Odds": 0.46063810586929321,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.63986742496490479,
+              "ratchet_Odds": 0.9579843282699585,
+              "ratchet_Cnt": 0.77822482585906982
+            },
+            {
+              "number": 1,
+              "sharp_Odds": 0.0093191415071487427,
+              "flat_Odds": 0.98716855049133301,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.38957375288009644,
+              "ratchet_Odds": 0.34510871767997742,
+              "ratchet_Cnt": 0.25903347134590149
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.96094924211502075,
+              "flat_Odds": 0.74507409334182739,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.60160708427429199,
+              "ratchet_Odds": 0.54451733827590942,
+              "ratchet_Cnt": 0.47797977924346924
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.97794020175933838,
+              "flat_Odds": 0.72898370027542114,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.43359473347663879,
+              "ratchet_Odds": 0.89907968044281006,
+              "ratchet_Cnt": 0.75591003894805908
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.21513357758522034,
+              "flat_Odds": 0.16104547679424286,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.71158891916275024,
+              "ratchet_Odds": 0.16990111768245697,
+              "ratchet_Cnt": 0.32364961504936218
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.019827786833047867,
+              "flat_Odds": 0.75503641366958618,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.3842073380947113,
+              "ratchet_Odds": 0.083808682858943939,
+              "ratchet_Cnt": 0.71256929636001587
+            },
+            {
+              "number": 1,
+              "sharp_Odds": 0.6335567831993103,
+              "flat_Odds": 0.31779736280441284,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.74518799781799316,
+              "ratchet_Odds": 0.85119688510894775,
+              "ratchet_Cnt": 0.29413729906082153
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.98613333702087402,
+              "flat_Odds": 0.39577367901802063,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.97169607877731323,
+              "ratchet_Odds": 0.6181226372718811,
+              "ratchet_Cnt": 0.23404541611671448
+            },
+            {
+              "number": 1,
+              "sharp_Odds": 0.026210611686110497,
+              "flat_Odds": 0.3127409815788269,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.0012108728988096118,
+              "ratchet_Odds": 0.49301022291183472,
+              "ratchet_Cnt": 0.81856584548950195
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.15251852571964264,
+              "flat_Odds": 0.51876223087310791,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.73843884468078613,
+              "ratchet_Odds": 0.2254059910774231,
+              "ratchet_Cnt": 0.90055453777313232
+            },
+            {
+              "number": 1,
+              "sharp_Odds": 0.83582675457000732,
+              "flat_Odds": 0.36452797055244446,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.55081653594970703,
+              "ratchet_Odds": 0.76628381013870239,
+              "ratchet_Cnt": 0.18903566896915436
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.27850806713104248,
+              "flat_Odds": 0.78913414478302002,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.88995993137359619,
+              "ratchet_Odds": 0.49629437923431396,
+              "ratchet_Cnt": 0.46258309483528137
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.69886553287506104,
+              "flat_Odds": 0.28426328301429749,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.36414048075675964,
+              "ratchet_Odds": 0.33592352271080017,
+              "ratchet_Cnt": 0.0037926430813968182
+            },
+            {
+              "number": 1,
+              "sharp_Odds": 0.87938517332077026,
+              "flat_Odds": 0.65322005748748779,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.86474138498306274,
+              "ratchet_Odds": 0.018220912665128708,
+              "ratchet_Cnt": 0.4648360013961792
+            },
+            {
+              "number": 5,
+              "sharp_Odds": 0.77286970615386963,
+              "flat_Odds": 0.015437852591276169,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.60702973604202271,
+              "ratchet_Odds": 0.96372377872467041,
+              "ratchet_Cnt": 0.83617150783538818
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.1399037092924118,
+              "flat_Odds": 0.12514594197273254,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.18628188967704773,
+              "ratchet_Odds": 0.6892167329788208,
+              "ratchet_Cnt": 0.34432655572891235
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.63614773750305176,
+              "flat_Odds": 0.024840865284204483,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.0090496586635708809,
+              "ratchet_Odds": 0.56528204679489136,
+              "ratchet_Cnt": 0.6806606650352478
+            },
+            {
+              "number": 1,
+              "sharp_Odds": 0.97822690010070801,
+              "flat_Odds": 0.21968057751655579,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.82300740480422974,
+              "ratchet_Odds": 0.1319756805896759,
+              "ratchet_Cnt": 0.8138728141784668
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.24717679619789124,
+              "flat_Odds": 0.49545213580131531,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.21817539632320404,
+              "ratchet_Odds": 0.10430238395929337,
+              "ratchet_Cnt": 0.72746700048446655
+            },
+            {
+              "number": 1,
+              "sharp_Odds": 0.15213602781295776,
+              "flat_Odds": 0.19360959529876709,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.72503542900085449,
+              "ratchet_Odds": 0.93212240934371948,
+              "ratchet_Cnt": 0.71079689264297485
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.36674448847770691,
+              "flat_Odds": 0.92235547304153442,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.71240633726119995,
+              "ratchet_Odds": 0.41428053379058838,
+              "ratchet_Cnt": 0.55981844663619995
+            },
+            {
+              "number": 1,
+              "sharp_Odds": 0.23538611829280853,
+              "flat_Odds": 0.49426716566085815,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.81589657068252563,
+              "ratchet_Odds": 0.3133469820022583,
+              "ratchet_Cnt": 0.35950565338134766
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.17738382518291473,
+              "flat_Odds": 0.89127475023269653,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.57160764932632446,
+              "ratchet_Odds": 0.88718116283416748,
+              "ratchet_Cnt": 0.67610818147659302
+            },
+            {
+              "number": 1,
+              "sharp_Odds": 0.64053493738174438,
+              "flat_Odds": 0.37717676162719727,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.30162853002548218,
+              "ratchet_Odds": 0.35356906056404114,
+              "ratchet_Cnt": 0.9791795015335083
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.52668470144271851,
+              "flat_Odds": 0.89751619100570679,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.88962185382843018,
+              "ratchet_Odds": 0.37654796242713928,
+              "ratchet_Cnt": 0.26484525203704834
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.56936675310134888,
+              "flat_Odds": 0.45339193940162659,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.41866889595985413,
+              "ratchet_Odds": 0.20778089761734009,
+              "ratchet_Cnt": 0.018888900056481361
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.067262150347232819,
+              "flat_Odds": 0.7403753399848938,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.79683393239974976,
+              "ratchet_Odds": 0.11192025989294052,
+              "ratchet_Cnt": 0.63694155216217041
+            },
+            {
+              "number": 1,
+              "sharp_Odds": 0.18865904211997986,
+              "flat_Odds": 0.026335962116718292,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.87438249588012695,
+              "ratchet_Odds": 0.258281409740448,
+              "ratchet_Cnt": 0.94119083881378174
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.072319537401199341,
+              "flat_Odds": 0.4419531524181366,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.79699027538299561,
+              "ratchet_Odds": 0.90859150886535645,
+              "ratchet_Cnt": 0.31152930855751038
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.49458637833595276,
+              "flat_Odds": 0.89613372087478638,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.97374582290649414,
+              "ratchet_Odds": 0.60865581035614014,
+              "ratchet_Cnt": 0.70074313879013062
+            },
+            {
+              "number": 1,
+              "sharp_Odds": 0.47436749935150146,
+              "flat_Odds": 0.34726130962371826,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.76950657367706299,
+              "ratchet_Odds": 0.032680295407772064,
+              "ratchet_Cnt": 0.63066011667251587
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.29692071676254272,
+              "flat_Odds": 0.58395493030548096,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.372659832239151,
+              "ratchet_Odds": 0.41606223583221436,
+              "ratchet_Cnt": 0.97658562660217285
+            },
+            {
+              "number": 1,
+              "sharp_Odds": 0.87204509973526001,
+              "flat_Odds": 0.64837884902954102,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.51691335439682007,
+              "ratchet_Odds": 0.53622132539749146,
+              "ratchet_Cnt": 0.75725054740905762
+            },
+            {
+              "number": 8,
+              "sharp_Odds": 0.8636440634727478,
+              "flat_Odds": 0.35383075475692749,
+              "OctaveUp_Odds": 0.42389059066772461,
+              "OctaveDown_Odds": 0.16989418864250183,
+              "mute_Odds": 0.58152586221694946,
+              "ratchet_Odds": 0.47560110688209534,
+              "ratchet_Cnt": 0.53941226005554199
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.70873725414276123,
+              "flat_Odds": 0.12961988151073456,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.063508845865726471,
+              "ratchet_Odds": 0.06066473200917244,
+              "ratchet_Cnt": 0.61398184299468994
+            },
+            {
+              "number": 1,
+              "sharp_Odds": 0.15094497799873352,
+              "flat_Odds": 0.98842865228652954,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.98619192838668823,
+              "ratchet_Odds": 0.090807661414146423,
+              "ratchet_Cnt": 0.75662893056869507
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.089076675474643707,
+              "flat_Odds": 0.5253835916519165,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.15579767525196075,
+              "ratchet_Odds": 0.20094968378543854,
+              "ratchet_Cnt": 0.12627819180488586
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.946280837059021,
+              "flat_Odds": 0.77155977487564087,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.57784223556518555,
+              "ratchet_Odds": 0.66706788539886475,
+              "ratchet_Cnt": 0.39080473780632019
+            },
+            {
+              "number": 1,
+              "sharp_Odds": 0.45113605260848999,
+              "flat_Odds": 0.10527438670396805,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.87335467338562012,
+              "ratchet_Odds": 0.70113992691040039,
+              "ratchet_Cnt": 0.88265174627304077
+            },
+            {
+              "number": 5,
+              "sharp_Odds": 0.82058608531951904,
+              "flat_Odds": 0.35973075032234192,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.26126405596733093,
+              "ratchet_Odds": 0.40327435731887817,
+              "ratchet_Cnt": 0.22898386418819427
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.70324373245239258,
+              "flat_Odds": 0.99472278356552124,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.35380652546882629,
+              "ratchet_Odds": 0.55556046962738037,
+              "ratchet_Cnt": 0.23403330147266388
+            },
+            {
+              "number": 1,
+              "sharp_Odds": 0.18217550218105316,
+              "flat_Odds": 0.93038010597229004,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.14349222183227539,
+              "ratchet_Odds": 0.749778151512146,
+              "ratchet_Cnt": 0.18805879354476929
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.83474409580230713,
+              "flat_Odds": 0.20512785017490387,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.43431854248046875,
+              "ratchet_Odds": 0.16576842963695526,
+              "ratchet_Cnt": 0.054727271199226379
+            },
+            {
+              "number": 1,
+              "sharp_Odds": 0.8463289737701416,
+              "flat_Odds": 0.18620936572551727,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.60836786031723022,
+              "ratchet_Odds": 0.7537078857421875,
+              "ratchet_Cnt": 0.57674241065979004
+            }
+          ],
+          [
+            {
+              "number": 0,
+              "sharp_Odds": 0.79891049861907959,
+              "flat_Odds": 0.33116045594215393,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.077869810163974762,
+              "ratchet_Odds": 0.10617771744728088,
+              "ratchet_Cnt": 0.15198394656181335
+            },
+            {
+              "number": 1,
+              "sharp_Odds": 0.76077234745025635,
+              "flat_Odds": 0.95425105094909668,
+              "OctaveUp_Odds": 0.0,
+              "OctaveDown_Odds": 0.0,
+              "mute_Odds": 0.32876163721084595,
+              "ratchet_Odds": 0.051718086004257202,
+              "ratchet_Cnt": 0.21641680598258972
+            }
+          ]
+        ],
+        "seqIndex": 9,
+        "compassDisplayMode": 0
+      },
+      "pos": [
+        17,
+        0
+      ]
+    },
+    {
+      "id": 7969204338669662,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-FMOp",
+      "version": "2.0.39",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 0.14142100512981415,
+          "id": 2
+        },
+        {
+          "value": 0.31622999906539917,
+          "id": 3
+        },
+        {
+          "value": 1.0,
+          "id": 4
+        },
+        {
+          "value": 0.31622999906539917,
+          "id": 5
+        },
+        {
+          "value": 0.0,
+          "id": 6
+        },
+        {
+          "value": 0.0,
+          "id": 7
+        },
+        {
+          "value": 0.72289055585861206,
+          "id": 8
+        },
+        {
+          "value": 1.0,
+          "id": 9
+        },
+        {
+          "value": 0.0,
+          "id": 10
+        },
+        {
+          "value": 0.0,
+          "id": 11
+        }
+      ],
+      "leftModuleId": 4998531798983730,
+      "rightModuleId": 8924135113639901,
+      "data": {
+        "linearLevel": false,
+        "antialias_feedback": true,
+        "antialias_depth": true
+      },
+      "pos": [
+        39,
+        0
+      ]
+    },
+    {
+      "id": 6865042916940746,
+      "plugin": "ImpromptuModular",
+      "model": "Clocked-Clkd",
+      "version": "2.0.7",
+      "params": [
+        {
+          "value": -6.0,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        },
+        {
+          "value": 93.0,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        },
+        {
+          "value": 0.0,
+          "id": 5
+        },
+        {
+          "value": 0.0,
+          "id": 6
+        },
+        {
+          "value": 0.0,
+          "id": 7
+        },
+        {
+          "value": 0.0,
+          "id": 8
+        },
+        {
+          "value": 0.0,
+          "id": 9
+        }
+      ],
+      "rightModuleId": 205496309466578,
+      "data": {
+        "panelTheme": 0,
+        "panelContrast": 220.0,
+        "running": true,
+        "bpmDetectionMode": false,
+        "resetOnStartStop": 0,
+        "ppqn": 4,
+        "resetClockOutputsHigh": true,
+        "momentaryRunInput": true,
+        "forceCvOnBpmOut": false,
+        "displayIndex": 1,
+        "trigOuts": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "clockMaster": -1
+      },
+      "pos": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 205496309466578,
+      "plugin": "Fundamental",
+      "model": "LFO2",
+      "version": "2.1.0",
+      "params": [
+        {
+          "value": 1.0,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": -5.7662653923034668,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        },
+        {
+          "value": 0.0,
+          "id": 5
+        }
+      ],
+      "leftModuleId": 6865042916940746,
+      "rightModuleId": 4998531798983730,
+      "data": {
+        "waveLen": 1024,
+        "filename": "Basic.wav"
+      },
+      "pos": [
+        10,
+        0
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 8531881033225170,
+      "outputModuleId": 6865042916940746,
+      "outputId": 0,
+      "inputModuleId": 4998531798983730,
+      "inputId": 0,
+      "color": "#3695ef"
+    },
+    {
+      "id": 3917728303527111,
+      "outputModuleId": 7969204338669662,
+      "outputId": 0,
+      "inputModuleId": 8924135113639901,
+      "inputId": 0,
+      "color": "#f3374b"
+    },
+    {
+      "id": 8435221690673341,
+      "outputModuleId": 4998531798983730,
+      "outputId": 5,
+      "inputModuleId": 7969204338669662,
+      "inputId": 5,
+      "color": "#3695ef"
+    },
+    {
+      "id": 4230030110712875,
+      "outputModuleId": 4998531798983730,
+      "outputId": 4,
+      "inputModuleId": 7969204338669662,
+      "inputId": 4,
+      "color": "#ffb437"
+    },
+    {
+      "id": 681516497111903,
+      "outputModuleId": 4998531798983730,
+      "outputId": 1,
+      "inputModuleId": 7969204338669662,
+      "inputId": 2,
+      "color": "#00b56e"
+    },
+    {
+      "id": 3589186205771514,
+      "outputModuleId": 4998531798983730,
+      "outputId": 3,
+      "inputModuleId": 7969204338669662,
+      "inputId": 0,
+      "color": "#00b56e"
+    },
+    {
+      "id": 793191313100420,
+      "outputModuleId": 6865042916940746,
+      "outputId": 1,
+      "inputModuleId": 4998531798983730,
+      "inputId": 6,
+      "color": "#00b56e"
+    },
+    {
+      "id": 7409977266630138,
+      "outputModuleId": 205496309466578,
+      "outputId": 0,
+      "inputModuleId": 4998531798983730,
+      "inputId": 4,
+      "color": "#00b56e"
+    },
+    {
+      "id": 8684029494453490,
+      "outputModuleId": 6865042916940746,
+      "outputId": 4,
+      "inputModuleId": 4998531798983730,
+      "inputId": 1,
+      "color": "#3695ef"
+    }
+  ]
+}

@@ -13,6 +13,8 @@ Quantum Compass is a sequencer where instead of controlling each step, you inste
 4. Connect a voice to the `1V/octave` and `Main Gate` outputs.
 5. Add more notes or **hold down a note to remove it**.
 
+[Download Quick Start](../examples/QuantumCompass/QuantumCompass_QuickStart.vcvs)
+
 ## Panel
 
 ![Image of step controls](../images/QuantumCompass/labels.png)
@@ -111,3 +113,5 @@ This example patch uses 5 modules. Left to right: [A clock](https://library.vcvr
 4. The 1V/Octave and Gate go into the Voice.
 5. The Octive Up Gate modulates the sustane on the Voice.
 6. The Sharp Gate modulates the feedback
+
+[Download Example 1](../examples/QuantumCompass/QuantumCompass_Example1.vcvs)

@@ -14,6 +14,8 @@ Orchestrator is a modulation and gate source designed to be the conductor of a r
 4. Connect the output of the quantizer to the V/Oct of your voice.
 5. Connect a third arm to some modulation on your voice.
 
+[Download Quick Start](../examples/Orchestrator/Orchestrator_QuickStart.vcvs)
+
 ## Panel
 
 ![Image of step controls](../images/Orchestrator/labels.png)
@@ -111,3 +113,5 @@ This example patch uses 5 modules. Left to right: [A clock](https://library.vcvr
 6. Output 6 A is run through a quantizer to set the note of the voice.
 7. Output 7 A modulates the feedback on the voice.
 8. Output 8 A modulates the sustain on the voice.
+
+[Download Example 1](../examples/Orchestrator/Orchestrator_Example1.vcvs)
