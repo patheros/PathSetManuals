@@ -38,15 +38,15 @@ Quantum Compass is a sequencer where instead of controlling each step, you inste
 17. **Reset Button** - Resets the position of the sequencer.
 18. **Chaos Attenuverter** - Modifies CV for Chaos Knob
 19. **Chaos CV** - Modulates the Chaos Knob
-20.  **Main Gate** - Main Gate output.
+20. **Main Gate** - Main Gate output.
 21. **Max Step Count** - Controls the number of steps in the sequence.
 22. **Half Notes** - Toggles if Ratcheted notes can be half notes.
 23. **Ratchet Attenuverter** - Modulates the Ratchet knob.
 24. **Reset Odds** - Chance sequence will automatically reset at certain steps.
 25. **Reset Step** - Controls which steps the sequence might automatically reset at.
 26. **Steps Attenuverter** - Modifies CV for Max Step Count knob
-27.  **Steps CV** - Modulates CV for Max Step Count knob
-28. **Third Notes** - Toggles if Ratcheted notes can be triplets.
+27. **Steps CV** - Modulates CV for Max Step Count knob
+28. **Triplets** - Toggles if Ratcheted notes can be triplets.
 29. **Ratchet CV** - Modifies CV for Ratchet knob.
 26. **Mutes** - Controls how many notes in the sequence are silent.
 27. **Mutes Attenuverter** - Modifies CV for Mutes knob.

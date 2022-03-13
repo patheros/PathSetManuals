@@ -100,7 +100,27 @@ When Ochestrator is bypassed all outputs stay at 0V.
 
 ## Patch Examples
 
-![Image of step controls](../images/Orchestrator/example_1.png)
+### Drums and Leads
+
+![Image of Leads and Drums example](../images/Orchestrator/example_1.png)
+
+[Download Example 1](../examples/Orchestrator/Orchestrator_Example1.vcvs?raw=true)
+
+In this example the left side of Orchestrator is driving a Palette voice and Quantum Compass as a squencer & quantizer. The right side is driving two pico drums and modulating a Delay on one of them. 
+
+Orchestrator is set for a 240 second (4 minute) song. The overall sequence will repeat every 4 minutes and during those 4 minutes you'll hear different.
+
+This example patch uses 8 modules. 
+Row 1: Orchestrator, Two [Pico Drums](https://library.vcvrack.com/EricaCopies/PicoDrums), a Delay
+Row 2: [Quantum Compass](https://library.vcvrack.com/PathSet-Infinity/QuantumCompass), [Palette](https://library.vcvrack.com/Atelier/AtelierPalette), a Mixer and Audio Output.
+
+### Envelope 
+
+![Image of Envelope example](../images/Orchestrator/example_2.png)
+
+[Download Example 2](../examples/Orchestrator/Orchestrator_Example2.vcvs?raw=true)
+
+In this example we are using Ochestrator in On-Shot mode and at 100x speed to create a many arm envelope like monster. Four of the arms are used to drive an FM-OP. The top arm is in gate mode and serves as the trigger. The next arm is run through a quantizer to create notes. And the bottom two arms modulate the feedback and sustane on FM-OP. CLKD triggers Ochestrator each clock and then randomizes the sequence on one of its arms every 4 clocks.
 
 This example patch uses 5 modules. Left to right: [A clock](https://library.vcvrack.com/ImpromptuModular/Clocked-Clkd), Orchestrator, a quantizer,a [Voice](https://library.vcvrack.com/Bogaudio/Bogaudio-FMOp) and Audio Output.
 
@@ -114,4 +134,3 @@ This example patch uses 5 modules. Left to right: [A clock](https://library.vcvr
 7. Output 7 A modulates the feedback on the voice.
 8. Output 8 A modulates the sustain on the voice.
 
-[Download Example 1](../examples/Orchestrator/Orchestrator_Example1.vcvs?raw=true)
