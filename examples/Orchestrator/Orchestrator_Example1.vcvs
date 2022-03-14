@@ -1,7 +1,35 @@
 {
   "modules": [
     {
-      "id": 1459241164025017,
+      "id": 8752548821466590,
+      "plugin": "Core",
+      "model": "AudioInterface2",
+      "version": "2.0.6",
+      "params": [
+        {
+          "value": 1.0,
+          "id": 0
+        }
+      ],
+      "leftModuleId": 772678589409768,
+      "data": {
+        "audio": {
+          "driver": 6,
+          "deviceName": "Speakers (5- Schiit Modi 3+)",
+          "sampleRate": 48000.0,
+          "blockSize": 256,
+          "inputOffset": 0,
+          "outputOffset": 0
+        },
+        "dcFilter": true
+      },
+      "pos": [
+        103,
+        2
+      ]
+    },
+    {
+      "id": 772678589409768,
       "plugin": "Fundamental",
       "model": "VCMixer",
       "version": "2.1.0",
@@ -27,43 +55,15 @@
           "id": 4
         }
       ],
-      "leftModuleId": 7542404630513758,
-      "rightModuleId": 8518972980240757,
+      "leftModuleId": 7030856545342216,
+      "rightModuleId": 8752548821466590,
       "pos": [
         94,
         2
       ]
     },
     {
-      "id": 8518972980240757,
-      "plugin": "Core",
-      "model": "AudioInterface2",
-      "version": "2.0.6",
-      "params": [
-        {
-          "value": 1.0,
-          "id": 0
-        }
-      ],
-      "leftModuleId": 1459241164025017,
-      "data": {
-        "audio": {
-          "driver": 6,
-          "deviceName": "Speakers (5- Schiit Modi 3+)",
-          "sampleRate": 48000.0,
-          "blockSize": 256,
-          "inputOffset": 0,
-          "outputOffset": 0
-        },
-        "dcFilter": true
-      },
-      "pos": [
-        103,
-        2
-      ]
-    },
-    {
-      "id": 851601017687639,
+      "id": 8389657204690926,
       "plugin": "PathSet-Infinity",
       "model": "Orchestrator",
       "version": "2.0.0",
@@ -409,7 +409,7 @@
           "id": 84
         }
       ],
-      "rightModuleId": 6967681026260207,
+      "rightModuleId": 7751355219079489,
       "data": {
         "version": "2.0.0",
         "arms": [
@@ -7329,7 +7329,7 @@
         "running": true,
         "waveArms": false,
         "speedMultiplier": 1,
-        "curSeqTime": 209.98426858435778
+        "curSeqTime": 17.279874814928917
       },
       "pos": [
         54,
@@ -7337,7 +7337,7 @@
       ]
     },
     {
-      "id": 2495824206412704,
+      "id": 6977490774092186,
       "plugin": "EricaCopies",
       "model": "PicoDrums",
       "version": "2.0.2",
@@ -7355,11 +7355,11 @@
           "id": 2
         }
       ],
-      "leftModuleId": 6967681026260207,
-      "rightModuleId": 3903391619937328,
+      "leftModuleId": 7751355219079489,
+      "rightModuleId": 6204590848747085,
       "data": {
         "mode": 0,
-        "pitch_value1": 18.886308670043945,
+        "pitch_value1": 22.603960037231445,
         "pitch_value2": 10.0,
         "sample_value1": 10.0,
         "sample_value2": 9.8062829971313477,
@@ -7379,7 +7379,7 @@
       ]
     },
     {
-      "id": 6967681026260207,
+      "id": 7751355219079489,
       "plugin": "EricaCopies",
       "model": "PicoDrums",
       "version": "2.0.2",
@@ -7397,11 +7397,11 @@
           "id": 2
         }
       ],
-      "leftModuleId": 851601017687639,
-      "rightModuleId": 2495824206412704,
+      "leftModuleId": 8389657204690926,
+      "rightModuleId": 6977490774092186,
       "data": {
         "mode": 0,
-        "pitch_value1": 16.513143539428711,
+        "pitch_value1": 21.838527679443359,
         "pitch_value2": 10.0,
         "sample_value1": 10.0,
         "sample_value2": 1.4435539245605469,
@@ -7421,7 +7421,7 @@
       ]
     },
     {
-      "id": 7542404630513758,
+      "id": 7030856545342216,
       "plugin": "Atelier",
       "model": "AtelierPalette",
       "version": "2.0.2",
@@ -7535,13 +7535,13 @@
           "id": 26
         }
       ],
-      "leftModuleId": 1752536830958874,
-      "rightModuleId": 1459241164025017,
+      "leftModuleId": 5636944613322177,
+      "rightModuleId": 772678589409768,
       "data": {
         "rsqual": 4,
         "model": 1,
         "lpgColor": 0.5,
-        "decay": 0.78273892402648926,
+        "decay": 0.74898141622543335,
         "freetune": false,
         "lfoMode": false,
         "showmods": true,
@@ -7553,7 +7553,52 @@
       ]
     },
     {
-      "id": 1752536830958874,
+      "id": 6204590848747085,
+      "plugin": "Fundamental",
+      "model": "Delay",
+      "version": "2.1.0",
+      "params": [
+        {
+          "value": 0.67474251985549927,
+          "id": 0
+        },
+        {
+          "value": 0.5,
+          "id": 1
+        },
+        {
+          "value": 0.5,
+          "id": 2
+        },
+        {
+          "value": 0.5,
+          "id": 3
+        },
+        {
+          "value": 0.3840000331401825,
+          "id": 4
+        },
+        {
+          "value": 0.37599995732307434,
+          "id": 5
+        },
+        {
+          "value": 0.39199995994567871,
+          "id": 6
+        },
+        {
+          "value": 0.0,
+          "id": 7
+        }
+      ],
+      "leftModuleId": 6977490774092186,
+      "pos": [
+        102,
+        1
+      ]
+    },
+    {
+      "id": 5636944613322177,
       "plugin": "PathSet-Infinity",
       "model": "QuantumCompass",
       "version": "2.0.0",
@@ -7683,19 +7728,19 @@
           "id": 30
         }
       ],
-      "rightModuleId": 7542404630513758,
+      "rightModuleId": 7030856545342216,
       "data": {
         "version": "2.0.0",
         "sequence": [
           {
-            "number": 5,
-            "sharp_Odds": 0.99319571256637573,
-            "flat_Odds": 0.67275655269622803,
-            "octaveUp_Odds": 0.15333579480648041,
-            "octaveDown_Odds": 0.9096825122833252,
-            "mute_Odds": 0.11873921751976013,
-            "ratchet_Odds": 0.80515921115875244,
-            "ratchet_Cnt": 0.83642899990081787
+            "number": 1,
+            "sharp_Odds": 0.066425405442714691,
+            "flat_Odds": 0.0035635312087833881,
+            "octaveUp_Odds": 0.4802267849445343,
+            "octaveDown_Odds": 0.67819976806640625,
+            "mute_Odds": 0.95734775066375732,
+            "ratchet_Odds": 0.51671051979064941,
+            "ratchet_Cnt": 0.3155917227268219
           },
           {
             "number": 1,
@@ -7718,14 +7763,14 @@
             "ratchet_Cnt": 0.28155225515365601
           },
           {
-            "number": 1,
-            "sharp_Odds": 0.39729344844818115,
-            "flat_Odds": 0.94629412889480591,
-            "octaveUp_Odds": 0.26552960276603699,
-            "octaveDown_Odds": 0.8811880350112915,
-            "mute_Odds": 0.28852531313896179,
-            "ratchet_Odds": 0.021656885743141174,
-            "ratchet_Cnt": 0.36386799812316895
+            "number": 8,
+            "sharp_Odds": 0.62999576330184937,
+            "flat_Odds": 0.72284573316574097,
+            "octaveUp_Odds": 0.82754617929458618,
+            "octaveDown_Odds": 0.36622434854507446,
+            "mute_Odds": 0.39302009344100952,
+            "ratchet_Odds": 0.25995627045631409,
+            "ratchet_Cnt": 0.95829713344573975
           },
           {
             "number": 11,
@@ -7739,13 +7784,13 @@
           },
           {
             "number": 8,
-            "sharp_Odds": 0.92607766389846802,
-            "flat_Odds": 0.076846122741699219,
-            "octaveUp_Odds": 0.027263257652521133,
-            "octaveDown_Odds": 0.52871471643447876,
-            "mute_Odds": 0.90646570920944214,
-            "ratchet_Odds": 0.80113697052001953,
-            "ratchet_Cnt": 0.68845248222351074
+            "sharp_Odds": 0.99856758117675781,
+            "flat_Odds": 0.67833459377288818,
+            "octaveUp_Odds": 0.70272481441497803,
+            "octaveDown_Odds": 0.82910138368606567,
+            "mute_Odds": 0.17752581834793091,
+            "ratchet_Odds": 0.29063054919242859,
+            "ratchet_Cnt": 0.71121948957443237
           },
           {
             "number": 5,
@@ -7788,14 +7833,14 @@
             "ratchet_Cnt": 0.28108313679695129
           },
           {
-            "number": 1,
-            "sharp_Odds": 0.39048832654953003,
-            "flat_Odds": 0.91363394260406494,
-            "octaveUp_Odds": 0.77262496948242188,
-            "octaveDown_Odds": 0.6690133810043335,
-            "mute_Odds": 0.29036283493041992,
-            "ratchet_Odds": 0.21746289730072021,
-            "ratchet_Cnt": 0.45433428883552551
+            "number": 11,
+            "sharp_Odds": 0.21497942507266998,
+            "flat_Odds": 0.51837825775146484,
+            "octaveUp_Odds": 0.025438824668526649,
+            "octaveDown_Odds": 0.10502717643976212,
+            "mute_Odds": 0.15260130167007446,
+            "ratchet_Odds": 0.99283421039581299,
+            "ratchet_Cnt": 0.61584168672561646
           },
           {
             "number": 8,
@@ -7808,14 +7853,14 @@
             "ratchet_Cnt": 0.093610964715480804
           },
           {
-            "number": 8,
-            "sharp_Odds": 0.92297381162643433,
-            "flat_Odds": 0.83199989795684814,
-            "octaveUp_Odds": 0.10010999441146851,
-            "octaveDown_Odds": 0.99630486965179443,
-            "mute_Odds": 0.84606254100799561,
-            "ratchet_Odds": 0.49574550986289978,
-            "ratchet_Cnt": 0.32216900587081909
+            "number": 11,
+            "sharp_Odds": 0.010795380920171738,
+            "flat_Odds": 0.86810928583145142,
+            "octaveUp_Odds": 0.70732015371322632,
+            "octaveDown_Odds": 0.17937818169593811,
+            "mute_Odds": 0.034767486155033112,
+            "ratchet_Odds": 0.22765713930130005,
+            "ratchet_Cnt": 0.66925287246704102
           },
           {
             "number": 1,
@@ -7828,14 +7873,14 @@
             "ratchet_Cnt": 0.37579035758972168
           },
           {
-            "number": 1,
-            "sharp_Odds": 0.47782650589942932,
-            "flat_Odds": 0.81471669673919678,
-            "octaveUp_Odds": 0.29438647627830505,
-            "octaveDown_Odds": 0.21688218414783478,
-            "mute_Odds": 0.33686518669128418,
-            "ratchet_Odds": 0.67243111133575439,
-            "ratchet_Cnt": 0.66407245397567749
+            "number": 8,
+            "sharp_Odds": 0.53502660989761353,
+            "flat_Odds": 0.79650115966796875,
+            "octaveUp_Odds": 0.30106103420257568,
+            "octaveDown_Odds": 0.42355608940124512,
+            "mute_Odds": 0.30443835258483887,
+            "ratchet_Odds": 0.017011379823088646,
+            "ratchet_Cnt": 0.17552189528942108
           },
           {
             "number": 8,
@@ -7878,14 +7923,14 @@
             "ratchet_Cnt": 0.28629115223884583
           },
           {
-            "number": 8,
-            "sharp_Odds": 0.78266847133636475,
-            "flat_Odds": 0.22425687313079834,
-            "octaveUp_Odds": 0.85509765148162842,
-            "octaveDown_Odds": 0.57928979396820068,
-            "mute_Odds": 0.21871595084667206,
-            "ratchet_Odds": 0.46411621570587158,
-            "ratchet_Cnt": 0.62762647867202759
+            "number": 1,
+            "sharp_Odds": 0.75074917078018188,
+            "flat_Odds": 0.58164584636688232,
+            "octaveUp_Odds": 0.75629681348800659,
+            "octaveDown_Odds": 0.68270969390869141,
+            "mute_Odds": 0.28952652215957642,
+            "ratchet_Odds": 0.70682144165039063,
+            "ratchet_Cnt": 0.56103277206420898
           },
           {
             "number": 5,
@@ -7898,24 +7943,24 @@
             "ratchet_Cnt": 0.95419645309448242
           },
           {
-            "number": 8,
-            "sharp_Odds": 0.21990011632442474,
-            "flat_Odds": 0.58057987689971924,
-            "octaveUp_Odds": 0.81370687484741211,
-            "octaveDown_Odds": 0.082878187298774719,
-            "mute_Odds": 0.96429902315139771,
-            "ratchet_Odds": 0.55871391296386719,
-            "ratchet_Cnt": 0.83833122253417969
+            "number": 11,
+            "sharp_Odds": 0.5359000563621521,
+            "flat_Odds": 0.64935708045959473,
+            "octaveUp_Odds": 0.24302801489830017,
+            "octaveDown_Odds": 0.62091064453125,
+            "mute_Odds": 0.030706848949193954,
+            "ratchet_Odds": 0.68165910243988037,
+            "ratchet_Cnt": 0.20498067140579224
           },
           {
-            "number": 8,
-            "sharp_Odds": 0.12678982317447662,
-            "flat_Odds": 0.47269913554191589,
-            "octaveUp_Odds": 0.57158052921295166,
-            "octaveDown_Odds": 0.018293581902980804,
-            "mute_Odds": 0.011013667099177837,
-            "ratchet_Odds": 0.7693016529083252,
-            "ratchet_Cnt": 0.87001252174377441
+            "number": 5,
+            "sharp_Odds": 0.076697468757629395,
+            "flat_Odds": 0.15647085011005402,
+            "octaveUp_Odds": 0.75230735540390015,
+            "octaveDown_Odds": 0.8590577244758606,
+            "mute_Odds": 0.018680999055504799,
+            "ratchet_Odds": 0.35901159048080444,
+            "ratchet_Cnt": 0.11424332112073898
           },
           {
             "number": 1,
@@ -7929,13 +7974,13 @@
           },
           {
             "number": 1,
-            "sharp_Odds": 0.11545796692371368,
-            "flat_Odds": 0.58831882476806641,
-            "octaveUp_Odds": 0.38117203116416931,
-            "octaveDown_Odds": 0.84206873178482056,
-            "mute_Odds": 0.026774017140269279,
-            "ratchet_Odds": 0.49343410134315491,
-            "ratchet_Cnt": 0.40597879886627197
+            "sharp_Odds": 0.67142462730407715,
+            "flat_Odds": 0.13006031513214111,
+            "octaveUp_Odds": 0.61255496740341187,
+            "octaveDown_Odds": 0.46116378903388977,
+            "mute_Odds": 0.021873421967029572,
+            "ratchet_Odds": 0.56715190410614014,
+            "ratchet_Cnt": 0.44344693422317505
           },
           {
             "number": 8,
@@ -7949,13 +7994,13 @@
           },
           {
             "number": 1,
-            "sharp_Odds": 0.50521886348724365,
-            "flat_Odds": 0.6718822717666626,
-            "octaveUp_Odds": 0.47335711121559143,
-            "octaveDown_Odds": 0.93183189630508423,
-            "mute_Odds": 0.40149122476577759,
-            "ratchet_Odds": 0.60120385885238647,
-            "ratchet_Cnt": 0.86601942777633667
+            "sharp_Odds": 0.80390834808349609,
+            "flat_Odds": 0.68523919582366943,
+            "octaveUp_Odds": 0.45030277967453003,
+            "octaveDown_Odds": 0.78545540571212769,
+            "mute_Odds": 0.19474564492702484,
+            "ratchet_Odds": 0.30718216300010681,
+            "ratchet_Cnt": 0.81403911113739014
           },
           {
             "number": 8,
@@ -8018,34 +8063,34 @@
             "ratchet_Cnt": 0.39807567000389099
           },
           {
-            "number": 1,
-            "sharp_Odds": 0.40134656429290771,
-            "flat_Odds": 0.34021455049514771,
-            "octaveUp_Odds": 0.031339768320322037,
-            "octaveDown_Odds": 0.54656779766082764,
-            "mute_Odds": 0.8912278413772583,
-            "ratchet_Odds": 0.53554195165634155,
-            "ratchet_Cnt": 0.69730192422866821
+            "number": 8,
+            "sharp_Odds": 0.99743551015853882,
+            "flat_Odds": 0.13363489508628845,
+            "octaveUp_Odds": 0.44848063588142395,
+            "octaveDown_Odds": 0.29286655783653259,
+            "mute_Odds": 0.60712659358978271,
+            "ratchet_Odds": 0.57202064990997314,
+            "ratchet_Cnt": 0.69691848754882813
+          },
+          {
+            "number": 5,
+            "sharp_Odds": 0.57085698843002319,
+            "flat_Odds": 0.055207628756761551,
+            "octaveUp_Odds": 0.34107545018196106,
+            "octaveDown_Odds": 0.72618204355239868,
+            "mute_Odds": 0.51589751243591309,
+            "ratchet_Odds": 0.69944906234741211,
+            "ratchet_Cnt": 0.72252738475799561
           },
           {
             "number": 1,
-            "sharp_Odds": 0.71662211418151855,
-            "flat_Odds": 0.42902371287345886,
-            "octaveUp_Odds": 0.06422356516122818,
-            "octaveDown_Odds": 0.59683471918106079,
-            "mute_Odds": 0.022721773013472557,
-            "ratchet_Odds": 0.55587887763977051,
-            "ratchet_Cnt": 0.53155690431594849
-          },
-          {
-            "number": 1,
-            "sharp_Odds": 0.99299710988998413,
-            "flat_Odds": 0.90602362155914307,
-            "octaveUp_Odds": 0.13120166957378387,
-            "octaveDown_Odds": 0.56785315275192261,
-            "mute_Odds": 0.31678494811058044,
-            "ratchet_Odds": 0.6252514123916626,
-            "ratchet_Cnt": 0.83759552240371704
+            "sharp_Odds": 0.24361754953861237,
+            "flat_Odds": 0.018434694036841393,
+            "octaveUp_Odds": 0.83968609571456909,
+            "octaveDown_Odds": 0.37129494547843933,
+            "mute_Odds": 0.20084139704704285,
+            "ratchet_Odds": 0.29816949367523193,
+            "ratchet_Cnt": 0.42018264532089233
           },
           {
             "number": 1,
@@ -8118,14 +8163,14 @@
             "ratchet_Cnt": 0.27875450253486633
           },
           {
-            "number": 1,
-            "sharp_Odds": 0.7643703818321228,
-            "flat_Odds": 0.55075818300247192,
-            "octaveUp_Odds": 0.84514325857162476,
-            "octaveDown_Odds": 0.94293689727783203,
-            "mute_Odds": 0.28669551014900208,
-            "ratchet_Odds": 0.91977763175964355,
-            "ratchet_Cnt": 0.33021092414855957
+            "number": 8,
+            "sharp_Odds": 0.0074781612493097782,
+            "flat_Odds": 0.19534188508987427,
+            "octaveUp_Odds": 0.8980603814125061,
+            "octaveDown_Odds": 0.37445300817489624,
+            "mute_Odds": 0.011564663611352444,
+            "ratchet_Odds": 0.61875760555267334,
+            "ratchet_Cnt": 0.20549939572811127
           },
           {
             "number": 1,
@@ -8138,14 +8183,14 @@
             "ratchet_Cnt": 0.35988923907279968
           },
           {
-            "number": 8,
-            "sharp_Odds": 0.23003876209259033,
-            "flat_Odds": 0.80412560701370239,
-            "octaveUp_Odds": 0.80022025108337402,
-            "octaveDown_Odds": 0.92607927322387695,
-            "mute_Odds": 0.70608383417129517,
-            "ratchet_Odds": 0.584908127784729,
-            "ratchet_Cnt": 0.39309400320053101
+            "number": 11,
+            "sharp_Odds": 0.76522594690322876,
+            "flat_Odds": 0.088583894073963165,
+            "octaveUp_Odds": 0.00018741654639597982,
+            "octaveDown_Odds": 0.2621215283870697,
+            "mute_Odds": 0.15976765751838684,
+            "ratchet_Odds": 0.73553788661956787,
+            "ratchet_Cnt": 0.56087404489517212
           },
           {
             "number": 1,
@@ -8158,24 +8203,24 @@
             "ratchet_Cnt": 0.77138656377792358
           },
           {
-            "number": 1,
-            "sharp_Odds": 0.94587039947509766,
-            "flat_Odds": 0.35000106692314148,
-            "octaveUp_Odds": 0.85911792516708374,
-            "octaveDown_Odds": 0.021896738559007645,
-            "mute_Odds": 0.22323538362979889,
-            "ratchet_Odds": 0.40344282984733582,
-            "ratchet_Cnt": 0.98353242874145508
+            "number": 8,
+            "sharp_Odds": 0.62508463859558105,
+            "flat_Odds": 0.66109269857406616,
+            "octaveUp_Odds": 0.76292616128921509,
+            "octaveDown_Odds": 0.94912821054458618,
+            "mute_Odds": 0.31367507576942444,
+            "ratchet_Odds": 0.98299294710159302,
+            "ratchet_Cnt": 0.40532574057579041
           },
           {
-            "number": 1,
-            "sharp_Odds": 0.30681630969047546,
-            "flat_Odds": 0.18949772417545319,
-            "octaveUp_Odds": 0.640036940574646,
-            "octaveDown_Odds": 0.42970237135887146,
-            "mute_Odds": 0.80118823051452637,
-            "ratchet_Odds": 0.82448852062225342,
-            "ratchet_Cnt": 0.64381533861160278
+            "number": 11,
+            "sharp_Odds": 0.89229333400726318,
+            "flat_Odds": 0.86930370330810547,
+            "octaveUp_Odds": 0.028168192133307457,
+            "octaveDown_Odds": 0.4553413987159729,
+            "mute_Odds": 0.97488856315612793,
+            "ratchet_Odds": 0.2883240282535553,
+            "ratchet_Cnt": 0.50382149219512939
           },
           {
             "number": 1,
@@ -8218,14 +8263,14 @@
             "ratchet_Cnt": 0.70451033115386963
           },
           {
-            "number": 8,
-            "sharp_Odds": 0.58756875991821289,
-            "flat_Odds": 0.5132901668548584,
-            "octaveUp_Odds": 0.9510655403137207,
-            "octaveDown_Odds": 0.63398963212966919,
-            "mute_Odds": 0.20292171835899353,
-            "ratchet_Odds": 0.53536772727966309,
-            "ratchet_Cnt": 0.46356990933418274
+            "number": 11,
+            "sharp_Odds": 0.29983973503112793,
+            "flat_Odds": 0.56720525026321411,
+            "octaveUp_Odds": 0.53726470470428467,
+            "octaveDown_Odds": 0.14949017763137817,
+            "mute_Odds": 0.077637270092964172,
+            "ratchet_Odds": 0.44354927539825439,
+            "ratchet_Cnt": 0.68413776159286499
           },
           {
             "number": 1,
@@ -8238,44 +8283,44 @@
             "ratchet_Cnt": 0.47604429721832275
           },
           {
-            "number": 1,
-            "sharp_Odds": 0.16887527704238892,
-            "flat_Odds": 0.9293096661567688,
-            "octaveUp_Odds": 0.8134995698928833,
-            "octaveDown_Odds": 0.18947675824165344,
-            "mute_Odds": 0.31969648599624634,
-            "ratchet_Odds": 0.74281412363052368,
-            "ratchet_Cnt": 0.91168642044067383
+            "number": 11,
+            "sharp_Odds": 0.83714300394058228,
+            "flat_Odds": 0.71526986360549927,
+            "octaveUp_Odds": 0.90172719955444336,
+            "octaveDown_Odds": 0.4421457052230835,
+            "mute_Odds": 0.083703711628913879,
+            "ratchet_Odds": 0.35545843839645386,
+            "ratchet_Cnt": 0.19446669518947601
+          },
+          {
+            "number": 8,
+            "sharp_Odds": 0.8616294264793396,
+            "flat_Odds": 0.73184239864349365,
+            "octaveUp_Odds": 0.86051589250564575,
+            "octaveDown_Odds": 0.52943515777587891,
+            "mute_Odds": 0.99915230274200439,
+            "ratchet_Odds": 0.11826133728027344,
+            "ratchet_Cnt": 0.27791103720664978
+          },
+          {
+            "number": 11,
+            "sharp_Odds": 0.7081800103187561,
+            "flat_Odds": 0.5119398832321167,
+            "octaveUp_Odds": 0.90998870134353638,
+            "octaveDown_Odds": 0.30446389317512512,
+            "mute_Odds": 0.27875286340713501,
+            "ratchet_Odds": 0.56211733818054199,
+            "ratchet_Cnt": 0.62085413932800293
           },
           {
             "number": 1,
-            "sharp_Odds": 0.53693771362304688,
-            "flat_Odds": 0.58499294519424438,
-            "octaveUp_Odds": 0.64278072118759155,
-            "octaveDown_Odds": 0.85097593069076538,
-            "mute_Odds": 0.93587678670883179,
-            "ratchet_Odds": 0.38467642664909363,
-            "ratchet_Cnt": 0.34609252214431763
-          },
-          {
-            "number": 1,
-            "sharp_Odds": 0.76005256175994873,
-            "flat_Odds": 0.80038869380950928,
-            "octaveUp_Odds": 0.73676538467407227,
-            "octaveDown_Odds": 0.36548715829849243,
-            "mute_Odds": 0.37402895092964172,
-            "ratchet_Odds": 0.31669065356254578,
-            "ratchet_Cnt": 0.092534728348255157
-          },
-          {
-            "number": 5,
-            "sharp_Odds": 0.99486160278320313,
-            "flat_Odds": 0.45536640286445618,
-            "octaveUp_Odds": 0.87817555665969849,
-            "octaveDown_Odds": 0.71578478813171387,
-            "mute_Odds": 0.02139078825712204,
-            "ratchet_Odds": 0.13587917387485504,
-            "ratchet_Cnt": 0.54433828592300415
+            "sharp_Odds": 0.94071221351623535,
+            "flat_Odds": 0.9677433967590332,
+            "octaveUp_Odds": 0.63205248117446899,
+            "octaveDown_Odds": 0.020777063444256783,
+            "mute_Odds": 0.27218914031982422,
+            "ratchet_Odds": 0.57168269157409668,
+            "ratchet_Cnt": 0.071674175560474396
           },
           {
             "number": 1,
@@ -8298,14 +8343,14 @@
             "ratchet_Cnt": 0.21585233509540558
           },
           {
-            "number": 1,
-            "sharp_Odds": 0.072958625853061676,
-            "flat_Odds": 0.67075693607330322,
-            "octaveUp_Odds": 0.12219743430614471,
-            "octaveDown_Odds": 0.36647787690162659,
-            "mute_Odds": 0.71131670475006104,
-            "ratchet_Odds": 0.40426838397979736,
-            "ratchet_Cnt": 0.12640616297721863
+            "number": 11,
+            "sharp_Odds": 0.74598294496536255,
+            "flat_Odds": 0.97850477695465088,
+            "octaveUp_Odds": 0.54710918664932251,
+            "octaveDown_Odds": 0.82670629024505615,
+            "mute_Odds": 0.56404805183410645,
+            "ratchet_Odds": 0.61493092775344849,
+            "ratchet_Cnt": 0.78512388467788696
           },
           {
             "number": 1,
@@ -8318,276 +8363,245 @@
             "ratchet_Cnt": 0.51060861349105835
           },
           {
-            "number": 8,
-            "sharp_Odds": 0.70367914438247681,
-            "flat_Odds": 0.4908854067325592,
-            "octaveUp_Odds": 0.72394311428070068,
-            "octaveDown_Odds": 0.70659363269805908,
-            "mute_Odds": 0.85110145807266235,
-            "ratchet_Odds": 0.25881636142730713,
-            "ratchet_Cnt": 0.29071676731109619
+            "number": 11,
+            "sharp_Odds": 0.47531354427337646,
+            "flat_Odds": 0.10872646421194077,
+            "octaveUp_Odds": 0.31175172328948975,
+            "octaveDown_Odds": 0.91102933883666992,
+            "mute_Odds": 0.90429037809371948,
+            "ratchet_Odds": 0.17510423064231873,
+            "ratchet_Cnt": 0.35150012373924255
           }
         ],
-        "seqIndex": 6,
+        "noteOn": [
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          false,
+          true,
+          false,
+          false,
+          true,
+          false
+        ],
+        "seqIndex": 4,
         "compassDisplayMode": 1
       },
       "pos": [
         54,
         2
       ]
-    },
-    {
-      "id": 3903391619937328,
-      "plugin": "Fundamental",
-      "model": "Delay",
-      "version": "2.1.0",
-      "params": [
-        {
-          "value": 0.67474251985549927,
-          "id": 0
-        },
-        {
-          "value": 0.5,
-          "id": 1
-        },
-        {
-          "value": 0.5,
-          "id": 2
-        },
-        {
-          "value": 0.5,
-          "id": 3
-        },
-        {
-          "value": 0.3840000331401825,
-          "id": 4
-        },
-        {
-          "value": 0.37599995732307434,
-          "id": 5
-        },
-        {
-          "value": 0.39199995994567871,
-          "id": 6
-        },
-        {
-          "value": 0.0,
-          "id": 7
-        }
-      ],
-      "leftModuleId": 2495824206412704,
-      "pos": [
-        102,
-        1
-      ]
     }
   ],
   "cables": [
     {
-      "id": 3684257489637863,
-      "outputModuleId": 851601017687639,
+      "id": 6008826287297193,
+      "outputModuleId": 8389657204690926,
       "outputId": 12,
-      "inputModuleId": 6967681026260207,
+      "inputModuleId": 7751355219079489,
       "inputId": 1,
       "color": "#3695ef"
     },
     {
-      "id": 2703354072024121,
-      "outputModuleId": 851601017687639,
+      "id": 8995715144688185,
+      "outputModuleId": 8389657204690926,
       "outputId": 9,
-      "inputModuleId": 1752536830958874,
+      "inputModuleId": 5636944613322177,
       "inputId": 0,
       "color": "#3695ef"
     },
     {
-      "id": 6651541189650151,
-      "outputModuleId": 1752536830958874,
+      "id": 6117813545526381,
+      "outputModuleId": 5636944613322177,
       "outputId": 5,
-      "inputModuleId": 7542404630513758,
+      "inputModuleId": 7030856545342216,
       "inputId": 5,
       "color": "#3695ef"
     },
     {
-      "id": 7707497363828794,
-      "outputModuleId": 1752536830958874,
+      "id": 3549974567239505,
+      "outputModuleId": 5636944613322177,
       "outputId": 4,
-      "inputModuleId": 7542404630513758,
+      "inputModuleId": 7030856545342216,
       "inputId": 7,
       "color": "#ffb437"
     },
     {
-      "id": 4135746809116827,
-      "outputModuleId": 851601017687639,
+      "id": 475094502785208,
+      "outputModuleId": 8389657204690926,
       "outputId": 21,
-      "inputModuleId": 2495824206412704,
+      "inputModuleId": 6977490774092186,
       "inputId": 0,
       "color": "#00b56e"
     },
     {
-      "id": 1419904722175726,
-      "outputModuleId": 851601017687639,
+      "id": 8181231998126823,
+      "outputModuleId": 8389657204690926,
       "outputId": 7,
-      "inputModuleId": 7542404630513758,
+      "inputModuleId": 7030856545342216,
       "inputId": 9,
       "color": "#00b56e"
     },
     {
-      "id": 480326721058289,
-      "outputModuleId": 2495824206412704,
+      "id": 8975304067596915,
+      "outputModuleId": 6977490774092186,
       "outputId": 0,
-      "inputModuleId": 3903391619937328,
+      "inputModuleId": 6204590848747085,
       "inputId": 4,
       "color": "#f3374b"
     },
     {
-      "id": 3409187079513516,
-      "outputModuleId": 851601017687639,
+      "id": 1395491826871788,
+      "outputModuleId": 8389657204690926,
       "outputId": 18,
-      "inputModuleId": 3903391619937328,
+      "inputModuleId": 6204590848747085,
       "inputId": 1,
       "color": "#00b56e"
     },
     {
-      "id": 2486024072069499,
-      "outputModuleId": 851601017687639,
+      "id": 7977879116418462,
+      "outputModuleId": 8389657204690926,
       "outputId": 23,
-      "inputModuleId": 3903391619937328,
+      "inputModuleId": 6204590848747085,
       "inputId": 2,
       "color": "#00b56e"
     },
     {
-      "id": 1316076166782984,
-      "outputModuleId": 851601017687639,
+      "id": 384844331859771,
+      "outputModuleId": 8389657204690926,
       "outputId": 4,
-      "inputModuleId": 1752536830958874,
+      "inputModuleId": 5636944613322177,
       "inputId": 3,
       "color": "#00b56e"
     },
     {
-      "id": 4937784918960596,
-      "outputModuleId": 851601017687639,
+      "id": 7703786851113168,
+      "outputModuleId": 8389657204690926,
       "outputId": 0,
-      "inputModuleId": 1752536830958874,
+      "inputModuleId": 5636944613322177,
       "inputId": 2,
       "color": "#00b56e"
     },
     {
-      "id": 3680483385396319,
-      "outputModuleId": 851601017687639,
+      "id": 1296098628290889,
+      "outputModuleId": 8389657204690926,
       "outputId": 2,
-      "inputModuleId": 1752536830958874,
+      "inputModuleId": 5636944613322177,
       "inputId": 6,
       "color": "#00b56e"
     },
     {
-      "id": 6060921718482842,
-      "outputModuleId": 851601017687639,
+      "id": 8622132084749495,
+      "outputModuleId": 8389657204690926,
       "outputId": 19,
-      "inputModuleId": 6967681026260207,
+      "inputModuleId": 7751355219079489,
       "inputId": 0,
       "color": "#00b56e"
     },
     {
-      "id": 2516293770040105,
-      "outputModuleId": 851601017687639,
+      "id": 2977193314687279,
+      "outputModuleId": 8389657204690926,
       "outputId": 17,
-      "inputModuleId": 2495824206412704,
+      "inputModuleId": 6977490774092186,
       "inputId": 2,
       "color": "#3695ef"
     },
     {
-      "id": 532611122731806,
-      "outputModuleId": 851601017687639,
+      "id": 3861471703031746,
+      "outputModuleId": 8389657204690926,
       "outputId": 13,
-      "inputModuleId": 2495824206412704,
+      "inputModuleId": 6977490774092186,
       "inputId": 1,
       "color": "#3695ef"
     },
     {
-      "id": 4924853255267502,
-      "outputModuleId": 851601017687639,
+      "id": 2731485096824028,
+      "outputModuleId": 8389657204690926,
       "outputId": 16,
-      "inputModuleId": 6967681026260207,
+      "inputModuleId": 7751355219079489,
       "inputId": 2,
       "color": "#3695ef"
     },
     {
-      "id": 2601219057356900,
-      "outputModuleId": 851601017687639,
+      "id": 7641177765439866,
+      "outputModuleId": 8389657204690926,
       "outputId": 15,
-      "inputModuleId": 3903391619937328,
+      "inputModuleId": 6204590848747085,
       "inputId": 0,
       "color": "#00b56e"
     },
     {
-      "id": 8863169365062504,
-      "outputModuleId": 851601017687639,
+      "id": 3252356364941885,
+      "outputModuleId": 8389657204690926,
       "outputId": 8,
-      "inputModuleId": 7542404630513758,
+      "inputModuleId": 7030856545342216,
       "inputId": 1,
       "color": "#00b56e"
     },
     {
-      "id": 409041116608082,
-      "outputModuleId": 851601017687639,
+      "id": 4165876293044972,
+      "outputModuleId": 8389657204690926,
       "outputId": 24,
-      "inputModuleId": 1752536830958874,
+      "inputModuleId": 5636944613322177,
       "inputId": 1,
       "color": "#3695ef"
     },
     {
-      "id": 7815303290924702,
-      "outputModuleId": 851601017687639,
+      "id": 4415073154854772,
+      "outputModuleId": 8389657204690926,
       "outputId": 6,
-      "inputModuleId": 7542404630513758,
+      "inputModuleId": 7030856545342216,
       "inputId": 3,
       "color": "#00b56e"
     },
     {
-      "id": 4514627810692403,
-      "outputModuleId": 851601017687639,
+      "id": 8777902932858282,
+      "outputModuleId": 8389657204690926,
       "outputId": 3,
-      "inputModuleId": 1752536830958874,
+      "inputModuleId": 5636944613322177,
       "inputId": 5,
       "color": "#00b56e"
     },
     {
-      "id": 8692367104318197,
-      "outputModuleId": 1459241164025017,
+      "id": 3181804012584094,
+      "outputModuleId": 772678589409768,
       "outputId": 0,
-      "inputModuleId": 8518972980240757,
+      "inputModuleId": 8752548821466590,
       "inputId": 0,
       "color": "#f3374b"
     },
     {
-      "id": 3360990997841300,
-      "outputModuleId": 3903391619937328,
+      "id": 6967757422618360,
+      "outputModuleId": 6204590848747085,
       "outputId": 1,
-      "inputModuleId": 1459241164025017,
+      "inputModuleId": 772678589409768,
       "inputId": 4,
       "color": "#f3374b"
     },
     {
-      "id": 1364656310827369,
-      "outputModuleId": 2495824206412704,
+      "id": 7654956300799030,
+      "outputModuleId": 6977490774092186,
       "outputId": 0,
-      "inputModuleId": 1459241164025017,
+      "inputModuleId": 772678589409768,
       "inputId": 3,
       "color": "#f3374b"
     },
     {
-      "id": 8316323470983452,
-      "outputModuleId": 6967681026260207,
+      "id": 8003116494315040,
+      "outputModuleId": 7751355219079489,
       "outputId": 0,
-      "inputModuleId": 1459241164025017,
+      "inputModuleId": 772678589409768,
       "inputId": 2,
       "color": "#f3374b"
     },
     {
-      "id": 8948287678254689,
-      "outputModuleId": 7542404630513758,
+      "id": 6690638932281315,
+      "outputModuleId": 7030856545342216,
       "outputId": 2,
-      "inputModuleId": 1459241164025017,
+      "inputModuleId": 772678589409768,
       "inputId": 1,
       "color": "#f3374b"
     }
