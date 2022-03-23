@@ -19,52 +19,57 @@ Warp Drive is a massive two-engine starship. Each engine is a voice with its own
 
 ![Image of step controls](../images/WarpDrive/labels.png)
 
-1. **LFO/Clock Rate CV** - Modulates LFO/Clock Rate knob.
-2. **Alignment Attenuverter** - Modifies CV for Alignment knob.
-3. **Alignment CV** - Modulates Alignment knob.
-4. **High Coil Power knob** - Adjusts intensity of high coil which frequency modulates the main coil.
-5. **High Coil Power Attenuverter** - Modifies CV for High Coil Power knob.
+1. **1V/octave input** - Controls the frequency of all the coils.
+2. **Coarse Frequency** - Controls the coarse frequency of all the coils.
+3. **Fine Tune** - Fine tunes the frequency of all the coils.
+4. **Main Coil output** - Audio output from the main coil.
+5. **High Coil Power knob** - Adjusts intensity of high coil which frequency modulates the main coil.
 6. **High Coil Power CV** - Modulates High Coil Power knob
-7. **Envelope Rate CV** - Modulates Envelope Rate knob
-8. **Gravitation knob** - Adjust the shape of every wave on that side of the ship.
-9. **New LFO/Clock Signature Trigger** - Creates a new pattern for the LFO/Clock.
-10. **LFO/Clock Rate Attenuverter** - Modifies CV for LFO/Clock Rate knob.
-11. **Alignment knob** - Controls internal modulation of the high and low coil power knobs.
-12. **High Coil output** - Audio output from the high coil.
-13. **Envelope Rate Attenuverter** - Modifies CV for Envelope Rate knob.
-14. **Gravitation Attenuverter** - Modifies CV for Gravitation knob.
-15. **Mixture CV** - Modulates Mixture knob.
-16. **Coil Attachment CV** - Modulates Coil Attachment knob.
-17. **Coil Attachment knob** - Controls how the high and low coil signals are combined before frequency modulating the main coil.
-18. **1V/octave input** - Controls the frequency of all the coils.
-19. **Coarse Frequency** - Controls the coarse frequency of all the coils.
-20. **Fine Tune** - Fine tunes the frequency of all the coils.
-21. **Main Coil output** - Audio output from the main coil.
-22. **High Coil Signature button** - Creates a wave shape for the high coil.
-23. **Coil Coupling switch** - When on, all three coils share the same wave shape.
-24. **Main Coil Signature button** - Creates a wave shape for the main coil.
-25. **New Main Coil Signature Trigger** - Creates a wave shape for the high coil.
-26. **Envelope rate knob** - Controls the speed at which the envelope plays.
-27. **Gravitation CV** - Modulates Gravitation knob.
-28. **LFO/Clock Signature button** - Creates a new pattern for the LFO/Clock.
-29. **LFO/Clock Rate knob** - Controls the speed of the LFO/Clock.
-30. **Mixture knob** - Controls where the Alignment knob's internal modulation comes from.
-31. **Mixture Attenuverter** - Modifies CV for Mixture knob.
-32. **Coil Attachment Attenuverter** - Modifies CV for Coil Attachment knob.
-33. **Low Coil Power knob** - Adjusts intensity of low coil which frequency modulates the main coil.
-34. **Low Coil Power Attenuverter** - Modifies CV for Low Coil Power knob.
-35. **Low Coil Power CV** - Modulates Low Coil Power knob.
-36. **Low Coil output** - Audio output from the low coil.
-37. **Low Coil Signature button** - Creates a wave shape for the low coil.
-38. **New Envelope Signature Trigger** - Creates a new envelope shape.
-39. **Envelope Signature Button** - Creates a new envelope shape.
-40. **Clock Input** - Triggers the envelope to play. Normalized to the Clock output.
-41. **LFO/Clock Coupling** - Controls if the LFO/Clock pattern are the same or different.
-42. **LFO output** - Raw LFO output.
-44. **Clock output** - Clock signal generated from LFO output. 
-44. **Engine Coupling** - When on, the coils on the left and right engine use the same wave shape.
-45. **Enveloper Coupling** - When on, the envelopes on the left and right engine use the same shape.
+7. **High Coil Power Attenuverter** - Modifies CV for High Coil Power knob.
+8. **High Coil output** - Audio output from the high coil.
+9. **Low Coil Power knob** - Adjusts intensity of low coil which frequency modulates the main coil.
+10. **Low Coil Power CV** - Modulates Low Coil Power knob.
+11. **Low Coil Power Attenuverter** - Modifies CV for Low Coil Power knob.
+12. **Low Coil output** - Audio output from the low coil.
+13. **Coil Attachment knob** - Controls how the high and low coil signals are combined before frequency modulating the main coil.
+14. **Coil Attachment CV** - Modulates Coil Attachment knob.
+15. **Coil Attachment Attenuverter** - Modifies CV for Coil Attachment knob.
+16. **Randomize Main Coil Signature Trigger** - Creates a wave shape for the high coil.
+17. **Randomize Main Coil Signature button** - Creates a wave shape for the main coil.
+18. **Randomize High Coil Signature button** - Creates a wave shape for the high coil.
+19. **Randomize Low Coil Signature button** - Creates a wave shape for the low coil.
+20. **Coil Coupling switch** - When on, all three coils share the same wave shape.
+21. **Engine Coupling** - When on, the coils on the left and right engine use the same wave shape.
+22. **Clock Input** - Triggers the envelope to play. Normalized to the Clock output.
+23. **Envelope rate knob** - Controls the speed at which the envelope plays.
+24. **Envelope Rate CV** - Modulates Envelope Rate knob
+25. **Envelope Rate Attenuverter** - Modifies CV for Envelope Rate knob.
+26. **Randomize Envelope Signature Trigger** - Creates a new envelope shape.
+27. **Randomize Envelope Signature Button** - Creates a new envelope shape.
+28. **Envelope Coupling** - When on, the envelopes on the left and right engine use the same shape.
+29. **Envelope Output** - Direct output from the envelope generator.
+30. **Audio Output** - Main audio output. Main Coil output passed through VCA controled by envelope.
+31. **LFO/Clock Rate knob** - Controls the speed of the LFO/Clock.
+32. **LFO/Clock Rate CV** - Modulates LFO/Clock Rate knob.
+33. **LFO/Clock Rate Attenuverter** - Modifies CV for LFO/Clock Rate knob.
+34. **Randomize LFO/Clock Signature Trigger** - Creates a new pattern for the LFO/Clock.
+35. **Randomize LFO/Clock Signature button** - Creates a new pattern for the LFO/Clock.
+36. **LFO/Clock Coupling** - Controls if the LFO/Clock pattern are the same or different.
+37. **LFO output** - Raw LFO output.
+38. **Clock output** - Clock signal generated from LFO output. 
+39. **Alignment knob** - Controls internal modulation of the high and low coil power knobs.
+40. **Alignment CV** - Modulates Alignment knob.
+41. **Alignment Attenuverter** - Modifies CV for Alignment knob.
+42. **Mixture knob** - Controls where the Alignment knob's internal modulation comes from.
+43. **Mixture CV** - Modulates Mixture knob.
+44. **Mixture Attenuverter** - Modifies CV for Mixture knob.
+45. **Gravitation knob** - Adjust the shape of every wave on that side of the ship.
+46. **Gravitation CV** - Modulates Gravitation knob.
+47. **Gravitation Attenuverter** - Modifies CV for Gravitation knob.
 
+## Signal Flow
+
+![Image of step controls](../images/WarpDrive/diagram.png)
 
 ## Features
 

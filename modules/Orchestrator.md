@@ -20,30 +20,29 @@ Orchestrator is a modulation and gate source designed to be the conductor of a r
 
 ![Image of step controls](../images/Orchestrator/labels.png)
 
-1. **Power C** - Adjusts the intensity of the far output on that arm.
-2. **Power B** - Adjusts the intensity of the middle output on that arm.
-3. **Power A** - Adjusts the intensity of the near output on that arm.
-4. **Run Mode Switch** - Toggles if whole modules repeats or stops after one play through.
-5. **Run Input** - Toggles if the whole module is running or not. In one-shot mode this won't do anything if already running.
-6. **Reset Input** - Resets playback back to the start of the sequence.
-7. **End of Cycle Output** - Is high for one sample when the sequence ends.
-8. **C Output** - Furthest modulation or gate output for that arm.
-9. **B Output** - Middle modulation or gate output for that arm.
-10. **A Output** - Nearest modulation or gate output for that arm.
-11. **Run Button** - Toggles if the whole module is running.
-12. **Offset C** - Adjust the position of the far output on the arm.
-13. **Offset B** - Adjust the position of the middle output on the arm.
-14. **Offset A** - Adjust the position of the near output on the arm.
-15. **Arm Rate** - Controls the rate of the arm's pattern. 
-16. **Arm Length** - Controls how fast the arm's pattern repeats.
-17. **Arm Mode** - Toggles if the arm is outputing modulation vs gates
-18. **New Sequence** - Creates a new pattern for that arm.
-20. **Sequence Complexity** - Controls how fast the overall pattern changes.
-21. **Sequence Length** - Controls how fast the overall sequence repeats.
-22. **New Head Sequence Input** - Creates a new pattern for the overall sequence.
-23. **New Head Sequence Button** - Creates a new pattern for the overall sequence.
-
-
+1. **Sequence Complexity** - Controls how fast the overall pattern changes.
+2. **Sequence Length** - Controls how fast the overall sequence repeats.
+3. **New Head Sequence Input** - Creates a new pattern for the overall sequence.
+4. **New Head Sequence Button** - Creates a new pattern for the overall sequence.
+5. **Run Mode Switch** - Toggles if whole modules repeats or stops after one play through.
+6. **Run Input** - Toggles if the whole module is running or not. In one-shot mode this won't do anything if already running.
+7. **Run Button** - Toggles if the whole module is running.
+8. **Reset Input** - Resets playback back to the start of the sequence.
+9. **End of Cycle Output** - Is high for one sample when the sequence ends.
+10. **New Sequence Input** - Creates a new pattern for that arm.
+11. **New Sequence Button** - Creates a new pattern for that arm.
+12. **Arm Mode** - Toggles if the arm is outputing modulation vs gates
+13. **Arm Length** - Controls how fast the arm's pattern repeats.
+14. **Arm Rate** - Controls the rate of the arm's pattern. 
+15. **A Output** - Nearest modulation or gate output for that arm.
+16. **B Output** - Middle modulation or gate output for that arm.
+17. **C Output** - Furthest modulation or gate output for that arm.
+18. **Power A** - Adjusts the intensity of the near output on that arm.
+19. **Power B** - Adjusts the intensity of the middle output on that arm.
+20. **Power C** - Adjusts the intensity of the far output on that arm.
+21. **Offset A** - Adjust the position of the near output on the arm.
+22. **Offset B** - Adjust the position of the middle output on the arm.
+23. **Offset C** - Adjust the position of the far output on the arm.
 
 # Features
 
@@ -86,8 +85,6 @@ In drum mode `Power` knob controls how many drum hits there are. As you turn thi
 ## Misc
 
 ### Contextual Menu
-
-**Compass Display Mode** - Control what information is displayed on the ring of LEDs. This is updated automatically when you change a knob related to one of the display modes.
 
 The contextual menu for Orchestrator offers the ability to speed up the overall song as well as `Wave Arms` which quickly tests the extreme range of the modulation.
 

@@ -19,40 +19,40 @@ Quantum Compass is a sequencer where instead of controlling each step, you inste
 
 ![Image of step controls](../images/QuantumCompass/labels.png)
 
-1. **Flat Gate output** - High when note is flat.
-2. **Sharp Gate output** - Hight when note is sharp.
-3. **-1 Octave output** - High when note is one octave down.
-4. **+1 Octave output** - High when note is one octave up.
-5. **Accidentals Attenuverter** - Modifies CV for Accidentals knob.
-6. **Accidentals** - Controls how many notes in the sequence are flat or sharp.
-7. **Octave Shift** - Controls how many notes in the sequence are an octave up or down.
-8. **Octave Shift Attenuverter** - Modifies CV for Octave Shift knob.
-9. **Accidentals CV** - Modulates Accidentals knob.
-10. **Clock or Position Input** - Clock Input or Sequence Position depending on the Position Control Switch.
-11. **Position Control switch** - Controls if sequence is driven by a clock or a position control.
-12. **Chaos** - Adds randomness to accidentals, octave shifts, ratchets and mutes.
-13. **1V/Octave** - Note output.
-14. **Octave Shift CV** - Modulates Octave Shift knob.
-15. **Ratchet** - Controls how many beats in the sequence have play multiple notes.
-16. **Reset Trigger** - Resets the position of the sequencer.
-17. **Reset Button** - Resets the position of the sequencer.
-18. **Chaos Attenuverter** - Modifies CV for Chaos Knob
-19. **Chaos CV** - Modulates the Chaos Knob
-20. **Main Gate** - Main Gate output.
-21. **Max Step Count** - Controls the number of steps in the sequence.
-22. **Half Notes** - Toggles if Ratcheted notes can be half notes.
-23. **Ratchet Attenuverter** - Modulates the Ratchet knob.
-24. **Reset Odds** - Chance sequence will automatically reset at certain steps.
-25. **Reset Step** - Controls which steps the sequence might automatically reset at.
-26. **Steps Attenuverter** - Modifies CV for Max Step Count knob
-27. **Steps CV** - Modulates CV for Max Step Count knob
-28. **Triplets** - Toggles if Ratcheted notes can be triplets.
-29. **Ratchet CV** - Modifies CV for Ratchet knob.
-26. **Mutes** - Controls how many notes in the sequence are silent.
-27. **Mutes Attenuverter** - Modifies CV for Mutes knob.
-28. **Mutes CV** - Modulates the Mutes knob.
-30. **Quarter Notes** - Toggles if Ratcheted notes can be quarter notes.
-32. **Keyboard** - Enter Notes. Hold to Remove. 
+1. **Clock or Position Input** - Clock Input or Sequence Position depending on the Position Control Switch.
+2. **Position Control switch** - Controls if sequence is driven by a clock or a position control.
+3. **1V/Octave** - Note output.
+4. **Main Gate** - Main Gate output.
+5. **Keyboard** - Enter Notes. Hold to Remove. 
+6. **Max Step Count** - Controls the number of steps in the sequence.
+7. **Steps CV** - Modulates CV for Max Step Count knob
+8. **Steps Attenuverter** - Modifies CV for Max Step Count knob
+9. **Mutes** - Controls how many notes in the sequence are silent.
+10. **Mutes CV** - Modulates the Mutes knob.
+11. **Mutes Attenuverter** - Modifies CV for Mutes knob.
+12. **Ratchet** - Controls how many beats in the sequence have play multiple notes.
+13. **Ratchet CV** - Modifies CV for Ratchet knob.
+14. **Ratchet Attenuverter** - Modulates the Ratchet knob.
+15. **Half Notes** - Toggles if Ratcheted notes can be half notes.
+16. **Triplets** - Toggles if Ratcheted notes can be triplets.
+17. **Quarter Notes** - Toggles if Ratcheted notes can be quarter notes.
+18. **Flat Gate output** - High when note is flat.
+19. **Sharp Gate output** - Hight when note is sharp.
+20. **Accidentals** - Controls how many notes in the sequence are flat or sharp.
+21. **Accidentals CV** - Modulates Accidentals knob.
+22. **Accidentals Attenuverter** - Modifies CV for Accidentals knob.
+23. **-1 Octave output** - High when note is one octave down.
+24. **+1 Octave output** - High when note is one octave up.
+25. **Octave Shift** - Controls how many notes in the sequence are an octave up or down.
+26. **Octave Shift CV** - Modulates Octave Shift knob.
+27. **Octave Shift Attenuverter** - Modifies CV for Octave Shift knob.
+28. **Chaos** - Adds randomness to accidentals, octave shifts, ratchets and mutes.
+29. **Chaos CV** - Modulates the Chaos Knob
+30. **Chaos Attenuverter** - Modifies CV for Chaos Knob
+31. **Reset Trigger** - Resets the position of the sequencer.
+32. **Reset Button** - Resets the position of the sequencer.
+33. **Reset Odds** - Chance sequence will automatically reset at certain steps.
+34. **Reset Step** - Controls which steps the sequence might automatically reset at.
 
 ## Features
 
