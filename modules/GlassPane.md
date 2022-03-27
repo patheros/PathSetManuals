@@ -23,7 +23,9 @@ This quick example shows off all three different modes. The sequence it generate
 3. **Gate Output** - Gate signal to attach to a voice or evenlope generator.
 4. **CV Output** - The CV value here matches the knob of the current state. 
 
-**Per Node**
+
+**Per Node:**
+
 5. **Input X** - Trigger input. Connect to the output of another node or an external gate.
 6. **Input Y** - Duplicate input to allow a second trigger.
 7. **CV Knob** - Controls the CV value for this step. Range is configurable in contextual menue.
@@ -34,7 +36,9 @@ This quick example shows off all three different modes. The sequence it generate
 12. **Mode Button & Light** - Controls which mode this node is in. Blue for Cycle, Orange for Random and Purple for Ratchet.
 13. **Mode Trigger** - Trigger to cycle through modes. Connect to another node's output.
 
-**Node Modes **
+
+**Node Modes:**
+
 14. **Blue / Cycle** - Each input reliably cycles through the outputs of this node.
 15. **Orange / Random** - Each input randomly selects an output of this node.
 16. **Purple / Ratchet** - The outputs of this node are played in quick succession. The attached nodes are not recurisvely played like the other modes.
