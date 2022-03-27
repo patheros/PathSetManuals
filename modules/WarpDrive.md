@@ -8,12 +8,12 @@ Warp Drive is a massive two-engine starship. Each engine is a voice with its own
 
 ![Image of step controls](../images/WarpDrive/quick_start_1.png)
 
+[Download Quick Start](../examples/WarpDrive/WarpDrive_QuickStart.vcvs?raw=true)
+
 1. Connect the `Clock Left output` on WarpDrive to the `Clock` on a sequencer.
 2. Connect the quantized output of the sequencer to both `1V/octave` inputs on WarpDrive.
 3. Connect the `Audio Left output` and `Audio Right output` to your mixer.
 4. Connect the `Envelope Left output` to a scope.
-
-[Download Quick Start](../examples/WarpDrive/WarpDrive_QuickStart.vcvs?raw=true)
 
 ## Panel
 
@@ -121,7 +121,9 @@ When Wapr Drive is bypassed all outputs stay at 0V.
 
 ## Patch Examples
 
-![Image of step controls](../images/WarpDrive/example_1.png)
+![Image of Example 1](../images/WarpDrive/example_1.png)
+
+[Download Example 1](../examples/WarpDrive/WarpDrive_Example1.vcvs?raw=true)
 
 This example patch uses 8 modules.
 Row 1: [A clock](https://library.vcvrack.com/ImpromptuModular/Clocked-Clkd), [A Sequencer](https://library.vcvrack.com/JW-Modules/8Seq), and [Clock Divider](https://library.vcvrack.com/Ohmer/RKD)
@@ -140,4 +142,3 @@ Row 3: VCF, Mixer, Audio Output.
 10. WarpDrive's `Audio R output` is connected to the first channel on the mixer.
 11. The VCF's output is connected to the second channel on the mixer.
 
-[Download Example 1](../examples/WarpDrive/WarpDrive_Example1.vcvs?raw=true)

@@ -7,12 +7,12 @@ Glass Pane is a network sequencer where the patch cables control which step folo
 
 ![Image of step controls](../images/GlassPane/quick_start_1.png)
 
+[Download Quick Start](../examples/GlassPane/GlassPane_QuickStart.vcvs?raw=true)
+
 This quick example shows off all three different modes. The sequence it generate has three parts that repeat.
 1. The first part uses the blue Cycle mode to make a consistent four notes. You can see it in the first column connected with blue cables.
 2. The seocnd part uses the orange Random mode to create variablity. You can see it inthe second column connected with orange cables.
 3. The third part uses the purple Rachet mode to create a faster pattern.You can see it on third and 4th columns with the purple cables.
-
-[Download Quick Start](../examples/GlassPane/GlassPane_QuickStart.vcvs?raw=true)
 
 ## Panel
 
@@ -108,7 +108,7 @@ When GlassPane is bypassed all outputs stay at 0V.
 
 ### Two Loops
 
-![Image of step controls](../images/GlassPane/example_1.png)
+![Image of Example 1](../images/GlassPane/example_1.png)
 
 [Download Example 1](../examples/GlassPane/GlassPane_Example1.vcvs?raw=true)
 
@@ -118,7 +118,7 @@ There are also two red connections, one in each loop. The one on the left skips 
 
 ### Drums Machine
 
-![Image of step controls](../images/GlassPane/example_2.png)
+![Image of Example 2](../images/GlassPane/example_2.png)
 
 [Download Example 2](../examples/GlassPane/GlassPane_Example2.vcvs?raw=true)
 

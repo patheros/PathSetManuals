@@ -8,13 +8,14 @@ Orchestrator is a modulation and gate source designed to be the conductor of a r
 
 ![Image of step controls](../images/Orchestrator/quick_start_1.png)
 
+[Download Quick Start](../examples/Orchestrator/Orchestrator_QuickStart.vcvs?raw=true)
+
 1. Set one arm to Drum mode.
 2. Connect that arm to the gate of a voice.
 3. Connect another arm to a quantizer.
 4. Connect the output of the quantizer to the V/Oct of your voice.
 5. Connect a third arm to some modulation on your voice.
 
-[Download Quick Start](../examples/Orchestrator/Orchestrator_QuickStart.vcvs?raw=true)
 
 ## Panel
 

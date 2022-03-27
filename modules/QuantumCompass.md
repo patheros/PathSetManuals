@@ -7,13 +7,13 @@ Quantum Compass is a sequencer where instead of controlling each step, you inste
 
 ![Image of step controls](../images/QuantumCompass/quick_start_1.png)
 
+[Download Quick Start](../examples/QuantumCompass/QuantumCompass_QuickStart.vcvs?raw=true)
+
 1. Connect an external clock to the `Clock or Position` input.
 2. Select two or more notes from the keyboard buttons at the bottom of the module.
 3. You will see the central ring of LEDs light up showing you sequence generated. 
 4. Connect a voice to the `1V/octave` and `Main Gate` outputs.
 5. Add more notes or **hold down a note to remove it**.
-
-[Download Quick Start](../examples/QuantumCompass/QuantumCompass_QuickStart.vcvs?raw=true)
 
 ## Panel
 
@@ -107,7 +107,9 @@ When Quantum Compass is bypassed all outputs stay at 0V.
 
 ## Patch Examples
 
-![Image of step controls](../images/QuantumCompass/example_1.png)
+![Image of Example 1](../images/QuantumCompass/example_1.png)
+
+[Download Example 1](../examples/QuantumCompass/QuantumCompass_Example1.vcvs?raw=true)
 
 This example patch uses 5 modules. Left to right: [A clock](https://library.vcvrack.com/ImpromptuModular/Clocked-Clkd), an LFO, Quantum Compass, a [Voice](https://library.vcvrack.com/Bogaudio/Bogaudio-FMOp) and Audio Output.
 
@@ -118,4 +120,3 @@ This example patch uses 5 modules. Left to right: [A clock](https://library.vcvr
 5. The Octive Up Gate modulates the sustane on the Voice.
 6. The Sharp Gate modulates the feedback
 
-[Download Example 1](../examples/QuantumCompass/QuantumCompass_Example1.vcvs?raw=true)
