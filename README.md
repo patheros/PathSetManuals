@@ -51,7 +51,6 @@ Gate shift register with controllable delays. Create generative gate sequences f
 <br/><br/>
 
 ## License
-License
 PathSet brand and artwork Copyright (c) 2022 Andrew Hanson, All rights reserved.
 
 The contents of the manuals here are licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
