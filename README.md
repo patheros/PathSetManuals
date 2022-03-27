@@ -32,6 +32,12 @@ Ten total oscillators grouped into deep dual-drive systems. Explore a vast range
 Three stereo oscillators or LFOs with random waveforms. Explore a universe of unique waveforms.
 <br/><br/>
 
+### Glass Pane
+<a href="modules/GlassPane.md">![Image of GlassPane module](images/GlassPane.png)</a><br/>
+[GlassPane Manual](modules/GlassPane.md)<br/>
+Patchable, branchable, network sequencer. Create a cascading intricate self modulating sequence.
+<br/><br/>
+
 ### Ice Tray
 <a href="https://github.com/patheros/PathSetModules#ice-tray">![Image of IceTray module](images/IceTray.png)</a><br/>
 [IceTray Manual](https://github.com/patheros/PathSetModules#ice-tray)<br/>

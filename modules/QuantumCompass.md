@@ -98,6 +98,10 @@ If all the above wasn't enough, the Quantum Compass has one more twist. Next to 
 
 **Compass Display Mode** - Control what information is displayed on the ring of LEDs. This is updated automatically when you change a knob related to one of the display modes.
 
+**Set Scale** - Quickly set the active notes to a common scale. Each time you do this you will get a random sequence.
+
+**Shift Notes** - Shift all notes in the sequence up or down. Note the keyboard wraps so for example a C note shifted down turns into a B note one ocative higher.
+
 ### Bypass
 When Quantum Compass is bypassed all outputs stay at 0V.
 
