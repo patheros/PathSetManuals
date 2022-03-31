@@ -25,7 +25,7 @@ Quantum Compass is a sequencer where instead of controlling each step, you inste
 4. **Main Gate** - Main Gate output.
 5. **Keyboard** - Enter Notes. Hold to Remove. 
 6. **Max Step Count** - Controls the number of steps in the sequence.
-7. **Steps CV** - Modulates CV for Max Step Count knob
+7. **Steps CV** - Modulates Max Step Count knob
 8. **Steps Attenuverter** - Modifies CV for Max Step Count knob
 9. **Mutes** - Controls how many notes in the sequence are silent.
 10. **Mutes CV** - Modulates the Mutes knob.

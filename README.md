@@ -3,7 +3,7 @@
 
 The Path Set is family an eclectic and bespoke of plugins for [VCV Rack](https://vcvrack.com/).
 
-## Path Set - Infinity
+## Path Set: Infinity
 The Infinity set explores modules with near-infinite internal configurations. These internal signatures can be randomizes but are unlikely to be found again once changed.
 
 ### Orchestrator
@@ -24,7 +24,7 @@ Sequencer or Quantizer? Its both and neither at the same time. Create a melodic 
 Ten total oscillators grouped into deep dual-drive systems. Explore a vast range of sounds with built in clocks, lfos, and envelops.
 <br/><br/>
 
-## Path Set (Free)
+## Path Set: Free
 
 ### Astro Vibe
 <a href="https://github.com/patheros/PathSetModules#astro-vibe">![Image of AstroVibe module](images/AstroVibe.png)</a><br/>
@@ -49,6 +49,28 @@ Speed shifter and tape delay with selective memory. Perform into this and it wil
 [Shifty Manual](https://github.com/patheros/PathSetModules#shifty)<br/>
 Gate shift register with controllable delays. Create generative gate sequences from a simple clock.
 <br/><br/>
+
+## Path Set: Grains 
+
+### Cheese Grater
+<a href="modules/CheeseGrater.md">![Image of CheeseGrater module](images/CheeseGrater.png)</a><br/>
+[CheeseGrater Manual](modules/CheeseGrater.md)<br/>
+A granular sample and loop. Craft the exact right slice of sound for your music.
+
+### Blender
+<a href="modules/Blender.md">![Image of Blender module](images/Blender.png)</a><br/>
+[Blender Manual](modules/Blender.md)<br/>
+A granular “Instrument”. Play with 4 main knobs to snapshot dynamic effects.
+
+### Sifter
+<a href="modules/Sifter.md">![Image of Sifter module](images/Sifter.png)</a><br/>
+[Sifter Manual](modules/Sifter.md)<br/>
+A granular mixer. Sample 4 sound sources and recombine them endlessly through modulation.
+
+### Spork
+<a href="modules/Spork.md">![Image of Spork module](images/Spork.png)</a><br/>
+[Spork Manual](modules/Spork.md)<br/>
+A granular FX module. Modulate 6 different granular effects.
 
 ## License
 PathSet brand and artwork Copyright (c) 2022 Andrew Hanson, All rights reserved.
