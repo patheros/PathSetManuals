@@ -61,7 +61,16 @@ Randomly delays some grain start times by a variable amount.
 - **Mod A** - Stability of delay. At 0 the delay is nearly random each time. At 1 the delay drifts slowly. 
 - **Mod B** - Amplitude of delay.
 
-### Bypass
+## Bypass
 
 When Spork is bypassed the `Audio Input` is routed to the `Audio Output`.
 
+## Patch Examples
+
+### Feedback
+
+![Image of Example 1](../images/Spork/example_1.png)
+
+[Download Example 1](../examples/Spork/Spork.vcvs?raw=true)
+
+In this example a [8 Sequence](https://library.vcvrack.com/JW-Modules/8Seq) is played [Palette](https://library.vcvrack.com/Atelier/AtelierPalette) with the model of palette being change randomly. The sound for palette along with a feedback loop from spork is fed into spork. Play around with the mode and paramters of Spork to find interesting sounds. You can bipass spork to hear the raw sound from Palette. You can bipass the Random moduel to prevent the raw sound from changing.

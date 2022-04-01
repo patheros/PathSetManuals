@@ -60,7 +60,7 @@ A granular sample and loop. Craft the exact right slice of sound for your music.
 ### Blender
 <a href="modules/Blender.md">![Image of Blender module](images/Blender.png)</a><br/>
 [Blender Manual](modules/Blender.md)<br/>
-A granular “Instrument”. Play with 4 main knobs to snapshot dynamic effects.
+A “Knob Instrument”. Play with 4 main knobs to snapshot dynamic effects.
 
 ### Sifter
 <a href="modules/Sifter.md">![Image of Sifter module](images/Sifter.png)</a><br/>
