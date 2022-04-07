@@ -1,7 +1,7 @@
 # Blender
 ![Image of Blender module](../images/Blender.png)
 
-Blender is a “Knob Instrument”. It was created to allow you to capture all the bizare transient effects you get when you turn knobs on your favorite delay or reverb modules. Blender simple needs an input sound and then feeds a sample of that back into itself, recording a new sample each time you turn one of the four main knobs.
+Blender is a “Knob Instrument”. It was created to allow you to capture all the bizarre transient effects you get when you turn knobs on your favorite delay or reverb modules. Blender simply needs an input sound and then feeds a sample of that back into itself, recording a new sample each time you turn one of the four main knobs.
 
 ## Quick Start
 

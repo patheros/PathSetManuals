@@ -1,7 +1,7 @@
 # Spork
 ![Image of Spork module](../images/Spork.png)
 
-Spork is compact granular effects module. It has six togglable modes, each with two mysterious parameters. As well as a grain size and overlap paramters. Each of the four parameters has a dedicated CV and attenuverter.
+Spork is compact granular effects module. It has six togglable modes, each with two mysterious parameters, as well as a grain size and overlap paramters. Each of the four parameters has a dedicated CV and attenuverter.
 
 ## Panel
 
@@ -27,8 +27,8 @@ Spork is compact granular effects module. It has six togglable modes, each with 
 
 ### Tines
 
-Modulates the grain start time with a sign wave.
-- **Mod A** - Rate of sign wave.
+Modulates the grain start time with a sine wave.
+- **Mod A** - Rate of sine wave.
 - **Mod B** - Amplitude of the wave.
 
 ### Stutter

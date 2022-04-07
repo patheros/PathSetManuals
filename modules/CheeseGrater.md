@@ -9,14 +9,14 @@ Cheese Grater is a granular sample and loop. Feed an input audio source in. Pres
 
 [Download Quick Start](../examples/CheeseGrater/CheeseGrater_QuickStart.vcvs?raw=true)
 
-This simple example puts a sin wave into the audio input on CheeseGrater. Press the green button to sample the sign wave. The longer you hold it the longer the sample. Once you have a sample play around with the knobs to affect the granulation. Note that while the sample is playing back the audio input is ignored.
+This simple example puts a sine wave into the audio input on CheeseGrater. Press the green button to sample the sine wave. The longer you hold it the longer the sample. Once you have a sample play around with the knobs to affect the granulation. Note that while the sample is playing back the audio input is ignored.
 
 ## Panel
 
 ![Image of step controls](../images/CheeseGrater/labels.png)
 
 1. **Audio / Sample Input** - Audio input that is sampled while the sample button is pressed or the sample gate is high
-2. **Audio Output** - Audio output of the moudle. No audio is outputed while sampling.
+2. **Audio Output** - Audio output of the module. No audio is outputed while sampling.
 3. **Sample Button** - Press and hold to sample the input audio. 
 4. **Sample Gate Input** - Functions like the sample button when high.
 5. **Frequence Knob** - Controls the frequency the output sample is played at. When set to C4 the output is played at the same frequency as the input sample.
@@ -27,10 +27,10 @@ This simple example puts a sin wave into the audio input on CheeseGrater. Press 
 10. **Grain Size Knob** - Controls how long each grain is. When grain size is bellow 0 weird stuff happens.
 11. **Grain Size CV** - Grain Size Knob.
 12. **Grain Size Attenuverter** - Modifies CV for Grain Size Knob.
-13. **Spread Knob** - Applies a sign wave to the start time of each grain. Increasing this knob increases the frequency of the sign wave. 
+13. **Spread Knob** - Applies a sine wave to the start time of each grain. Increasing this knob increases the frequency of the sine wave. 
 14. **Spread CV** - Modulates Spread Knob.
 15. **Spread Attenuverter** - Modifies CV for Spread Knob.
-16. **Spread Strength** - Controls the amplitude of the sign wave applied to the grain start time by the Spread Knob.
+16. **Spread Strength** - Controls the amplitude of the sine wave applied to the grain start time by the Spread Knob.
 17. **Spread Strength CV** - Modulates Spread Strength Knob.
 18. **Spread Strength Attenuverter** - Modifies CV for Spread Strength Knob.
 19. **Spread Randomness** - Adds a random offset to the start time of each grian. When turned clockwise the randomness is softer. When turn to the left the randomness is pure random.
