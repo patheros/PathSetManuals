@@ -1,7 +1,7 @@
 # Spork
 ![Image of Spork module](../images/Spork.png)
 
-Spork is compact granular effects module. It has six togglable modes, each with two mysterious parameters, as well as a grain size and overlap paramters. Each of the four parameters has a dedicated CV and attenuverter.
+Spork is compact granular effects module. It has six togglable modes, each with two mysterious parameters, as well as a grain size and overlap parameters. Each of the four parameters has a dedicated CV and attenuverter.
 
 ## Panel
 
@@ -10,13 +10,13 @@ Spork is compact granular effects module. It has six togglable modes, each with 
 1. **Audio Input** - Audio input for effect.
 2. **Audio Output** - Audio output for effect.
 3. **Mode Select** - Select which effect is in use. Current effect indicated by lights.
-4. **Mod A Knob** - Parmater A for the selected effect. See mode descriptions for more details.
+4. **Mod A Knob** - Paramater A for the selected effect. See mode descriptions for more details.
 5. **Mod A CV** - Modulates Mod A knob.
 6. **Mod A Attenuverter** - Modifies CV for Mod A knob.
-7. **Mod B Knob** - Parmater B for the selected effect. See mode descriptions for more details.
+7. **Mod B Knob** - Paramater B for the selected effect. See mode descriptions for more details.
 8. **Mod B CV** - Modulates Mod B knob.
 9. **Mod B Attenuverter** - Modifies CV for Mod B knob.
-10. **Grain Size Knob** - Controls size of each grain being playd in the effect.
+10. **Grain Size Knob** - Controls size of each grain being played in the effect.
 11. **Grain Size CV** - Modulates Grain Size knob.
 12. **Grain Size Attenuverter** - Modifies CV for Grain Size knob.
 13. **Grain Overlap Knob** - Controls how many grains are being played at once.
@@ -73,4 +73,4 @@ When Spork is bypassed the `Audio Input` is routed to the `Audio Output`.
 
 [Download Example 1](../examples/Spork/Spork.vcvs?raw=true)
 
-In this example a [8 Sequence](https://library.vcvrack.com/JW-Modules/8Seq) is played [Palette](https://library.vcvrack.com/Atelier/AtelierPalette) with the model of palette being change randomly. The sound for palette along with a feedback loop from spork is fed into spork. Play around with the mode and paramters of Spork to find interesting sounds. You can bipass spork to hear the raw sound from Palette. You can bipass the Random moduel to prevent the raw sound from changing.
+In this example, an [8Seq](https://library.vcvrack.com/JW-Modules/8Seq) is playing [Palette](https://library.vcvrack.com/Atelier/AtelierPalette) with the model of Palette being changed randomly. The sound for Palette along with a feedback loop from Spork is fed into Spork. Play around with the mode and parameters of Spork to find interesting sounds. You can bypass Spork to hear the raw sound from Palette. You can bypass the Random module to prevent the raw sound from changing.
