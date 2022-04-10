@@ -24,7 +24,7 @@ Sifter is a granular "mixer". Feed in up to four different audio sources and cre
 15. **Grain Overlap Knob** - Controls how many grains are playing at once.
 16. **Grain Overlap CV** - Modulates Grain Overlap Knob.
 17. **Grain Overlap Attenuverter** - Modifies CV for Grain Overlap Knob.
-18. **Playback Speed Knob** - Controls how fast the grain playback head moves through the samples. This does not affect the pitch. When below(?) 1, this can create delay effects as the playback head can fall behind the record head.
+18. **Playback Speed Knob** - Controls how fast the grain playback head moves through the samples. This does not affect the pitch. When below 1, this can create delay effects as the playback head can fall behind the record head.
 19. **Playback Speed CV** - Modulates Playback Speed Knob.
 20. **Playback Speed Attenuverter** - Modifies CV for Playback Speed Knob.
 21. **Buffer Length Knob** - Controls how much of the sample buffers are used when playing grains. Turn this down when frozen to create very short snippets.
