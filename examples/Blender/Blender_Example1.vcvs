@@ -1,0 +1,750 @@
+{
+  "modules": [
+    {
+      "id": 8518972980240757,
+      "plugin": "Core",
+      "model": "AudioInterface2",
+      "version": "2.0.6",
+      "params": [
+        {
+          "value": 0.51325333118438721,
+          "id": 0
+        }
+      ],
+      "leftModuleId": 3419906711443101,
+      "data": {
+        "audio": {
+          "driver": 6,
+          "deviceName": "Speakers (5- Schiit Modi 3+)",
+          "sampleRate": 48000.0,
+          "blockSize": 256,
+          "inputOffset": 0,
+          "outputOffset": 0
+        },
+        "dcFilter": true
+      },
+      "pos": [
+        108,
+        0
+      ]
+    },
+    {
+      "id": 7146951983092207,
+      "plugin": "Atelier",
+      "model": "AtelierPalette",
+      "version": "2.0.2",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        },
+        {
+          "value": 0.74743586778640747,
+          "id": 3
+        },
+        {
+          "value": 0.35897430777549744,
+          "id": 4
+        },
+        {
+          "value": 0.76153856515884399,
+          "id": 5
+        },
+        {
+          "value": 0.0,
+          "id": 6
+        },
+        {
+          "value": 0.0,
+          "id": 7
+        },
+        {
+          "value": 0.0,
+          "id": 8
+        },
+        {
+          "value": 0.0,
+          "id": 9
+        },
+        {
+          "value": 0.0,
+          "id": 10
+        },
+        {
+          "value": 0.0,
+          "id": 11
+        },
+        {
+          "value": 0.5,
+          "id": 12
+        },
+        {
+          "value": 0.7867470383644104,
+          "id": 13
+        },
+        {
+          "value": 0.5,
+          "id": 14
+        },
+        {
+          "value": 0.0,
+          "id": 15
+        },
+        {
+          "value": 0.0,
+          "id": 16
+        },
+        {
+          "value": 1.0,
+          "id": 17
+        },
+        {
+          "value": 0.05000000074505806,
+          "id": 18
+        },
+        {
+          "value": 0.0,
+          "id": 19
+        },
+        {
+          "value": 0.0,
+          "id": 20
+        },
+        {
+          "value": 0.0,
+          "id": 21
+        },
+        {
+          "value": 0.0,
+          "id": 22
+        },
+        {
+          "value": 0.0,
+          "id": 23
+        },
+        {
+          "value": 0.0,
+          "id": 24
+        },
+        {
+          "value": 0.0,
+          "id": 25
+        },
+        {
+          "value": 0.0,
+          "id": 26
+        }
+      ],
+      "leftModuleId": 4669319149507237,
+      "rightModuleId": 3419906711443101,
+      "data": {
+        "rsqual": 4,
+        "model": 2,
+        "lpgColor": 0.5,
+        "decay": 0.7867470383644104,
+        "freetune": false,
+        "lfoMode": false,
+        "showmods": true,
+        "lpgMode": 0
+      },
+      "pos": [
+        77,
+        0
+      ]
+    },
+    {
+      "id": 7008776447528953,
+      "plugin": "ImpromptuModular",
+      "model": "Clocked",
+      "version": "2.1.0",
+      "params": [
+        {
+          "value": 92.0,
+          "id": 0
+        },
+        {
+          "value": -5.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        },
+        {
+          "value": 0.0,
+          "id": 5
+        },
+        {
+          "value": 0.0,
+          "id": 6
+        },
+        {
+          "value": 0.0,
+          "id": 7
+        },
+        {
+          "value": 0.5,
+          "id": 8
+        },
+        {
+          "value": 1.0,
+          "id": 9
+        },
+        {
+          "value": 0.5,
+          "id": 10
+        },
+        {
+          "value": 0.5,
+          "id": 11
+        },
+        {
+          "value": 0.0,
+          "id": 12
+        },
+        {
+          "value": 0.0,
+          "id": 13
+        },
+        {
+          "value": 0.0,
+          "id": 14
+        },
+        {
+          "value": 0.0,
+          "id": 15
+        },
+        {
+          "value": 0.0,
+          "id": 16
+        },
+        {
+          "value": 0.0,
+          "id": 17
+        },
+        {
+          "value": 0.0,
+          "id": 18
+        },
+        {
+          "value": 0.0,
+          "id": 19
+        }
+      ],
+      "rightModuleId": 4669319149507237,
+      "data": {
+        "panelTheme": 0,
+        "panelContrast": 220.0,
+        "running": true,
+        "displayDelayNoteMode": true,
+        "bpmDetectionMode": false,
+        "resetOnStartStop": 0,
+        "ppqn": 4,
+        "resetClockOutputsHigh": true,
+        "momentaryRunInput": true,
+        "forceCvOnBpmOut": false,
+        "clockMaster": false
+      },
+      "pos": [
+        37,
+        0
+      ]
+    },
+    {
+      "id": 4669319149507237,
+      "plugin": "JW-Modules",
+      "model": "8Seq",
+      "version": "2.0.2",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 7.500828742980957,
+          "id": 1
+        },
+        {
+          "value": 3.3311996459960937,
+          "id": 2
+        },
+        {
+          "value": 8.1457977294921875,
+          "id": 3
+        },
+        {
+          "value": 9.657470703125,
+          "id": 4
+        },
+        {
+          "value": 6.7044100761413574,
+          "id": 5
+        },
+        {
+          "value": 3.897451639175415,
+          "id": 6
+        },
+        {
+          "value": 6.1866378784179687,
+          "id": 7
+        },
+        {
+          "value": 9.3576316833496094,
+          "id": 8
+        },
+        {
+          "value": 3.0,
+          "id": 9
+        },
+        {
+          "value": 3.0,
+          "id": 10
+        },
+        {
+          "value": 3.0,
+          "id": 11
+        },
+        {
+          "value": 3.0,
+          "id": 12
+        },
+        {
+          "value": 3.0,
+          "id": 13
+        },
+        {
+          "value": 3.0,
+          "id": 14
+        },
+        {
+          "value": 3.0,
+          "id": 15
+        },
+        {
+          "value": 3.0,
+          "id": 16
+        },
+        {
+          "value": 0.0,
+          "id": 17
+        },
+        {
+          "value": 0.0,
+          "id": 18
+        },
+        {
+          "value": 0.0,
+          "id": 19
+        },
+        {
+          "value": 0.0,
+          "id": 20
+        },
+        {
+          "value": 0.0,
+          "id": 21
+        },
+        {
+          "value": 0.0,
+          "id": 22
+        },
+        {
+          "value": 0.0,
+          "id": 23
+        },
+        {
+          "value": 0.0,
+          "id": 24
+        },
+        {
+          "value": 0.0,
+          "id": 25
+        },
+        {
+          "value": 0.0,
+          "id": 26
+        },
+        {
+          "value": 0.0,
+          "id": 27
+        },
+        {
+          "value": 0.0,
+          "id": 28
+        },
+        {
+          "value": 0.0,
+          "id": 29
+        },
+        {
+          "value": 0.0,
+          "id": 30
+        },
+        {
+          "value": 0.0,
+          "id": 31
+        },
+        {
+          "value": 0.0,
+          "id": 32
+        },
+        {
+          "value": 0.0,
+          "id": 33
+        },
+        {
+          "value": 0.0,
+          "id": 34
+        },
+        {
+          "value": 11.0,
+          "id": 35
+        },
+        {
+          "value": 0.0,
+          "id": 36
+        },
+        {
+          "value": 2.0,
+          "id": 37
+        },
+        {
+          "value": -1.0,
+          "id": 38
+        },
+        {
+          "value": 1.0,
+          "id": 39
+        },
+        {
+          "value": 1.0,
+          "id": 40
+        },
+        {
+          "value": 1.0,
+          "id": 41
+        },
+        {
+          "value": 1.0,
+          "id": 42
+        },
+        {
+          "value": 1.0,
+          "id": 43
+        },
+        {
+          "value": 1.0,
+          "id": 44
+        },
+        {
+          "value": 1.0,
+          "id": 45
+        },
+        {
+          "value": 1.0,
+          "id": 46
+        },
+        {
+          "value": 1.0,
+          "id": 47
+        },
+        {
+          "value": 1.0,
+          "id": 48
+        },
+        {
+          "value": 1.0,
+          "id": 49
+        },
+        {
+          "value": 1.0,
+          "id": 50
+        },
+        {
+          "value": 1.0,
+          "id": 51
+        },
+        {
+          "value": 1.0,
+          "id": 52
+        },
+        {
+          "value": 1.0,
+          "id": 53
+        },
+        {
+          "value": 1.0,
+          "id": 54
+        },
+        {
+          "value": 0.0,
+          "id": 55
+        },
+        {
+          "value": 1.0,
+          "id": 56
+        },
+        {
+          "value": 4.0,
+          "id": 57
+        }
+      ],
+      "leftModuleId": 7008776447528953,
+      "rightModuleId": 7146951983092207,
+      "data": {
+        "running": true,
+        "ignoreGateOnPitchOut": false,
+        "gates": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "gateMode": 0,
+        "randomMode": 0
+      },
+      "pos": [
+        57,
+        0
+      ]
+    },
+    {
+      "id": 3419906711443101,
+      "plugin": "PathSet-Grains",
+      "model": "Blender",
+      "version": "2.0.0",
+      "params": [
+        {
+          "value": 0.49397581815719604,
+          "id": 0
+        },
+        {
+          "value": 1.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        },
+        {
+          "value": 0.0024096316192299128,
+          "id": 5
+        },
+        {
+          "value": 0.0,
+          "id": 6
+        },
+        {
+          "value": 0.0,
+          "id": 7
+        },
+        {
+          "value": 0.0,
+          "id": 8
+        },
+        {
+          "value": 0.0,
+          "id": 9
+        },
+        {
+          "value": 0.0,
+          "id": 10
+        },
+        {
+          "value": 0.0,
+          "id": 11
+        },
+        {
+          "value": 0.0,
+          "id": 12
+        }
+      ],
+      "leftModuleId": 7146951983092207,
+      "rightModuleId": 8518972980240757,
+      "data": {
+        "version": "2.0.0",
+        "players": [
+          {
+            "pos": 123563.0,
+            "mode": 1,
+            "fade": 2000,
+            "active": false
+          },
+          {
+            "pos": 61864.4296875,
+            "mode": 3,
+            "fade": -424,
+            "active": false
+          },
+          {
+            "pos": 92518.4765625,
+            "mode": 3,
+            "fade": -423,
+            "active": false
+          },
+          {
+            "pos": 92517.75,
+            "mode": 3,
+            "fade": -422,
+            "active": false
+          },
+          {
+            "pos": 92517.0234375,
+            "mode": 3,
+            "fade": -421,
+            "active": false
+          },
+          {
+            "pos": 92516.296875,
+            "mode": 3,
+            "fade": -420,
+            "active": false
+          },
+          {
+            "pos": 92480.6953125,
+            "mode": 3,
+            "fade": -419,
+            "active": false
+          },
+          {
+            "pos": 33396.0234375,
+            "mode": 3,
+            "fade": -92,
+            "active": false
+          },
+          {
+            "pos": 33396.0234375,
+            "mode": 3,
+            "fade": -91,
+            "active": false
+          },
+          {
+            "pos": 33346.0234375,
+            "mode": 3,
+            "fade": -90,
+            "active": false
+          },
+          {
+            "pos": 33393.0234375,
+            "mode": 3,
+            "fade": -88,
+            "active": false
+          },
+          {
+            "pos": 95953.0234375,
+            "mode": 3,
+            "fade": -87,
+            "active": false
+          }
+        ],
+        "recording": true,
+        "recordStopQueued": false,
+        "first_record": false,
+        "record_pos": 123515,
+        "record_bufIndex": 0,
+        "play_buf_length": 123169,
+        "play_bufIndex": 1,
+        "playOut_pos": 2000,
+        "delay_array_pos": 25234
+      },
+      "pos": [
+        95,
+        0
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 3020334640127167,
+      "outputModuleId": 7008776447528953,
+      "outputId": 0,
+      "inputModuleId": 4669319149507237,
+      "inputId": 3,
+      "color": "#3695ef"
+    },
+    {
+      "id": 3298965255481430,
+      "outputModuleId": 4669319149507237,
+      "outputId": 0,
+      "inputModuleId": 7146951983092207,
+      "inputId": 5,
+      "color": "#3695ef"
+    },
+    {
+      "id": 3251043951615932,
+      "outputModuleId": 4669319149507237,
+      "outputId": 1,
+      "inputModuleId": 7146951983092207,
+      "inputId": 7,
+      "color": "#ffb437"
+    },
+    {
+      "id": 3689417582018833,
+      "outputModuleId": 7146951983092207,
+      "outputId": 2,
+      "inputModuleId": 3419906711443101,
+      "inputId": 0,
+      "color": "#f3374b"
+    },
+    {
+      "id": 4914568462409572,
+      "outputModuleId": 7008776447528953,
+      "outputId": 1,
+      "inputModuleId": 3419906711443101,
+      "inputId": 3,
+      "color": "#3695ef"
+    },
+    {
+      "id": 6365332091323571,
+      "outputModuleId": 3419906711443101,
+      "outputId": 0,
+      "inputModuleId": 8518972980240757,
+      "inputId": 0,
+      "color": "#f3374b"
+    },
+    {
+      "id": 6838821014393259,
+      "outputModuleId": 7008776447528953,
+      "outputId": 4,
+      "inputModuleId": 3419906711443101,
+      "inputId": 2,
+      "color": "#3695ef"
+    },
+    {
+      "id": 1024110845956846,
+      "outputModuleId": 7008776447528953,
+      "outputId": 4,
+      "inputModuleId": 4669319149507237,
+      "inputId": 2,
+      "color": "#3695ef"
+    }
+  ]
+}

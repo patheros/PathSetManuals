@@ -40,3 +40,18 @@ Disable the bypass on Blender in this module and it will record a one second sam
 
 ### Bypass
 When Blender is bypassed the `Audio Input` is routed to the `Audio Output`.
+
+## Patch Examples
+
+### Looper
+
+![Image of Example 1](../images/Blender/example_1.png)
+
+[Download Example 1](../examples/Blender/Blender_Example1.vcvs?raw=true)
+
+In this patch we use Blender as a looper. The important settings are:
+1. Auto Blend is OFF.
+2. A slow clock with a very high Pulse Width is fed into Blend Trigger Input.
+3. Input Volume is up turned up above 0.
+
+With this configuration the slow clock determines the length of looping. Note Blender has a max loop length of 10 seconds at 48khz.

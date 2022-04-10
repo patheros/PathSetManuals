@@ -92,6 +92,8 @@ The `Chaos` knob also has a attenuverter and CV input. Enjoy :)
 
 If all the above wasn't enough, the Quantum Compass has one more twist. Next to the clock input is a switch labeled `Clk` and `Seq` labeled `Position Control`. In the default clock position the clock input expects a trigger/gate and advanced a sequence every time a trigger/gate is received. In the sequence mode that input expects a control voltage. That control voltage directly selects which step the Quantum Compass is playing. When the value changes enough to select a new position a `Gate` is generated. Hook this up to an LFO to create your own or a sample and hold to get even more variation out of the Quantum Compass.
 
+In sequence mode 0V maps to the first step in the sequence and 10Vs maps to the last. Going outside of this range wraps around. So that for example -10V also maps to the last step in the sequence.
+
 ## Misc
 
 ### Contextual Menu
