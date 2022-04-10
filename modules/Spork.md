@@ -71,6 +71,6 @@ When Spork is bypassed the `Audio Input` is routed to the `Audio Output`.
 
 ![Image of Example 1](../images/Spork/example_1.png)
 
-[Download Example 1](../examples/Spork/Spork.vcvs?raw=true)
+[Download Example 1](../examples/Spork/Spork_Example1.vcvs?raw=true)
 
 In this example, an [8Seq](https://library.vcvrack.com/JW-Modules/8Seq) is playing [Palette](https://library.vcvrack.com/Atelier/AtelierPalette) with the model of Palette being changed randomly. The sound for Palette along with a feedback loop from Spork is fed into Spork. Play around with the mode and parameters of Spork to find interesting sounds. You can bypass Spork to hear the raw sound from Palette. You can bypass the Random module to prevent the raw sound from changing.
