@@ -15,8 +15,8 @@ This simple example puts a sine wave into the audio input on Cheese Grater. Pres
 
 ![Image of step controls](../images/CheeseGrater/labels.png)
 
-1. **Audio / Sample Input** - Audio input that is sampled while the sample button is pressed or the sample gate is high.
-2. **Audio Output** - Audio output of the module. No audio is sent out while sampling.
+1. **L/R Audio / Sample Input** - Audio input that is sampled while the sample button is pressed or the sample gate is high.
+2. **L/R Audio Output** - Audio output of the module. No audio is sent out while sampling.
 3. **Sample Button** - Press and hold to sample the input audio. 
 4. **Sample Gate Input** - Functions like the sample button when high.
 5. **Frequency Knob** - Controls the frequency the output sample is played at. When set to C4 the output is played at the same frequency as the input sample.

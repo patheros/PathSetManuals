@@ -7,21 +7,40 @@ Spork is compact granular effects module. It has six togglable modes, each with 
 
 ![Image of step controls](../images/Spork/labels.png)
 
-1. **Audio Input** - Audio input for effect.
-2. **Audio Output** - Audio output for effect.
-3. **Mode Select** - Select which effect is in use. Current effect indicated by lights.
-4. **Mod A Knob** - Paramater A for the selected effect. See mode descriptions for more details.
-5. **Mod A CV** - Modulates Mod A knob.
-6. **Mod A Attenuverter** - Modifies CV for Mod A knob.
-7. **Mod B Knob** - Paramater B for the selected effect. See mode descriptions for more details.
-8. **Mod B CV** - Modulates Mod B knob.
-9. **Mod B Attenuverter** - Modifies CV for Mod B knob.
-10. **Grain Size Knob** - Controls size of each grain being played in the effect.
-11. **Grain Size CV** - Modulates Grain Size knob.
-12. **Grain Size Attenuverter** - Modifies CV for Grain Size knob.
-13. **Grain Overlap Knob** - Controls how many grains are being played at once.
-14. **Grain Overlap CV** - Modulates Grain Overlap knob.
-15. **Grain Overlap Attenuverter** - Modifies CV for Grain Size knob.
+1. **Left Audio Input** - Left Audio input for effect.
+2. **Right Audio Input** - Right Audio input for effect.
+3. **Left Audio Output** - Left Audio output for effect.
+4. **Right Audio Output** - Right Audio output for effect.
+5. **Mode Select** - Select which effect is in use. Current effect indicated by lights.
+6. **Mod A Knob** - Paramater A for the selected effect. See mode descriptions for more details.
+7. **Mod A CV** - Modulates Mod A knob.
+8. **Mod A Attenuverter** - Modifies CV for Mod A knob.
+9. **Mod B Knob** - Paramater B for the selected effect. See mode descriptions for more details.
+10. **Mod B CV** - Modulates Mod B knob.
+11. **Mod B Attenuverter** - Modifies CV for Mod B knob.
+12. **Grain Size Knob** - Controls size of each grain being played in the effect.
+13. **Grain Size CV** - Modulates Grain Size knob.
+14. **Grain Size Attenuverter** - Modifies CV for Grain Size knob.
+15. **Grain Overlap Knob** - Controls how many grains are being played at once.
+16. **Grain Overlap CV** - Modulates Grain Overlap knob.
+17. **Grain Overlap Attenuverter** - Modifies CV for Grain Size knob.
+
+**Expander**
+
+*Added through contextual menu*
+
+18. **Tines CV Input** - Controls how strong the Tines effect is applied. Normalized to 5Vs.
+19. **Tines Knob** - Controls how much the Tines effect is applied. Works like an Attenuator when the CV is connected.
+20. **Stutter CV Input** - Controls how strong the Stutter effect is applied. Normalized to 5Vs.
+21. **Stutter Knob** - Controls how much the Stutter effect is applied. Works like an Attenuator when the CV is connected.
+22. **Buzz CV Input** - Controls how strong the Buzz effect is applied. Normalized to 5Vs.
+23. **Buzz Knob** - Controls how much the Buzz effect is applied. Works like an Attenuator when the CV is connected.
+24. **Repeat CV Input** - Controls how strong the Repeat effect is applied. Normalized to 5Vs.
+25. **Repeat Knob** - Controls how much the Repeat effect is applied. Works like an Attenuator when the CV is connected.
+26. **Skip CV Input** - Controls how strong the Skip effect is applied. Normalized to 5Vs.
+27. **Skip Knob** - Controls how much the Skip effect is applied. Works like an Attenuator when the CV is connected.
+28. **Scatter CV Input** - Controls how strong the Scatter effect is applied. Normalized to 5Vs.
+29. **Scatter Knob** - Controls how much the Scatter effect is applied. Works like an Attenuator when the CV is connected.
 
 ## Effects
 
@@ -60,6 +79,10 @@ Randomly delays some grain start times by a fixed amount.
 Randomly delays some grain start times by a variable amount.
 - **Mod A** - Stability of delay. At 0 the delay is nearly random each time. At 1 the delay drifts slowly. 
 - **Mod B** - Amplitude of delay.
+
+### Exapnder
+
+When the expander is attached, Spork no longer applies a single mode. Snstead all six modes can be applied at varying strengths. Use the knobs and CVs on the expander to control how strong each mode is. The expander is added through the contextual menu.
 
 ## Bypass
 

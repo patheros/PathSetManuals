@@ -7,11 +7,11 @@ Sifter is a granular "mixer". Feed in up to four different audio sources and cre
 
 ![Image of step controls](../images/Sifter/labels.png)
 
-1. **Audio Inputs** - Four different audio inputs. Input D is normalized to the internal delay loop of the `mix output`.
+1. **L/R Audio Inputs** - Four different audio inputs. Input D is normalized to the internal delay loop of the `mix output`.
 2. **Intensity Fader** - Controls how often each input is sampled for the output. The sum of all intensities also controls the overall amplitude of the `mix output`.
 3. **Intensity CV** - Modulates Intensity Fader.
 4. **Intensity Attenuverter** - Modifies CV for Intensity Fader.
-5. **Mix Output** - Outputs audio after the granulated mixing.
+5. **L/R Mix Output** - Outputs audio after the granulated mixing.
 6. **Clock Input** - Optional input that resets the playback positions each time it goes high. Particularly useful if the input signals are `frozen`.
 7. **Feedback Delay Knob** - Controls the internal feedback delay time that is fed into input D if cable is not patched.
 8. **Feedback Delay CV** - Modulates Feedback Delay Knob.
@@ -33,6 +33,24 @@ Sifter is a granular "mixer". Feed in up to four different audio sources and cre
 24. **Buffer Start Knob** - Controls where in the sample buffers the grains the playback window comes from. This is particularly useful when frozen and the buffer length is short.
 25. **Buffer Start CV** - Modulates Buffer Start Knob.
 26. **Buffer Start Attenuverter** - Modifies CV for Buffer Start Knob.
+
+**Expander**
+
+*Added through contextual menu*
+
+27. **Stereo Width Knob** Controls how Stereo vs Mono a particular input channel is in the resulting mix.
+28. **Stereo Width CV** Modulates Stereo Width Knob.
+29. **Stereo Width Attenuverter** Modifies CV for Stereo Width Knob.
+30. **Pan Knob** Controls how much a specific input channel is exclusive routed to the left output or the right output.
+31. **Pan CV** Modulates SPan Knob.
+32. **Pan Attenuverter** Modifies CV for Pan Knob.
+33. **Volume Knob** Controls the volume for a particular input channel.
+34. **Volume CV** Modulates Volume Knob.
+35. **Volume Attenuverter** Modifies CV for Volume Knob.
+36. **Master Valume Knob** Controls overal volume of the output.
+37. **Master Valume CV** Modulates Stereo Width Knob.
+38. **Master Valume Attenuverter** Modifies CV for Stereo Width Knob.
+
 
 ## Bypass
 When Sifter is bypassed all outputs stay at 0V.

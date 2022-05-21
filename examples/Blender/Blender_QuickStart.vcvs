@@ -1,17 +1,45 @@
 {
   "modules": [
     {
-      "id": 8723073143531431,
-      "plugin": "Fundamental",
-      "model": "VCO",
+      "id": 8518972980240757,
+      "plugin": "Core",
+      "model": "AudioInterface2",
+      "version": "2.0.6",
+      "params": [
+        {
+          "value": 1.0,
+          "id": 0
+        }
+      ],
+      "leftModuleId": 7323438580373563,
+      "data": {
+        "audio": {
+          "driver": 6,
+          "deviceName": "Speakers (5- Schiit Modi 3+)",
+          "sampleRate": 48000.0,
+          "blockSize": 256,
+          "inputOffset": 0,
+          "outputOffset": 0
+        },
+        "dcFilter": true
+      },
+      "pos": [
+        33,
+        0
+      ]
+    },
+    {
+      "id": 3891072083087892,
+      "plugin": "ImpromptuModular",
+      "model": "Clocked",
       "version": "2.1.0",
       "params": [
         {
-          "value": 0.0,
+          "value": 120.0,
           "id": 0
         },
         {
-          "value": 1.0,
+          "value": -5.0,
           "id": 1
         },
         {
@@ -27,7 +55,7 @@
           "id": 4
         },
         {
-          "value": 0.5,
+          "value": 0.0,
           "id": 5
         },
         {
@@ -37,44 +65,77 @@
         {
           "value": 0.0,
           "id": 7
-        }
-      ],
-      "rightModuleId": 8026332202743678,
-      "pos": [
-        63,
-        0
-      ]
-    },
-    {
-      "id": 8518972980240757,
-      "plugin": "Core",
-      "model": "AudioInterface2",
-      "version": "2.0.6",
-      "params": [
-        {
-          "value": 1.0,
-          "id": 0
-        }
-      ],
-      "leftModuleId": 8026332202743678,
-      "data": {
-        "audio": {
-          "driver": 6,
-          "deviceName": "Speakers (5- Schiit Modi 3+)",
-          "sampleRate": 48000.0,
-          "blockSize": 256,
-          "inputOffset": 0,
-          "outputOffset": 0
         },
-        "dcFilter": true
+        {
+          "value": 0.5,
+          "id": 8
+        },
+        {
+          "value": 0.5,
+          "id": 9
+        },
+        {
+          "value": 0.5,
+          "id": 10
+        },
+        {
+          "value": 0.5,
+          "id": 11
+        },
+        {
+          "value": 0.0,
+          "id": 12
+        },
+        {
+          "value": 0.0,
+          "id": 13
+        },
+        {
+          "value": 0.0,
+          "id": 14
+        },
+        {
+          "value": 0.0,
+          "id": 15
+        },
+        {
+          "value": 0.0,
+          "id": 16
+        },
+        {
+          "value": 0.0,
+          "id": 17
+        },
+        {
+          "value": 0.0,
+          "id": 18
+        },
+        {
+          "value": 0.0,
+          "id": 19
+        }
+      ],
+      "rightModuleId": 7323438580373563,
+      "data": {
+        "panelTheme": 0,
+        "panelContrast": 220.0,
+        "running": true,
+        "displayDelayNoteMode": true,
+        "bpmDetectionMode": false,
+        "resetOnStartStop": 0,
+        "ppqn": 4,
+        "resetClockOutputsHigh": true,
+        "momentaryRunInput": true,
+        "forceCvOnBpmOut": false,
+        "clockMaster": false
       },
       "pos": [
-        85,
+        0,
         0
       ]
     },
     {
-      "id": 8026332202743678,
+      "id": 7323438580373563,
       "plugin": "PathSet-Grains",
       "model": "Blender",
       "version": "2.0.0",
@@ -92,11 +153,11 @@
           "id": 2
         },
         {
-          "value": 0.0,
+          "value": 1.0,
           "id": 3
         },
         {
-          "value": 1.0,
+          "value": 2.0,
           "id": 4
         },
         {
@@ -130,46 +191,64 @@
         {
           "value": 0.0,
           "id": 12
+        },
+        {
+          "value": 0.0,
+          "id": 13
         }
       ],
-      "bypass": true,
-      "leftModuleId": 8723073143531431,
+      "leftModuleId": 3891072083087892,
       "rightModuleId": 8518972980240757,
       "data": {
         "version": "2.0.0",
-        "players": [],
-        "recording": false,
+        "players": [
+          {
+            "pos": 108030.0,
+            "mode": 1,
+            "fade": 2000,
+            "active": false
+          }
+        ],
+        "recording": true,
         "recordStopQueued": false,
-        "first_record": true,
-        "record_pos": 0,
-        "record_bufIndex": 0,
-        "play_buf_length": 0,
-        "play_bufIndex": 1,
+        "glideBackTo0": true,
+        "record_pos": 12031,
+        "record_bufIndex": 1,
+        "play_buf_length": 94000,
+        "play_bufIndex": 0,
         "playOut_pos": 2000,
-        "delay_array_pos": 2336
+        "delay_array_pos": 31072
       },
       "pos": [
-        72,
+        20,
         0
       ]
     }
   ],
   "cables": [
     {
-      "id": 5593908550219750,
-      "outputModuleId": 8026332202743678,
+      "id": 1005957912001471,
+      "outputModuleId": 7323438580373563,
       "outputId": 0,
       "inputModuleId": 8518972980240757,
       "inputId": 0,
       "color": "#f3374b"
     },
     {
-      "id": 5471010320289789,
-      "outputModuleId": 8723073143531431,
-      "outputId": 0,
-      "inputModuleId": 8026332202743678,
-      "inputId": 0,
+      "id": 2939413239304616,
+      "outputModuleId": 7323438580373563,
+      "outputId": 1,
+      "inputModuleId": 8518972980240757,
+      "inputId": 1,
       "color": "#f3374b"
+    },
+    {
+      "id": 2494576893125841,
+      "outputModuleId": 3891072083087892,
+      "outputId": 1,
+      "inputModuleId": 7323438580373563,
+      "inputId": 1,
+      "color": "#3695ef"
     }
   ]
 }

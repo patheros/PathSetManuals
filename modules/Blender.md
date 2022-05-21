@@ -1,7 +1,7 @@
 # Blender
 ![Image of Blender module](../images/Blender.png)
 
-Blender is a “Knob Instrument”. It was created to allow you to capture all of the bizarre transient effects you get when you turn knobs on your favorite delay or reverb modules. Blender simply needs an input sound and then feeds a sample of that back into itself, recording a new sample each time you turn one of the four main knobs.
+Blender is a “Distortion Looper”. It was created to allow you to capture all of the bizarre transient effects into a rhymic loop. Blender simply needs divided clock and your good to roll. Sample its internal sounds sources or feed other sounds into it.
 
 ## Quick Start
 
@@ -9,49 +9,55 @@ Blender is a “Knob Instrument”. It was created to allow you to capture all o
 
 [Download Quick Start](../examples/Blender/Blender_QuickStart.vcvs?raw=true)
 
-Disable the bypass on Blender in this module and it will record a one second sample of the input sine wave. Then turn one of the four big knobs on the front. Play around with turning the knobs slowly or even holding the mouse button down on one of the knobs. Every time you press down on one of those knobs you start recording a new sample. When you release the knob, that sample automatically starts playing back. You can always press the reset button to get the dry one second sine wave sample back again.
+Turn the `Input Vol` knob up and down to make a beat. Then play around with the four big knobs to distort that beat as Blender continously records itself on a loop.
 
 ## Panel
 
 ![Image of step controls](../images/Blender/labels.png)
 
-1. **Audio Input** - Input audio source.
-2. **Audio Output** - Output audio source. 
-3. **Input Volume** - Controls how loud the input audio is in the mix. This knob starts all the way down but is ignored for the first sample after the module is reset. 
-4. **Mix Volume** - Controls how loud the output audio is mixed back into the next sample. This knob reset to 1 after each sample is recorded because the reduced audio is baked into the sample at that point.
-5. **Clock Input** - Optional input that resets the playback positions each time it goes high. 
-6. **Reset Button** - Clears the internal sample and triggers a one second recording if a cable is patched to `Audio Input`
-7. **Reset Trigger** - Triggers reset button when the signal is high.
-8. **Blend Button** - Press and hold to record a new sample. When released the recorded sample automatically starts playing.
-9. **Blend Trigger** - Triggers the blend button when the signal is high.
-10. **Auto Blend** - When on, turning any of the four main knobs will start a recording. The recording will stop when the knob is released.
-11. **Ring Knob** - Applies a resonating delay to the sample. Turning the knob clockwise has a linear effect. Turning the knob counter-clockwise has an exponential effect.
+1. **L/R Audio Input** - Input audio source. Contextual menu controls which internal noise sorce is used when no input is connected.
+2. **Input Source** - Select between two internal sound sources and the Autio Input ports.
+3. **Input Volume** - Controls how loud the input audio is in the mix. This knob is ignored for the first sample after the module is reset. 
+4. **Input Mute** - When red, the input audio is muted. The mute is ignored for the first sample after the module is reset.
+5. **L/R Audio Output** - Output audio source. 
+6. **Mix Volume** - Spring Loaded! Controls how loud the output audio is mixed back into the next sample. This knob reset to 1 after each sample is recorded because the reduced audio is baked into the sample at that point.
+7. **Reset Button** - Clears the internal sample and triggers a one second recording if a cable is patched to `Audio Input`
+8. **Reset Trigger** - Triggers reset button when the signal is high.
+9. **Clock Input** - Syncs the internal loop length to theis clock length. Max loop length is 10 seconds at 48kHZ.
+10. **Recording** - Toggle if Blender is recording to its internal buffer.
+11. **Ring Knob** - Spring Loaded! Applies a resonating delay to the sample. Turning the knob clockwise has a linear effect. Turning the knob counter-clockwise has an exponential effect.
 12. **Ring CV** - Modulates Ring Knob.
 13. **Ring Attenuverter** - Modifies CV for Ring Knob.
-14. **Pitch Knob** - Shifts the pitch of the sample up or down.
+14. **Pitch Knob** - Spring Loaded! Shifts the pitch of the sample up or down.
 15. **Pitch CV** - Modulates Pitch Knob.
 16. **Pitch Attenuverter** - Modifies CV for Pitch Knob.
-17. **Scratch Knob** - Applies a turntable style effect to the sample.
+17. **Scratch Knob** - Spring Loaded! Applies a turntable style effect to the sample.
 18. **Scratch CV** - Modulates Scratch Knob.
 19. **Scratch Attenuverter** - Modifies CV for Scratch Knob.
-20. **Filter Knob** - Filters the sample. Turning the knob clockwise applies a high pass filter. Turning the knob counter-clockwise applies a low pass filter.
-22. **Filter CV** - Modulates Filter Knob.
+20. **Filter Knob** - Spring Loaded! Filters the sample. Turning the knob clockwise applies a high pass filter. Turning the knob counter-clockwise applies a low pass filter.
+21. **Filter CV** - Modulates Filter Knob.
 22. **Filter Attenuverter** - Modifies CV for Filter Knob.
 
+**Expander**
+
+*Added through contextual menu*
+
+23. **Playback Trigger Input** - When this input goes high Blender will reset it's playback.
+24. **Playback Mode** - When set to Oneshot Blender will only play once for each Playback Trigger recieved. Additional blender will no longer retrigger when Playback Trigger is receieved.
+25. **Playback Start Position** - Controls where in the recorded loop Blender restarts it's playback at.
+26. **Playback Start Position CV** - Modulates the Playback Start Position Knob.
+27. **Playback Start Position Attenuverter** - Modifies the CV for Playback Start Position Knob.
+
+### Spring Loaded Distortion Knobs
+
+The four main distoryion knobs are spring loaded. Meaning they return to their default position after you release them. This allows you to turn them for an effect and then release them when you want that effect to fade back.
+
+The Mix Volume is also spring loaded too.
+
+### Exapnder
+
+The Blender expander alows for an alterative way to use Blender. Before adding the expander play around with Blender in record mode to get an interesting sample loaded the up. Then turn off record mode and add the expander. Connect the Trigger/Reset input to your clock, and listend to Blender play a repeated hit. Try changing the Position paramter to get different segements of the internal sample to play. Switch the Mode to oneshot to make it play less often.
+
 ### Bypass
+
 When Blender is bypassed the `Audio Input` is routed to the `Audio Output`.
-
-## Patch Examples
-
-### Looper
-
-![Image of Example 1](../images/Blender/example_1.png)
-
-[Download Example 1](../examples/Blender/Blender_Example1.vcvs?raw=true)
-
-In this patch we use Blender as a looper. The important settings are:
-1. Auto Blend is OFF.
-2. A slow clock with a very high Pulse Width is fed into Blend Trigger Input.
-3. Input Volume is up turned up above 0.
-
-With this configuration the slow clock determines the length of looping. Note Blender has a max loop length of 10 seconds at 48khz.
