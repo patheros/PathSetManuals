@@ -5,7 +5,7 @@ Glass Pane is a network sequencer where the patch cables control which step folo
 
 ## Quick Start
 
-![Image of step controls](../images/GlassPane/quick_start_1.png)
+![Image of quick start patch](../images/GlassPane/quick_start_1.png)
 
 [Download Quick Start](../examples/GlassPane/GlassPane_QuickStart.vcvs?raw=true)
 
@@ -16,7 +16,7 @@ This quick example shows off all three different modes. The sequence it generate
 
 ## Panel
 
-![Image of step controls](../images/GlassPane/labels.png)
+![Image of controls](../images/GlassPane/labels.png)
 
 1. **Clock Input** - Advances the sequencer to the next state depending on which ports are connected.
 2. **Reset** - Resets the sequencer to the first state and resets all nodes to their last manually selected mode.

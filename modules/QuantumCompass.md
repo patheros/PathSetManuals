@@ -5,7 +5,7 @@ Quantum Compass is a sequencer where instead of controlling each step, you inste
 
 ## Quick Start
 
-![Image of step controls](../images/QuantumCompass/quick_start_1.png)
+![Image of quick start patch](../images/QuantumCompass/quick_start_1.png)
 
 [Download Quick Start](../examples/QuantumCompass/QuantumCompass_QuickStart.vcvs?raw=true)
 
@@ -17,7 +17,7 @@ Quantum Compass is a sequencer where instead of controlling each step, you inste
 
 ## Panel
 
-![Image of step controls](../images/QuantumCompass/labels.png)
+![Image of controls](../images/QuantumCompass/labels.png)
 
 1. **Clock or Position Input** - Clock Input or Sequence Position depending on the Position Control Switch.
 2. **Position Control switch** - Controls if sequence is driven by a clock or a position control.

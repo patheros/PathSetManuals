@@ -1,0 +1,664 @@
+{
+  "modules": [
+    {
+      "id": 8043649174705618,
+      "plugin": "Befaco",
+      "model": "NoisePlethora",
+      "version": "2.2.0",
+      "params": [
+        {
+          "value": 0.5,
+          "id": 0
+        },
+        {
+          "value": 0.5,
+          "id": 1
+        },
+        {
+          "value": 0.79397594928741455,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        },
+        {
+          "value": 0.0,
+          "id": 5
+        },
+        {
+          "value": 0.5,
+          "id": 7
+        },
+        {
+          "value": 0.5,
+          "id": 8
+        },
+        {
+          "value": 0.7783132791519165,
+          "id": 9
+        },
+        {
+          "value": 0.0,
+          "id": 10
+        },
+        {
+          "value": 0.0,
+          "id": 11
+        },
+        {
+          "value": 0.0,
+          "id": 12
+        },
+        {
+          "value": 0.44499999284744263,
+          "id": 13
+        },
+        {
+          "value": 0.85375010967254639,
+          "id": 14
+        },
+        {
+          "value": 0.53373491764068604,
+          "id": 15
+        },
+        {
+          "value": 0.25999999046325684,
+          "id": 16
+        },
+        {
+          "value": 2.0,
+          "id": 17
+        },
+        {
+          "value": 0.0,
+          "id": 18
+        }
+      ],
+      "leftModuleId": 298338187872181,
+      "rightModuleId": 4889133712851130,
+      "data": {
+        "algorithmA": "grainGlitchII",
+        "algorithmB": "xModRingSqr",
+        "bypassFilters": false,
+        "blockDC": true
+      },
+      "pos": [
+        85,
+        1
+      ]
+    },
+    {
+      "id": 5715645153491536,
+      "plugin": "Befaco",
+      "model": "Kickall",
+      "version": "2.2.0",
+      "params": [
+        {
+          "value": 75.485504150390625,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 0.16024097800254822,
+          "id": 2
+        },
+        {
+          "value": 0.38000002503395081,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        },
+        {
+          "value": 0.0,
+          "id": 5
+        }
+      ],
+      "leftModuleId": 1009647533886497,
+      "rightModuleId": 298338187872181,
+      "pos": [
+        73,
+        1
+      ]
+    },
+    {
+      "id": 1009647533886497,
+      "plugin": "Befaco",
+      "model": "Kickall",
+      "version": "2.2.0",
+      "params": [
+        {
+          "value": 75.485504150390625,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 0.23132526874542236,
+          "id": 2
+        },
+        {
+          "value": 0.60199993848800659,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        },
+        {
+          "value": 0.0,
+          "id": 5
+        }
+      ],
+      "leftModuleId": 8645415261249612,
+      "rightModuleId": 5715645153491536,
+      "pos": [
+        67,
+        1
+      ]
+    },
+    {
+      "id": 5410244771601510,
+      "plugin": "Befaco",
+      "model": "Mixer",
+      "version": "2.2.0",
+      "params": [
+        {
+          "value": 0.55783122777938843,
+          "id": 0
+        },
+        {
+          "value": 0.48915678262710571,
+          "id": 1
+        },
+        {
+          "value": 0.43132483959197998,
+          "id": 2
+        },
+        {
+          "value": 0.38433721661567688,
+          "id": 3
+        }
+      ],
+      "leftModuleId": 4889133712851130,
+      "rightModuleId": 8518972980240757,
+      "pos": [
+        111,
+        1
+      ]
+    },
+    {
+      "id": 8518972980240757,
+      "plugin": "Core",
+      "model": "AudioInterface2",
+      "version": "2.0.6",
+      "params": [
+        {
+          "value": 1.0,
+          "id": 0
+        }
+      ],
+      "leftModuleId": 5410244771601510,
+      "data": {
+        "audio": {
+          "driver": 6,
+          "deviceName": "Speakers (Realtek High Definition Audio)",
+          "sampleRate": 48000.0,
+          "blockSize": 256,
+          "inputOffset": 0,
+          "outputOffset": 0
+        },
+        "dcFilter": true
+      },
+      "pos": [
+        116,
+        1
+      ]
+    },
+    {
+      "id": 8645415261249612,
+      "plugin": "PathSet",
+      "model": "ShiftyMod",
+      "version": "2.2.0",
+      "params": [
+        {
+          "value": 1.0,
+          "id": 0
+        },
+        {
+          "value": 0.39333322644233704,
+          "id": 1
+        },
+        {
+          "value": 8.0,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        },
+        {
+          "value": 0.10266667604446411,
+          "id": 5
+        },
+        {
+          "value": 0.33866661787033081,
+          "id": 6
+        },
+        {
+          "value": 0.21466659009456635,
+          "id": 7
+        },
+        {
+          "value": 0.0,
+          "id": 8
+        },
+        {
+          "value": 0.35599979758262634,
+          "id": 9
+        },
+        {
+          "value": 0.0,
+          "id": 10
+        },
+        {
+          "value": 0.0,
+          "id": 11
+        },
+        {
+          "value": 0.40933331847190857,
+          "id": 12
+        },
+        {
+          "value": 0.36666667461395264,
+          "id": 13
+        },
+        {
+          "value": 0.44266670942306519,
+          "id": 14
+        },
+        {
+          "value": 0.0,
+          "id": 15
+        },
+        {
+          "value": 0.0,
+          "id": 16
+        },
+        {
+          "value": 0.0,
+          "id": 17
+        },
+        {
+          "value": 0.0,
+          "id": 18
+        },
+        {
+          "value": 0.17333331704139709,
+          "id": 19
+        },
+        {
+          "value": 0.18666663765907288,
+          "id": 20
+        },
+        {
+          "value": 0.0,
+          "id": 21
+        },
+        {
+          "value": 0.0,
+          "id": 22
+        },
+        {
+          "value": 0.041333336383104324,
+          "id": 23
+        },
+        {
+          "value": 500.0,
+          "id": 24
+        }
+      ],
+      "rightModuleId": 1009647533886497,
+      "data": {
+        "version": "2.1.0",
+        "clockDividerCount": 0,
+        "internalClock": 0.66001951694488525,
+        "clockHigh": true,
+        "triggerHigh": false,
+        "rows": [
+          {
+            "outputOn": true,
+            "noiseValue": 0.53179305791854858,
+            "prevHitPreMute": true,
+            "muteCount": 17.0,
+            "heldDelayOn": false,
+            "heldDelayValue": 0.0
+          },
+          {
+            "outputOn": false,
+            "noiseValue": 0.3863828182220459,
+            "prevHitPreMute": false,
+            "muteCount": 18.066667556762695,
+            "heldDelayOn": false,
+            "heldDelayValue": 0.066666670143604279
+          },
+          {
+            "outputOn": true,
+            "noiseValue": 0.58404785394668579,
+            "prevHitPreMute": true,
+            "muteCount": 5.3774070739746094,
+            "heldDelayOn": true,
+            "heldDelayValue": 0.20288965106010437
+          },
+          {
+            "outputOn": false,
+            "noiseValue": 0.059922631829977036,
+            "prevHitPreMute": false,
+            "muteCount": 6.0433640480041504,
+            "heldDelayOn": true,
+            "heldDelayValue": 0.26865518093109131
+          },
+          {
+            "outputOn": false,
+            "noiseValue": 0.73033976554870605,
+            "prevHitPreMute": false,
+            "muteCount": 14.905389785766602,
+            "heldDelayOn": true,
+            "heldDelayValue": 0.33772435784339905
+          },
+          {
+            "outputOn": false,
+            "noiseValue": 0.85791575908660889,
+            "prevHitPreMute": false,
+            "muteCount": 16.333385467529297,
+            "heldDelayOn": false,
+            "heldDelayValue": 0.3333333432674408
+          },
+          {
+            "outputOn": false,
+            "noiseValue": 0.14848008751869202,
+            "prevHitPreMute": false,
+            "muteCount": 15.959527015686035,
+            "heldDelayOn": true,
+            "heldDelayValue": 0.53209304809570313
+          }
+        ],
+        "hitQueue": [
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "pos": [
+        51,
+        1
+      ]
+    },
+    {
+      "id": 4889133712851130,
+      "plugin": "Befaco",
+      "model": "Percall",
+      "version": "2.2.0",
+      "params": [
+        {
+          "value": 1.0,
+          "id": 0
+        },
+        {
+          "value": 1.0,
+          "id": 1
+        },
+        {
+          "value": 0.70125001668930054,
+          "id": 2
+        },
+        {
+          "value": 1.0,
+          "id": 3
+        },
+        {
+          "value": 0.16000013053417206,
+          "id": 4
+        },
+        {
+          "value": 0.0,
+          "id": 5
+        },
+        {
+          "value": 0.130000039935112,
+          "id": 6
+        },
+        {
+          "value": 0.28200000524520874,
+          "id": 7
+        },
+        {
+          "value": 1.0,
+          "id": 8
+        },
+        {
+          "value": 1.0,
+          "id": 9
+        }
+      ],
+      "leftModuleId": 8043649174705618,
+      "rightModuleId": 5410244771601510,
+      "pos": [
+        99,
+        1
+      ]
+    },
+    {
+      "id": 298338187872181,
+      "plugin": "Befaco",
+      "model": "Kickall",
+      "version": "2.2.0",
+      "params": [
+        {
+          "value": 75.485504150390625,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 0.33493977785110474,
+          "id": 2
+        },
+        {
+          "value": 0.13000017404556274,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        },
+        {
+          "value": 0.0,
+          "id": 5
+        }
+      ],
+      "leftModuleId": 5715645153491536,
+      "rightModuleId": 8043649174705618,
+      "pos": [
+        79,
+        1
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 3183447550821695,
+      "outputModuleId": 1009647533886497,
+      "outputId": 0,
+      "inputModuleId": 5410244771601510,
+      "inputId": 0,
+      "color": "#f3374b"
+    },
+    {
+      "id": 5481299398643680,
+      "outputModuleId": 5715645153491536,
+      "outputId": 0,
+      "inputModuleId": 5410244771601510,
+      "inputId": 1,
+      "color": "#f3374b"
+    },
+    {
+      "id": 4465851962417602,
+      "outputModuleId": 8645415261249612,
+      "outputId": 0,
+      "inputModuleId": 1009647533886497,
+      "inputId": 0,
+      "color": "#3695ef"
+    },
+    {
+      "id": 2829497361056106,
+      "outputModuleId": 8645415261249612,
+      "outputId": 2,
+      "inputModuleId": 5715645153491536,
+      "inputId": 0,
+      "color": "#3695ef"
+    },
+    {
+      "id": 2928861146355174,
+      "outputModuleId": 5410244771601510,
+      "outputId": 0,
+      "inputModuleId": 8518972980240757,
+      "inputId": 0,
+      "color": "#f3374b"
+    },
+    {
+      "id": 5117854813426676,
+      "outputModuleId": 8043649174705618,
+      "outputId": 0,
+      "inputModuleId": 4889133712851130,
+      "inputId": 0,
+      "color": "#f3374b"
+    },
+    {
+      "id": 7906607062641914,
+      "outputModuleId": 8043649174705618,
+      "outputId": 1,
+      "inputModuleId": 4889133712851130,
+      "inputId": 2,
+      "color": "#f3374b"
+    },
+    {
+      "id": 7356543352230785,
+      "outputModuleId": 298338187872181,
+      "outputId": 0,
+      "inputModuleId": 5410244771601510,
+      "inputId": 2,
+      "color": "#f3374b"
+    },
+    {
+      "id": 5464946859025068,
+      "outputModuleId": 8645415261249612,
+      "outputId": 4,
+      "inputModuleId": 298338187872181,
+      "inputId": 0,
+      "color": "#3695ef"
+    },
+    {
+      "id": 6032360463459704,
+      "outputModuleId": 4889133712851130,
+      "outputId": 3,
+      "inputModuleId": 5410244771601510,
+      "inputId": 3,
+      "color": "#f3374b"
+    },
+    {
+      "id": 2176613894053842,
+      "outputModuleId": 8645415261249612,
+      "outputId": 3,
+      "inputModuleId": 4889133712851130,
+      "inputId": 5,
+      "color": "#3695ef"
+    },
+    {
+      "id": 2415160219134178,
+      "outputModuleId": 8645415261249612,
+      "outputId": 6,
+      "inputModuleId": 4889133712851130,
+      "inputId": 7,
+      "color": "#3695ef"
+    }
+  ]
+}

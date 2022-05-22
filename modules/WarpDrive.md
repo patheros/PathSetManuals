@@ -6,7 +6,7 @@ Warp Drive is a massive two-engine starship. Each engine is a voice with its own
 
 ## Quick Start
 
-![Image of step controls](../images/WarpDrive/quick_start_1.png)
+![Image of quick start patch](../images/WarpDrive/quick_start_1.png)
 
 [Download Quick Start](../examples/WarpDrive/WarpDrive_QuickStart.vcvs?raw=true)
 
@@ -17,7 +17,7 @@ Warp Drive is a massive two-engine starship. Each engine is a voice with its own
 
 ## Panel
 
-![Image of step controls](../images/WarpDrive/labels.png)
+![Image of controls](../images/WarpDrive/labels.png)
 
 1. **1V/octave input** - Controls the frequency of all the coils.
 2. **Coarse Frequency** - Controls the coarse frequency of all the coils.
@@ -69,7 +69,7 @@ Warp Drive is a massive two-engine starship. Each engine is a voice with its own
 
 ## Signal Flow
 
-![Image of step controls](../images/WarpDrive/diagram.png)
+![Image of signal flow](../images/WarpDrive/diagram.png)
 
 ## Features
 

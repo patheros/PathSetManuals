@@ -5,7 +5,7 @@ Sifter is a granular "mixer". Feed in up to four different audio sources and cre
 
 ## Panel
 
-![Image of step controls](../images/Sifter/labels.png)
+![Image of controls](../images/Sifter/labels.png)
 
 1. **L/R Audio Inputs** - Four different audio inputs. Input D is normalized to the internal delay loop of the `mix output`.
 2. **Intensity Fader** - Controls how often each input is sampled for the output. The sum of all intensities also controls the overall amplitude of the `mix output`.

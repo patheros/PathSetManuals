@@ -5,7 +5,7 @@ Blender is a “Distortion Looper”. It was created to allow you to capture all
 
 ## Quick Start
 
-![Image of step controls](../images/Blender/quick_start_1.png)
+![Image of quick start patch](../images/Blender/quick_start_1.png)
 
 [Download Quick Start](../examples/Blender/Blender_QuickStart.vcvs?raw=true)
 
@@ -13,7 +13,7 @@ Turn the `Input Vol` knob up and down to make a beat. Then play around with the 
 
 ## Panel
 
-![Image of step controls](../images/Blender/labels.png)
+![Image of controls](../images/Blender/labels.png)
 
 1. **L/R Audio Input** - Input audio source. Contextual menu controls which internal noise sorce is used when no input is connected.
 2. **Input Source** - Select between two internal sound sources and the Autio Input ports.

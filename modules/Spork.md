@@ -5,7 +5,7 @@ Spork is compact granular effects module. It has six togglable modes, each with 
 
 ## Panel
 
-![Image of step controls](../images/Spork/labels.png)
+![Image of controls](../images/Spork/labels.png)
 
 1. **Left Audio Input** - Left Audio input for effect.
 2. **Right Audio Input** - Right Audio input for effect.

@@ -6,7 +6,7 @@ Orchestrator is a modulation and gate source designed to be the conductor of a r
 
 ## Quick Start
 
-![Image of step controls](../images/Orchestrator/quick_start_1.png)
+![Image of quick start patch](../images/Orchestrator/quick_start_1.png)
 
 [Download Quick Start](../examples/Orchestrator/Orchestrator_QuickStart.vcvs?raw=true)
 
@@ -19,7 +19,7 @@ Orchestrator is a modulation and gate source designed to be the conductor of a r
 
 ## Panel
 
-![Image of step controls](../images/Orchestrator/labels.png)
+![Image of controls](../images/Orchestrator/labels.png)
 
 1. **Sequence Complexity** - Controls how fast the overall pattern changes.
 2. **Sequence Length** - Controls how fast the overall sequence repeats.

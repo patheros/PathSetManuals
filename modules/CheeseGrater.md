@@ -5,7 +5,7 @@ Cheese Grater is a granular sample and loop. Feed an audio source into it, press
 
 ## Quick Start
 
-![Image of step controls](../images/CheeseGrater/quick_start_1.png)
+![Image of quick start patch](../images/CheeseGrater/quick_start_1.png)
 
 [Download Quick Start](../examples/CheeseGrater/CheeseGrater_QuickStart.vcvs?raw=true)
 
@@ -13,7 +13,7 @@ This simple example puts a sine wave into the audio input on Cheese Grater. Pres
 
 ## Panel
 
-![Image of step controls](../images/CheeseGrater/labels.png)
+![Image of controls](../images/CheeseGrater/labels.png)
 
 1. **L/R Audio / Sample Input** - Audio input that is sampled while the sample button is pressed or the sample gate is high.
 2. **L/R Audio Output** - Audio output of the module. No audio is sent out while sampling.
