@@ -68,7 +68,7 @@ Speed shifter and tape delay with selective memory. Perform into this and it wil
 
 ### Shifty
 <a href="https://github.com/patheros/PathSetModules#shifty">![Image of Shifty module](images/Shifty.png)</a><br/>
-[Shifty Manual](https://github.com/patheros/PathSetModules#shifty)<br/>
+[Shifty Manual](modules/Shifty.md)<br/>
 Gate shift register with controllable delays. Create generative gate sequences from a simple clock.
 <br/><br/>
 
