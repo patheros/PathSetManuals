@@ -50,13 +50,13 @@ Turn the `Input Vol` knob up and down to make a beat. Then play around with the 
 
 ### Spring Loaded Distortion Knobs
 
-The four main distoryion knobs are spring loaded. Meaning they return to their default position after you release them. This allows you to turn them for an effect and then release them when you want that effect to fade back.
+The four main distortion knobs are spring loaded. Meaning they return to their default position after you release them. This allows you to turn them for an effect and then release them when you want that effect to fade back.
 
 The Mix Volume is also spring loaded too.
 
-### Exapnder
+### Expander
 
-The Blender expander alows for an alterative way to use Blender. Before adding the expander play around with Blender in record mode to get an interesting sample loaded the up. Then turn off record mode and add the expander. Connect the Trigger/Reset input to your clock, and listend to Blender play a repeated hit. Try changing the Position paramter to get different segements of the internal sample to play. Switch the Mode to oneshot to make it play less often.
+The Blender expander allows for an alternative way to use Blender. Before adding the expander play around with Blender in record mode to get an interesting sample loaded the up. Then turn off record mode and add the expander. Connect the Trigger/Reset input to your clock and listen to Blender play a repeated hit. Try changing the Position parameter to get different segments of the internal sample to play. Switch the Mode to one-shot to make it play less often.
 
 ### Bypass
 
