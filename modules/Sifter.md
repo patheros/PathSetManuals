@@ -47,9 +47,9 @@ Sifter is a granular "mixer". Feed in up to four different audio sources and cre
 33. **Volume Knob** Controls the volume for a particular input channel.
 34. **Volume CV** Modulates Volume Knob.
 35. **Volume Attenuverter** Modifies CV for Volume Knob.
-36. **Master Valume Knob** Controls overal volume of the output.
-37. **Master Valume CV** Modulates Stereo Width Knob.
-38. **Master Valume Attenuverter** Modifies CV for Stereo Width Knob.
+36. **Master Volume Knob** Controls overal volume of the output.
+37. **Master Volume CV** Modulates Stereo Width Knob.
+38. **Master Volume Attenuverter** Modifies CV for Stereo Width Knob.
 
 
 ## Bypass

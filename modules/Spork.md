@@ -82,7 +82,7 @@ Randomly delays some grain start times by a variable amount.
 
 ### Exapnder
 
-When the expander is attached, Spork no longer applies a single mode. Snstead all six modes can be applied at varying strengths. Use the knobs and CVs on the expander to control how strong each mode is. The expander is added through the contextual menu.
+When the expander is attached, Spork no longer applies a single mode. Instead, all six modes can be applied at varying strengths. Use the knobs and CVs on the expander to control how strong each mode is. The expander is added through the contextual menu.
 
 ## Bypass
 
