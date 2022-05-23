@@ -50,7 +50,7 @@ Ten total oscillators grouped into deep dual-drive systems. Explore a vast range
 
 ### Astro Vibe
 <a href="https://github.com/patheros/PathSetModules#astro-vibe">![Image of AstroVibe module](images/AstroVibe.png)</a><br/>
-[AstroVibe Manual](https://github.com/patheros/PathSetModules#astro-vibe)<br/>
+[AstroVibe Manual](modules/AstroVibe.md)<br/>
 Three stereo oscillators or LFOs with random waveforms. Explore a universe of unique waveforms.
 <br/><br/>
 
@@ -62,7 +62,7 @@ Patchable, branchable, network sequencer. Create a cascading intricate self modu
 
 ### Ice Tray
 <a href="https://github.com/patheros/PathSetModules#ice-tray">![Image of IceTray module](images/IceTray.png)</a><br/>
-[IceTray Manual](https://github.com/patheros/PathSetModules#ice-tray)<br/>
+[IceTray Manual](modules/IceTray.md)<br/>
 Speed shifter and tape delay with selective memory. Perform into this and it will never forget your mistakes.
 <br/><br/>
 
