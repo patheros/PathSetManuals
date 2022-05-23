@@ -39,34 +39,34 @@ The `Mute` knob suppresses hits. If you have a frequent trigger or a lot of echo
 
 ### Expander
 
-*Add the Expander using the contexual menu.*
+*Add the Expander using the contextual menu.*
 
-The Shifty expander give you CV control over many of the paramters on the main panel. Each CV also has a dedicated Attenuverter for even more control.
+The Shifty expander give you CV control over many of the parameters on the main panel. Each CV also has a dedicated Attenuverter for even more control.
 
-The top of the Expander has CVs for the internal clock rate, the clock divider, the ramping delay, and the sample and hold chance. The bottom of the module has CVs for the Echo and Mute paramters for each of the 7 rows on the main panel.
+The top of the Expander has CVs for the internal clock rate, the clock divider, the ramping delay, and the sample and hold chance. The bottom of the module has CVs for the Echo and Mute parameters for each of the 7 rows on the main panel.
 
 ### Bypass
 
-When Shifty is bypassed the `Clock Input` is rounted to all the seven `Gate` outputs.
+When Shifty is bypassed the `Clock Input` is routed to all the seven `Gate` outputs.
 
 ## Patch Examples
 
 ### Evolving Drums 
-![Image of Evolving Drums Example 1](../images/Shifty/example_evolvingdrums.png)
+![Image of Evolving Drums Example](../images/Shifty/example_evolvingdrums.png)
 
 [Download Evolving Drums Example](../examples/Shifty/Shifty_Example_EvolvingDrums.vcvs?raw=true)
 
-In this example the internal noise and sample and hold are used to slowly allow the drum sequenece to change over time. Several of the rows are Delay CVs are turned up, and since the delay CVs are not patched, the internal noise is used instead. The Sample & Hold chance is turned up high. This means the delay values are likely to stay the same every cycle but have a small chance to change.
+In this example the internal noise and sample and hold are used to slowly allow the drum sequence to change over time. Several of the rows are Delay CVs are turned up, and since the delay CVs are not patched, the internal noise is used instead. The Sample & Hold chance is turned up high. This means the delay values are likely to stay the same every cycle but have a small chance to change.
 
-This patch is also using green cables to modulate the voices. The rows with the green cables have their Echo knob nurned ups so their modulations have a higher chance of hitting when the voice is also playing.
+This patch is also using green cables to modulate the voices. The rows with the green cables have their Echo knob turned ups so their modulations have a higher chance of hitting when the voice is also playing.
 
 ### More Examples
-* [Shifty_Example0](https://github.com/patheros/PathSetModules/blob/main/examples/Shifty_Example0.vcv) - Using Shifty as a Clock
-* [Shifty_Example1](https://github.com/patheros/PathSetModules/blob/main/examples/Shifty_Example1.vcv) - Uses the first two gates of Shift to drive a drum beat out of two [Palettes](https://library.vcvrack.com/Atelier/AtelierPalette) and the remaining gates are used as CVs on the VCOs and effects.
-* [Shifty_Example2](https://github.com/patheros/PathSetModules/blob/main/examples/Shifty_Example2.vcv) - 5 Shiftys working to drive 3 different voices. Each voice showing off different ways to use Shifty.
-* [Shifty_Example3](https://github.com/patheros/PathSetModules/blob/main/examples/Shifty_Example3.vcv) - Shifty outputs are merged to create a polyphonic gate. Along with a polyphonic VCO this creates melodic variety with a high degree of configurability.
-* [Shifty_Example4](https://github.com/patheros/PathSetModules/blob/main/examples/Shifty_Example4.vcv) - More examples of melodic patterns created by Shifty and chaining shifty together.
-* [Shifty_Example5](https://github.com/patheros/PathSetModules/blob/main/examples/Shifty_Example5.vcv) - Using LFOs to mores slowly change Shifty's pattern over time. 
+* [Shifty_Example0](../examples/Shifty/Shifty_Example0.vcv?raw=true) - Using Shifty as a Clock
+* [Shifty_Example1](../examples/Shifty/Shifty_Example1.vcv?raw=true) - Uses the first two gates of Shift to drive a drum beat out of two [Palettes](https://library.vcvrack.com/Atelier/AtelierPalette) and the remaining gates are used as CVs on the VCOs and effects.
+* [Shifty_Example2](../examples/Shifty/Shifty_Example2.vcv?raw=true) - 5 Shiftys working to drive 3 different voices. Each voice showing off different ways to use Shifty.
+* [Shifty_Example3](../examples/Shifty/Shifty_Example3.vcv?raw=true) - Shifty outputs are merged to create a polyphonic gate. Along with a polyphonic VCO this creates melodic variety with a high degree of configurability.
+* [Shifty_Example4](../examples/Shifty/Shifty_Example4.vcv?raw=true) - More examples of melodic patterns created by Shifty and chaining shifty together.
+* [Shifty_Example5](../examples/Shifty/Shifty_Example5.vcv?raw=true) - Using LFOs to mores slowly change Shifty's pattern over time. 
 
 
 

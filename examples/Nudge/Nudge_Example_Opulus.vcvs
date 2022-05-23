@@ -1,0 +1,806 @@
+{
+  "modules": [
+    {
+      "id": 8518972980240757,
+      "plugin": "Core",
+      "model": "AudioInterface2",
+      "version": "2.0.6",
+      "params": [
+        {
+          "value": 1.0,
+          "id": 0
+        }
+      ],
+      "leftModuleId": 7857746615765511,
+      "data": {
+        "audio": {
+          "driver": 6,
+          "deviceName": "Speakers (5- Schiit Modi 3+)",
+          "sampleRate": 48000.0,
+          "blockSize": 256,
+          "inputOffset": 0,
+          "outputOffset": 0
+        },
+        "dcFilter": true
+      },
+      "pos": [
+        73,
+        0
+      ]
+    },
+    {
+      "id": 4680591923261986,
+      "plugin": "ImpromptuModular",
+      "model": "Clocked",
+      "version": "2.1.0",
+      "params": [
+        {
+          "value": 140.0,
+          "id": 0
+        },
+        {
+          "value": -5.0,
+          "id": 1
+        },
+        {
+          "value": -17.0,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        },
+        {
+          "value": 0.0,
+          "id": 5
+        },
+        {
+          "value": 0.0,
+          "id": 6
+        },
+        {
+          "value": 0.0,
+          "id": 7
+        },
+        {
+          "value": 0.5,
+          "id": 8
+        },
+        {
+          "value": 0.5,
+          "id": 9
+        },
+        {
+          "value": 0.5,
+          "id": 10
+        },
+        {
+          "value": 0.5,
+          "id": 11
+        },
+        {
+          "value": 0.0,
+          "id": 12
+        },
+        {
+          "value": 0.0,
+          "id": 13
+        },
+        {
+          "value": 0.0,
+          "id": 14
+        },
+        {
+          "value": 0.0,
+          "id": 15
+        },
+        {
+          "value": 0.0,
+          "id": 16
+        },
+        {
+          "value": 0.0,
+          "id": 17
+        },
+        {
+          "value": 0.0,
+          "id": 18
+        },
+        {
+          "value": 0.0,
+          "id": 19
+        }
+      ],
+      "rightModuleId": 1531051066366280,
+      "data": {
+        "panelTheme": 0,
+        "panelContrast": 220.0,
+        "running": true,
+        "displayDelayNoteMode": true,
+        "bpmDetectionMode": false,
+        "resetOnStartStop": 0,
+        "ppqn": 4,
+        "resetClockOutputsHigh": true,
+        "momentaryRunInput": true,
+        "forceCvOnBpmOut": false,
+        "clockMaster": false
+      },
+      "pos": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 7857746615765511,
+      "plugin": "VultModulesFree",
+      "model": "Opulus",
+      "version": "2.0.5",
+      "params": [
+        {
+          "value": 1.0,
+          "id": 0
+        },
+        {
+          "value": 1.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": 37.926006317138672,
+          "id": 4
+        },
+        {
+          "value": 3.0,
+          "id": 5
+        },
+        {
+          "value": 0.0,
+          "id": 6
+        },
+        {
+          "value": 15.0,
+          "id": 7
+        },
+        {
+          "value": 4.0,
+          "id": 8
+        },
+        {
+          "value": 48.825000762939453,
+          "id": 9
+        },
+        {
+          "value": 3.0,
+          "id": 10
+        },
+        {
+          "value": 0.0,
+          "id": 11
+        },
+        {
+          "value": 15.0,
+          "id": 12
+        },
+        {
+          "value": 4.0,
+          "id": 13
+        },
+        {
+          "value": 0.0,
+          "id": 14
+        },
+        {
+          "value": 0.0,
+          "id": 15
+        },
+        {
+          "value": 0.0,
+          "id": 16
+        },
+        {
+          "value": 0.0,
+          "id": 17
+        },
+        {
+          "value": 0.10000000149011612,
+          "id": 18
+        },
+        {
+          "value": 0.0,
+          "id": 19
+        },
+        {
+          "value": 0.125,
+          "id": 20
+        },
+        {
+          "value": -0.4179999828338623,
+          "id": 21
+        },
+        {
+          "value": 0.0,
+          "id": 22
+        },
+        {
+          "value": 0.34000024199485779,
+          "id": 23
+        },
+        {
+          "value": 0.0,
+          "id": 24
+        },
+        {
+          "value": 0.0,
+          "id": 25
+        },
+        {
+          "value": 0.0,
+          "id": 26
+        },
+        {
+          "value": 0.0,
+          "id": 27
+        },
+        {
+          "value": 0.0,
+          "id": 28
+        },
+        {
+          "value": 0.0,
+          "id": 29
+        },
+        {
+          "value": 0.0,
+          "id": 30
+        },
+        {
+          "value": 0.0,
+          "id": 31
+        },
+        {
+          "value": 0.0,
+          "id": 32
+        },
+        {
+          "value": 0.0,
+          "id": 33
+        }
+      ],
+      "leftModuleId": 173101597112100,
+      "rightModuleId": 8518972980240757,
+      "data": {
+        "Mode": 0.0,
+        "Env_Output": 0.0,
+        "Shape_1": 0.0,
+        "Env_1": 1.0,
+        "Tremolo_1": 0.0,
+        "Vibrato_1": 0.0,
+        "Key_Scale_Level_1": 0.0,
+        "Detune_1": 0.0,
+        "Shape_2": 0.0,
+        "Env_2": 1.0,
+        "Tremolo_2": 0.0,
+        "Vibrato_2": 0.0,
+        "Key_Scale_Level_2": 0.0,
+        "Detune_2": 0.0,
+        "mod0": 3,
+        "mod1": 1,
+        "Preset1[0]": 1.0,
+        "Preset1[1]": 1.0,
+        "Preset1[2]": 0.0,
+        "Preset1[3]": 3.0,
+        "Preset1[4]": 0.0,
+        "Preset1[5]": 15.0,
+        "Preset1[6]": 4.0,
+        "Preset1[7]": 0.0,
+        "Preset1[8]": 0.0,
+        "Preset1[9]": 1.0,
+        "Preset1[10]": 1.0,
+        "Preset1[11]": 63.0,
+        "Preset1[12]": 3.0,
+        "Preset1[13]": 0.0,
+        "Preset1[14]": 15.0,
+        "Preset1[15]": 4.0,
+        "Preset1[16]": 0.0,
+        "Preset1[17]": 0.0,
+        "Preset1[18]": 0.0,
+        "Preset1[19]": 0.0,
+        "Preset1[20]": 0.0,
+        "Preset1[21]": 0.0,
+        "Preset1[22]": 0.0,
+        "Preset1[23]": 0.0,
+        "Preset1[24]": 0.0,
+        "Preset1[25]": 0.0,
+        "Preset1[26]": 0.10000000149011612,
+        "Preset1[27]": 0.0,
+        "Preset1[28]": 0.0,
+        "Preset1[29]": 0.0,
+        "Preset1[30]": 0.0,
+        "Preset2[0]": 1.0,
+        "Preset2[1]": 1.0,
+        "Preset2[2]": 0.0,
+        "Preset2[3]": 3.0,
+        "Preset2[4]": 6.0,
+        "Preset2[5]": 7.0,
+        "Preset2[6]": 10.0,
+        "Preset2[7]": 0.0,
+        "Preset2[8]": 0.0,
+        "Preset2[9]": 1.0,
+        "Preset2[10]": 3.3257768154144287,
+        "Preset2[11]": 63.0,
+        "Preset2[12]": 3.0,
+        "Preset2[13]": 9.0,
+        "Preset2[14]": 7.0,
+        "Preset2[15]": 12.0,
+        "Preset2[16]": 0.0,
+        "Preset2[17]": 0.0,
+        "Preset2[18]": 0.0,
+        "Preset2[19]": 0.0,
+        "Preset2[20]": 0.0,
+        "Preset2[21]": 0.0,
+        "Preset2[22]": 0.0,
+        "Preset2[23]": 0.0,
+        "Preset2[24]": 0.0,
+        "Preset2[25]": 0.0,
+        "Preset2[26]": 0.10000000149011612,
+        "Preset2[27]": 0.0,
+        "Preset2[28]": 0.0,
+        "Preset2[29]": 0.0,
+        "Preset2[30]": 0.0,
+        "Preset3[0]": 1.0,
+        "Preset3[1]": 1.0,
+        "Preset3[2]": 41.265007019042969,
+        "Preset3[3]": 3.0,
+        "Preset3[4]": 6.0,
+        "Preset3[5]": 15.0,
+        "Preset3[6]": 4.0,
+        "Preset3[7]": 0.0,
+        "Preset3[8]": 0.0,
+        "Preset3[9]": 1.0,
+        "Preset3[10]": 2.6640539169311523,
+        "Preset3[11]": 63.0,
+        "Preset3[12]": 12.0,
+        "Preset3[13]": 6.0,
+        "Preset3[14]": 9.0,
+        "Preset3[15]": 4.0,
+        "Preset3[16]": 0.0,
+        "Preset3[17]": 0.0,
+        "Preset3[18]": 0.0,
+        "Preset3[19]": 0.0,
+        "Preset3[20]": 0.0,
+        "Preset3[21]": 0.0,
+        "Preset3[22]": 0.0,
+        "Preset3[23]": 0.0,
+        "Preset3[24]": 0.0,
+        "Preset3[25]": 0.0,
+        "Preset3[26]": 0.10000000149011612,
+        "Preset3[27]": 0.0,
+        "Preset3[28]": 0.0,
+        "Preset3[29]": 0.0,
+        "Preset3[30]": 0.0,
+        "Preset4[0]": 1.0,
+        "Preset4[1]": 1.0,
+        "Preset4[2]": 41.265007019042969,
+        "Preset4[3]": 3.0,
+        "Preset4[4]": 0.0,
+        "Preset4[5]": 7.0,
+        "Preset4[6]": 1.0,
+        "Preset4[7]": 0.0,
+        "Preset4[8]": 0.0,
+        "Preset4[9]": 1.0,
+        "Preset4[10]": 1.5495561361312866,
+        "Preset4[11]": 63.0,
+        "Preset4[12]": 6.0,
+        "Preset4[13]": 3.0,
+        "Preset4[14]": 5.0,
+        "Preset4[15]": 9.0,
+        "Preset4[16]": 0.0,
+        "Preset4[17]": 0.0,
+        "Preset4[18]": 0.0,
+        "Preset4[19]": 0.0,
+        "Preset4[20]": 0.0,
+        "Preset4[21]": 0.0,
+        "Preset4[22]": 0.0,
+        "Preset4[23]": 0.0,
+        "Preset4[24]": 0.0,
+        "Preset4[25]": 0.0,
+        "Preset4[26]": 0.10000000149011612,
+        "Preset4[27]": 0.0,
+        "Preset4[28]": 0.0,
+        "Preset4[29]": 0.0,
+        "Preset4[30]": 0.0,
+        "Morphing": 1.0,
+        "Slot1": 0.0,
+        "Slot2": 1.0,
+        "Slot3": 1.0,
+        "Slot4": 1.0,
+        "WorkPreset[0]": 1.0,
+        "WorkPreset[1]": 1.0,
+        "WorkPreset[2]": 37.926006317138672,
+        "WorkPreset[3]": 3.0,
+        "WorkPreset[4]": 0.0,
+        "WorkPreset[5]": 15.0,
+        "WorkPreset[6]": 4.0,
+        "WorkPreset[7]": 0.0,
+        "WorkPreset[8]": 0.0,
+        "WorkPreset[9]": 1.0,
+        "WorkPreset[10]": 1.8946375846862793,
+        "WorkPreset[11]": 48.825000762939453,
+        "WorkPreset[12]": 3.0,
+        "WorkPreset[13]": 0.0,
+        "WorkPreset[14]": 15.0,
+        "WorkPreset[15]": 4.0,
+        "WorkPreset[16]": 0.0,
+        "WorkPreset[17]": 0.0,
+        "WorkPreset[18]": 0.0,
+        "WorkPreset[19]": 0.0,
+        "WorkPreset[20]": 0.0,
+        "WorkPreset[21]": 0.0,
+        "WorkPreset[22]": 0.0,
+        "WorkPreset[23]": 0.0,
+        "WorkPreset[24]": 0.0,
+        "WorkPreset[25]": 0.0,
+        "WorkPreset[26]": 0.10000000149011612,
+        "WorkPreset[27]": 0.0,
+        "WorkPreset[28]": 0.125,
+        "WorkPreset[29]": 0.0,
+        "WorkPreset[30]": 0.0,
+        "BasePreset[0]": 1.0,
+        "BasePreset[1]": 1.0,
+        "BasePreset[2]": 0.0,
+        "BasePreset[3]": 3.0,
+        "BasePreset[4]": 0.0,
+        "BasePreset[5]": 15.0,
+        "BasePreset[6]": 4.0,
+        "BasePreset[7]": 0.0,
+        "BasePreset[8]": 0.0,
+        "BasePreset[9]": 1.0,
+        "BasePreset[10]": 2.6928234100341797,
+        "BasePreset[11]": 63.0,
+        "BasePreset[12]": 3.0,
+        "BasePreset[13]": 0.0,
+        "BasePreset[14]": 15.0,
+        "BasePreset[15]": 4.0,
+        "BasePreset[16]": 0.0,
+        "BasePreset[17]": 0.0,
+        "BasePreset[18]": 0.0,
+        "BasePreset[19]": 0.0,
+        "BasePreset[20]": 0.0,
+        "BasePreset[21]": 0.0,
+        "BasePreset[22]": 0.0,
+        "BasePreset[23]": 0.0,
+        "BasePreset[24]": 0.0,
+        "BasePreset[25]": 0.0,
+        "BasePreset[26]": 0.10000000149011612,
+        "BasePreset[27]": 0.0,
+        "BasePreset[28]": 0.0,
+        "BasePreset[29]": 0.0,
+        "BasePreset[30]": 0.0
+      },
+      "pos": [
+        51,
+        0
+      ]
+    },
+    {
+      "id": 1531051066366280,
+      "plugin": "Fundamental",
+      "model": "ADSR",
+      "version": "2.1.0",
+      "params": [
+        {
+          "value": 0.5,
+          "id": 0
+        },
+        {
+          "value": 0.5,
+          "id": 1
+        },
+        {
+          "value": 0.5,
+          "id": 2
+        },
+        {
+          "value": 0.5,
+          "id": 3
+        },
+        {
+          "value": 0.40800005197525024,
+          "id": 4
+        },
+        {
+          "value": -0.36266666650772095,
+          "id": 5
+        },
+        {
+          "value": -0.33599996566772461,
+          "id": 6
+        },
+        {
+          "value": -0.62666666507720947,
+          "id": 7
+        },
+        {
+          "value": 0.0,
+          "id": 8
+        }
+      ],
+      "leftModuleId": 4680591923261986,
+      "rightModuleId": 4465559389411843,
+      "pos": [
+        20,
+        0
+      ]
+    },
+    {
+      "id": 173101597112100,
+      "plugin": "PathSet",
+      "model": "Nudge",
+      "version": "2.2.0",
+      "params": [
+        {
+          "value": 2.8674690723419189,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 1.339674711227417,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": 5.0,
+          "id": 4
+        },
+        {
+          "value": 0.0,
+          "id": 5
+        },
+        {
+          "value": 0.0,
+          "id": 6
+        },
+        {
+          "value": 0.0,
+          "id": 7
+        },
+        {
+          "value": 1.0,
+          "id": 8
+        },
+        {
+          "value": 0.0,
+          "id": 9
+        },
+        {
+          "value": 0.0,
+          "id": 10
+        }
+      ],
+      "leftModuleId": 3387627167730057,
+      "rightModuleId": 7857746615765511,
+      "data": {
+        "version": 1,
+        "lines": [
+          {
+            "amt": 0.29032576084136963,
+            "vel": 1.0,
+            "delta": 6.1695425301877549e-7
+          },
+          {
+            "amt": 0.046480007469654083,
+            "vel": 1.0,
+            "delta": 1.6358676475647371e-6
+          },
+          {
+            "amt": 1.0,
+            "vel": 1.0,
+            "delta": 4.7265976377275365e-7
+          },
+          {
+            "amt": 0.046064149588346481,
+            "vel": 1.0,
+            "delta": 8.2936730905203149e-7
+          },
+          {
+            "amt": 0.065539658069610596,
+            "vel": 1.0,
+            "delta": 1.639306674405816e-6
+          }
+        ],
+        "nudging": 0
+      },
+      "pos": [
+        42,
+        0
+      ]
+    },
+    {
+      "id": 4465559389411843,
+      "plugin": "Fundamental",
+      "model": "8vert",
+      "version": "2.1.0",
+      "params": [
+        {
+          "value": 0.84096366167068481,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        },
+        {
+          "value": 0.0,
+          "id": 5
+        },
+        {
+          "value": 0.0,
+          "id": 6
+        },
+        {
+          "value": 0.22891561686992645,
+          "id": 7
+        }
+      ],
+      "leftModuleId": 1531051066366280,
+      "rightModuleId": 3387627167730057,
+      "pos": [
+        29,
+        0
+      ]
+    },
+    {
+      "id": 3387627167730057,
+      "plugin": "rcm",
+      "model": "rcm-CVMmt",
+      "version": "2.0.0",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        }
+      ],
+      "leftModuleId": 4465559389411843,
+      "rightModuleId": 173101597112100,
+      "data": {
+        "backgroundHue": 0.75400000810623169,
+        "backgroundSaturation": 1.0,
+        "backgroundLuminosity": 0.57999998331069946,
+        "textfield": {
+          "text": "NUDGE!"
+        }
+      },
+      "pos": [
+        37,
+        0
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 7012790408783349,
+      "outputModuleId": 173101597112100,
+      "outputId": 0,
+      "inputModuleId": 7857746615765511,
+      "inputId": 5,
+      "color": "#00b56e"
+    },
+    {
+      "id": 379673364943227,
+      "outputModuleId": 4680591923261986,
+      "outputId": 1,
+      "inputModuleId": 1531051066366280,
+      "inputId": 4,
+      "color": "#3695ef"
+    },
+    {
+      "id": 2843035498047361,
+      "outputModuleId": 173101597112100,
+      "outputId": 2,
+      "inputModuleId": 1531051066366280,
+      "inputId": 0,
+      "color": "#00b56e"
+    },
+    {
+      "id": 6728735763896394,
+      "outputModuleId": 173101597112100,
+      "outputId": 4,
+      "inputModuleId": 1531051066366280,
+      "inputId": 3,
+      "color": "#00b56e"
+    },
+    {
+      "id": 1572577313514026,
+      "outputModuleId": 173101597112100,
+      "outputId": 3,
+      "inputModuleId": 7857746615765511,
+      "inputId": 3,
+      "color": "#00b56e"
+    },
+    {
+      "id": 661403255640392,
+      "outputModuleId": 1531051066366280,
+      "outputId": 0,
+      "inputModuleId": 4465559389411843,
+      "inputId": 7,
+      "color": "#00b56e"
+    },
+    {
+      "id": 7893061214246739,
+      "outputModuleId": 4465559389411843,
+      "outputId": 7,
+      "inputModuleId": 173101597112100,
+      "inputId": 3,
+      "color": "#00b56e"
+    },
+    {
+      "id": 6749333789191919,
+      "outputModuleId": 1531051066366280,
+      "outputId": 0,
+      "inputModuleId": 4465559389411843,
+      "inputId": 0,
+      "color": "#00b56e"
+    },
+    {
+      "id": 3776831165294624,
+      "outputModuleId": 4465559389411843,
+      "outputId": 0,
+      "inputModuleId": 173101597112100,
+      "inputId": 0,
+      "color": "#00b56e"
+    },
+    {
+      "id": 1163886810209628,
+      "outputModuleId": 3387627167730057,
+      "outputId": 0,
+      "inputModuleId": 173101597112100,
+      "inputId": 9,
+      "color": "#8b4ade"
+    },
+    {
+      "id": 3468074695337859,
+      "outputModuleId": 4680591923261986,
+      "outputId": 0,
+      "inputModuleId": 7857746615765511,
+      "inputId": 0,
+      "color": "#3695ef"
+    },
+    {
+      "id": 2967703073257360,
+      "outputModuleId": 7857746615765511,
+      "outputId": 0,
+      "inputModuleId": 8518972980240757,
+      "inputId": 0,
+      "color": "#f3374b"
+    }
+  ]
+}

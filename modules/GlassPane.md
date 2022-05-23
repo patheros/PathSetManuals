@@ -1,7 +1,7 @@
 # Glass Pane
 ![Image of GlassPane module](../images/GlassPane.png)
 
-Glass Pane is a network sequencer where the patch cables control which step folows another. With it you can have randomness, branching, and even simple arpeggiation.
+Glass Pane is a network sequencer where the patch cables control which step follows another. With it you can have randomness, branching, and even simple arpeggiation.
 
 ## Quick Start
 
@@ -11,8 +11,8 @@ Glass Pane is a network sequencer where the patch cables control which step folo
 
 This quick example shows off all three different modes. The sequence it generates has three parts that repeat.
 1. The first part uses the blue Cycle mode to make four consistent notes. You can see it in the first column connected with blue cables.
-2. The second part uses the orange Random mode to create variablity. You can see it in the second column connected with orange cables.
-3. The third part uses the purple Rachet mode to create a faster pattern. You can see it on third and fourth columns with the purple cables.
+2. The second part uses the orange Random mode to create variability. You can see it in the second column connected with orange cables.
+3. The third part uses the purple Ratchet mode to create a faster pattern. You can see it on third and fourth columns with the purple cables.
 
 ## Panel
 
@@ -41,7 +41,7 @@ This quick example shows off all three different modes. The sequence it generate
 
 14. **Blue / Cycle** - Each input reliably cycles through the outputs of this node.
 15. **Orange / Random** - Each input randomly selects an output of this node.
-16. **Purple / Ratchet** - The outputs of this node are played in quick succession. The attached nodes are not recurisvely played like the other modes.
+16. **Purple / Ratchet** - The outputs of this node are played in quick succession. The attached nodes are not recursively played like the other modes.
 
 ## Misc
 
@@ -63,7 +63,7 @@ Create a sequence by connecting an output from the top-left node to one of the o
 
 To expend a sequence connect the output of the last step to another unused node. You could repeat this to create up to a linear 16 step sequence, but where would the fun in that be? Instead, after creating a few linear steps, double back and create a branch by connecting a second output from an existing node to another node. Now every time that node is visited one of its two outputs will trigger creating more complicated sequences.
 
-Feel free to go hog-wild creating loop-backs, skips-aheads, or whatever else you can imagine. You can also start playing around with the different modes each node can have which are described below. You can also connect outputs from notes to the mode triggers to alow the network to modify itself.
+Feel free to go hog-wild creating loop-backs, skips-aheads, or whatever else you can imagine. You can also start playing around with the different modes each node can have which are described below. You can also connect outputs from notes to the mode triggers to allow the network to modify itself.
 
 ### Cycle Mode
 
@@ -81,24 +81,24 @@ In random mode the output of a node is random each time creating inconsistent pa
 
 ### Ratchet Mode
 
-Ratchet mode does two things in combination. It shallowly visits each of the connected nodes and it speeds up the playing of those nodes. Shallow visiting a node means that the node is only going to be visited once and after that the active node will automatically return to the original anchoring ratch node. You can see this happen in the active light. When ratcheting the node that started a ratcehet remains partially lit.
+Ratchet mode does two things in combination. It shallowly visits each of the connected nodes and it speeds up the playing of those nodes. Shallow visiting a node means that the node is only going to be visited once and after that the active node will automatically return to the original anchoring ratchet node. You can see this happen in the active light. When ratcheting the node that started a ratchet remains partially lit.
 
-The speed at which the ratcheting nodes are played can be controled by the `Rachet Speed` contextual menu. It has the following settings:
+The speed at which the ratcheting nodes are played can be controlled by the `Ratchet Speed` contextual menu. It has the following settings:
 1. **Dynamic** - The number of connected ports on the node controls which speed is used. With non connected Whole Notes is used. Each connected port increases the speed one level.
 2. **Whole Notes** - The speed matches the clock.
 3. **Half Notes** - Twice the clock speed.
 3. **Triplets** - Three times the clock speed.
 4. **Quarter Notes** - Four times the clock speed.
 
-The number of ratched notes is also set by the connected number of ports. The number will always be at least that of the connected number of output ports. The number will be larger if the current speed would leave a pause, instead extra ratchets are added.
+The number of ratchet notes is also set by the connected number of ports. The number will always be at least that of the connected number of output ports. The number will be larger if the current speed would leave a pause, instead extra ratchets are added.
 
 If a ratchet node is connected to another ratchet node, the second ratchet node extends the length of the original node's ratcheting but the original ratchet node still remains the anchor node.
 
-GlassPane uses the last full clock cycle received to compute how long the ratcheting should be. So if the input clock is inconistent you may end up with some ratchets being fast and some being slow. If you don't like this effect, feed GlassPane a consistent clock.
+GlassPane uses the last full clock cycle received to compute how long the ratcheting should be. So if the input clock is inconsistent you may end up with some ratchets being fast and some being slow. If you don't like this effect, feed GlassPane a consistent clock.
 
 ### Loops and Dead Ends
 
-Regardless of the mode, if a note does not have any outputs connected, subsquent triggers to it will revert back to the top-left node.
+Regardless of the mode, if a note does not have any outputs connected, subsequent triggers to it will revert back to the top-left node.
 
 Sometimes you might notice GlassPane is stuck on a single node. This can happen if none of the patch cables connected to its outputs go to other nodes. Try adding a connection to another node or back to the top-left node.
 

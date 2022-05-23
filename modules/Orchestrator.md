@@ -32,7 +32,7 @@ Orchestrator is a modulation and gate source designed to be the conductor of a r
 9. **End of Cycle Output** - Is high for one sample when the sequence ends.
 10. **New Sequence Input** - Creates a new pattern for that arm.
 11. **New Sequence Button** - Creates a new pattern for that arm.
-12. **Arm Mode** - Toggles if the arm is outputing modulation vs gates
+12. **Arm Mode** - Toggles if the arm is outputting modulation vs gates
 13. **Arm Length** - Controls how fast the arm's pattern repeats.
 14. **Arm Rate** - Controls the rate of the arm's pattern. 
 15. **A Output** - Nearest modulation or gate output for that arm.
@@ -61,16 +61,16 @@ Tip: Patch the `EOC` to `New Head Trigger` to get a never ending song.
 
 Each of the eight arms on Orchestrator have three outputs each along with several configuration options:
 
-Starting from the body working out there is the `New Sequene` input and button. Either will change the internal signature/pattern of that arm. See [Modulation mode](#Modulation-Mode) or [Drum mode](#Drum-Mode) for specifics.
+Starting from the body working out there is the `New Sequence` input and button. Either will change the internal signature/pattern of that arm. See [Modulation mode](#Modulation-Mode) or [Drum mode](#Drum-Mode) for specifics.
 
 Next is the `Arm Mode` switch. This toggles between [modulation mode](#Modulation-Mode) and [drum mode](#Drum-Mode). Both are described in more detail bellow.
 
 Next is `Arm Length` and `Arm Rate`.  These control how fast each arm's internal sequence/pattern plays and how often it repeats. These knobs are independent form the knobs on the head. Note that while you are turning `Arm Rate` the song's position will move creating more movement temporarily.
 
-Finally we have the three outputs pre arm along with individual `Power` and `Offset` knobs per output. Note the positioning of these knobs above or bellow each arm alternates. The following sections describe how they affect behavior depending on the arm's mode.
+Finally we have the three outputs per arm along with individual `Power` and `Offset` knobs per output. Note the positioning of these knobs above or bellow each arm alternates. The following sections describe how they affect behavior depending on the arm's mode.
 
 ### Modulation Mode
-In Modulation Mode the arm's internal sequence is an LFO waveform that creates micro oscillations that are added to the arm's position. This is intended to control color and tambour CVs on voices. In doing so micro oscillations create variety in the moment and the macro oscillations create movement across the song.
+In Modulation Mode the arm's internal sequence is an LFO waveform that creates micro oscillations that are added to the arm's position. This is intended to control color and timbre CVs on voices. In doing so micro oscillations create variety in the moment and the macro oscillations create movement across the song.
 
 In modulation mode all three outputs use the same micro oscillation waveform, but the `A Outputs` (closer to the head) run at quarter speed and the `C Outputs` (further from the head) run at 4x speed.
 
@@ -81,7 +81,7 @@ In drum mode the arm's internal sequence creates a drum pattern. These are inten
 
 In drum mode all each output has its own internal sequence. Additionally the `A Outputs` (closer to the head) require a lower threshold form the macro oscillator to turn on making them more suitable for base instruments. Where as the `C Outputs` (further from the head) require a higher threshold making them more suitable for accent sounds.
 
-In drum mode `Power` knob controls how many drum hits there are. As you turn this down fewer and fewer hits in the underlying sequence make it through. The `Offset` knob controls the swing of the drum hits. At 12-oclock (0%) the sequence has no swing.
+In drum mode `Power` knob controls how many drum hits there are. As you turn this down fewer and fewer hits in the underlying sequence make it through. The `Offset` knob controls the swing of the drum hits. At 12 o'clock (0%) the sequence has no swing.
 
 ## Misc
 
@@ -94,7 +94,7 @@ The contextual menu for Orchestrator offers the ability to speed up the overall 
 **Wave Arms** - Ignores the main signature/pattern of the macro oscillator, and instead each arm quickly waves up and down out of phase. This is intended to allow you to quickly hear the full range of the modulation and tweak the power, offset, and any other attenuators involved. However you feel free to just use this mode in general. In this mode the `Sequence Complexity` knob controls the rate at which the arms wave.
 
 ### Bypass
-When Ochestrator is bypassed all outputs stay at 0V.
+When Orchestrator is bypassed all outputs stay at 0V.
 
 ## Patch Examples
 
@@ -104,7 +104,7 @@ When Ochestrator is bypassed all outputs stay at 0V.
 
 [Download Example 1](../examples/Orchestrator/Orchestrator_Example1.vcvs?raw=true)
 
-In this example the left side of Orchestrator is driving a Palette voice and Quantum Compass as a squencer & quantizer. The right side is driving two pico drums and modulating a Delay on one of them. 
+In this example the left side of Orchestrator is driving a Palette voice and Quantum Compass as a sequencer & quantizer. The right side is driving two pico drums and modulating a Delay on one of them. 
 
 Orchestrator is set for a 240 second (4 minute) song. The overall sequence will repeat every 4 minutes and during those 4 minutes you'll hear different.
 
@@ -118,14 +118,14 @@ Row 2: [Quantum Compass](https://library.vcvrack.com/PathSet-Infinity/QuantumCom
 
 [Download Example 2](../examples/Orchestrator/Orchestrator_Example2.vcvs?raw=true)
 
-In this example we are using Ochestrator in On-Shot mode and at 100x speed to create a many arm envelope like monster. Four of the arms are used to drive an FM-OP. The top arm is in gate mode and serves as the trigger. The next arm is run through a quantizer to create notes. And the bottom two arms modulate the feedback and sustane on FM-OP. CLKD triggers Ochestrator each clock and then randomizes the sequence on one of its arms every 4 clocks.
+In this example we are using Orchestrator in On-Shot mode and at 100x speed to create a many arm envelope like monster. Four of the arms are used to drive an FM-OP. The top arm is in gate mode and serves as the trigger. The next arm is run through a quantizer to create notes. And the bottom two arms modulate the feedback and sustain on FM-OP. CLKD triggers Orchestrator each clock and then randomizes the sequence on one of its arms every 4 clocks.
 
 This example patch uses 5 modules. Left to right: [A clock](https://library.vcvrack.com/ImpromptuModular/Clocked-Clkd), Orchestrator, a quantizer,a [Voice](https://library.vcvrack.com/Bogaudio/Bogaudio-FMOp) and Audio Output.
 
-1. Ochestrator is in one-shot mode.
-2. Ochestrator's speed is set to 100x in the contexual menu.
-2. The Clock tigger's Ochestrator to run.
-3. Every 4 clocks Ochestrator's 6th Arm gets a new sequence.
+1. Orchestrator is in one-shot mode.
+2. Orchestrator's speed is set to 100x in the contextual menu.
+2. The Clock trigger's Orchestrator to run.
+3. Every 4 clocks Orchestrator's 6th Arm gets a new sequence.
 4. Arm 5 is set to Drum Mode
 5. Output 5 A is the gate for the voice
 6. Output 6 A is run through a quantizer to set the note of the voice.

@@ -1,0 +1,495 @@
+{
+  "modules": [
+    {
+      "id": 8518972980240757,
+      "plugin": "Core",
+      "model": "AudioInterface2",
+      "version": "2.0.6",
+      "params": [
+        {
+          "value": 1.0,
+          "id": 0
+        }
+      ],
+      "leftModuleId": 6196702314712919,
+      "rightModuleId": 4358419357678094,
+      "data": {
+        "audio": {
+          "driver": 6,
+          "deviceName": "Speakers (5- Schiit Modi 3+)",
+          "sampleRate": 48000.0,
+          "blockSize": 256,
+          "inputOffset": 0,
+          "outputOffset": 0
+        },
+        "dcFilter": true
+      },
+      "pos": [
+        45,
+        0
+      ]
+    },
+    {
+      "id": 7966841660387698,
+      "plugin": "PathSet",
+      "model": "Nudge",
+      "version": "2.2.0",
+      "params": [
+        {
+          "value": 0.072289161384105682,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 1.8855422735214233,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": 5.0,
+          "id": 4
+        },
+        {
+          "value": 0.0,
+          "id": 5
+        },
+        {
+          "value": 0.85783123970031738,
+          "id": 6
+        },
+        {
+          "value": 0.0,
+          "id": 7
+        },
+        {
+          "value": 2.0,
+          "id": 8
+        },
+        {
+          "value": 0.0,
+          "id": 9
+        },
+        {
+          "value": 0.0,
+          "id": 10
+        }
+      ],
+      "leftModuleId": 4680591923261986,
+      "rightModuleId": 6196702314712919,
+      "data": {
+        "version": 1,
+        "lines": [
+          {
+            "amt": -0.69700801372528076,
+            "vel": -1.0,
+            "delta": -0.00017105217557400465
+          },
+          {
+            "amt": 0.044131189584732056,
+            "vel": -1.0,
+            "delta": -0.00013565720291808248
+          },
+          {
+            "amt": 0.54367536306381226,
+            "vel": 1.0,
+            "delta": 0.00013169051089789718
+          },
+          {
+            "amt": -0.24296250939369202,
+            "vel": 1.0,
+            "delta": 0.00019344042812008411
+          },
+          {
+            "amt": 0.92444121837615967,
+            "vel": -1.0,
+            "delta": -8.1201163993682712e-5
+          }
+        ],
+        "nudging": 0
+      },
+      "pos": [
+        18,
+        0
+      ]
+    },
+    {
+      "id": 4680591923261986,
+      "plugin": "ImpromptuModular",
+      "model": "Clocked",
+      "version": "2.1.0",
+      "params": [
+        {
+          "value": 120.0,
+          "id": 0
+        },
+        {
+          "value": -4.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        },
+        {
+          "value": 0.0,
+          "id": 5
+        },
+        {
+          "value": 0.0,
+          "id": 6
+        },
+        {
+          "value": 0.0,
+          "id": 7
+        },
+        {
+          "value": 0.5,
+          "id": 8
+        },
+        {
+          "value": 0.5,
+          "id": 9
+        },
+        {
+          "value": 0.5,
+          "id": 10
+        },
+        {
+          "value": 0.5,
+          "id": 11
+        },
+        {
+          "value": 0.0,
+          "id": 12
+        },
+        {
+          "value": 0.0,
+          "id": 13
+        },
+        {
+          "value": 0.0,
+          "id": 14
+        },
+        {
+          "value": 0.0,
+          "id": 15
+        },
+        {
+          "value": 0.0,
+          "id": 16
+        },
+        {
+          "value": 0.0,
+          "id": 17
+        },
+        {
+          "value": 0.0,
+          "id": 18
+        },
+        {
+          "value": 0.0,
+          "id": 19
+        }
+      ],
+      "rightModuleId": 7966841660387698,
+      "data": {
+        "panelTheme": 0,
+        "panelContrast": 220.0,
+        "running": true,
+        "displayDelayNoteMode": true,
+        "bpmDetectionMode": false,
+        "resetOnStartStop": 0,
+        "ppqn": 4,
+        "resetClockOutputsHigh": true,
+        "momentaryRunInput": true,
+        "forceCvOnBpmOut": false,
+        "clockMaster": false
+      },
+      "pos": [
+        -2,
+        0
+      ]
+    },
+    {
+      "id": 6196702314712919,
+      "plugin": "Atelier",
+      "model": "AtelierPalette",
+      "version": "2.0.2",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": 0.10512816905975342,
+          "id": 4
+        },
+        {
+          "value": 0.16282042860984802,
+          "id": 5
+        },
+        {
+          "value": 1.0,
+          "id": 6
+        },
+        {
+          "value": 0.0,
+          "id": 7
+        },
+        {
+          "value": 1.0,
+          "id": 8
+        },
+        {
+          "value": 0.0,
+          "id": 9
+        },
+        {
+          "value": 0.0,
+          "id": 10
+        },
+        {
+          "value": 0.0,
+          "id": 11
+        },
+        {
+          "value": 0.26265072822570801,
+          "id": 12
+        },
+        {
+          "value": 0.31807237863540649,
+          "id": 13
+        },
+        {
+          "value": 0.3666665256023407,
+          "id": 14
+        },
+        {
+          "value": 1.0,
+          "id": 15
+        },
+        {
+          "value": 0.0,
+          "id": 16
+        },
+        {
+          "value": 2.0,
+          "id": 17
+        },
+        {
+          "value": 0.05000000074505806,
+          "id": 18
+        },
+        {
+          "value": 0.42409628629684448,
+          "id": 19
+        },
+        {
+          "value": 0.0,
+          "id": 20
+        },
+        {
+          "value": 0.64096379280090332,
+          "id": 21
+        },
+        {
+          "value": 0.84578299522399902,
+          "id": 22
+        },
+        {
+          "value": 0.0,
+          "id": 23
+        },
+        {
+          "value": 0.0,
+          "id": 24
+        },
+        {
+          "value": 0.0,
+          "id": 25
+        },
+        {
+          "value": 0.0,
+          "id": 26
+        }
+      ],
+      "leftModuleId": 7966841660387698,
+      "rightModuleId": 8518972980240757,
+      "data": {
+        "rsqual": 4,
+        "model": 5,
+        "lpgColor": 0.55740952491760254,
+        "decay": 0.61433905363082886,
+        "freetune": false,
+        "lfoMode": false,
+        "showmods": true,
+        "lpgMode": 0
+      },
+      "pos": [
+        27,
+        0
+      ]
+    },
+    {
+      "id": 4358419357678094,
+      "plugin": "Fundamental",
+      "model": "Scope",
+      "version": "2.1.0",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": -3.88283371925354,
+          "id": 4
+        },
+        {
+          "value": 0.0,
+          "id": 5
+        },
+        {
+          "value": 0.0,
+          "id": 6
+        },
+        {
+          "value": 1.0,
+          "id": 7
+        }
+      ],
+      "leftModuleId": 8518972980240757,
+      "pos": [
+        50,
+        0
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 4003016528688921,
+      "outputModuleId": 6196702314712919,
+      "outputId": 2,
+      "inputModuleId": 8518972980240757,
+      "inputId": 0,
+      "color": "#f3374b"
+    },
+    {
+      "id": 5036480430036556,
+      "outputModuleId": 4680591923261986,
+      "outputId": 0,
+      "inputModuleId": 6196702314712919,
+      "inputId": 5,
+      "color": "#3695ef"
+    },
+    {
+      "id": 8504245620692983,
+      "outputModuleId": 7966841660387698,
+      "outputId": 0,
+      "inputModuleId": 6196702314712919,
+      "inputId": 11,
+      "color": "#00b56e"
+    },
+    {
+      "id": 6491970251338271,
+      "outputModuleId": 7966841660387698,
+      "outputId": 1,
+      "inputModuleId": 6196702314712919,
+      "inputId": 1,
+      "color": "#00b56e"
+    },
+    {
+      "id": 2078279411180305,
+      "outputModuleId": 4680591923261986,
+      "outputId": 1,
+      "inputModuleId": 7966841660387698,
+      "inputId": 9,
+      "color": "#3695ef"
+    },
+    {
+      "id": 3891040337586462,
+      "outputModuleId": 7966841660387698,
+      "outputId": 3,
+      "inputModuleId": 6196702314712919,
+      "inputId": 4,
+      "color": "#00b56e"
+    },
+    {
+      "id": 5417840593506689,
+      "outputModuleId": 7966841660387698,
+      "outputId": 4,
+      "inputModuleId": 6196702314712919,
+      "inputId": 9,
+      "color": "#00b56e"
+    },
+    {
+      "id": 7720002748817582,
+      "outputModuleId": 7966841660387698,
+      "outputId": 0,
+      "inputModuleId": 6196702314712919,
+      "inputId": 8,
+      "color": "#00b56e"
+    },
+    {
+      "id": 8326913323030738,
+      "outputModuleId": 7966841660387698,
+      "outputId": 2,
+      "inputModuleId": 6196702314712919,
+      "inputId": 3,
+      "color": "#00b56e"
+    },
+    {
+      "id": 7172084815584673,
+      "outputModuleId": 7966841660387698,
+      "outputId": 0,
+      "inputModuleId": 4358419357678094,
+      "inputId": 0,
+      "color": "#00b56e"
+    },
+    {
+      "id": 204026145236580,
+      "outputModuleId": 7966841660387698,
+      "outputId": 1,
+      "inputModuleId": 4358419357678094,
+      "inputId": 1,
+      "color": "#8b4ade"
+    }
+  ]
+}

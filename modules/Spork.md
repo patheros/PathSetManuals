@@ -1,7 +1,7 @@
 # Spork
 ![Image of Spork module](../images/Spork.png)
 
-Spork is compact granular effects module. It has six togglable modes, each with two mysterious parameters, as well as a grain size and overlap parameters. Each of the four parameters has a dedicated CV and attenuverter.
+Spork is compact granular effects module. It has six toggleable modes, each with two mysterious parameters, as well as a grain size and overlap parameters. Each of the four parameters has a dedicated CV and attenuverter.
 
 ## Panel
 
@@ -12,10 +12,10 @@ Spork is compact granular effects module. It has six togglable modes, each with 
 3. **Left Audio Output** - Left Audio output for effect.
 4. **Right Audio Output** - Right Audio output for effect.
 5. **Mode Select** - Select which effect is in use. Current effect indicated by lights.
-6. **Mod A Knob** - Paramater A for the selected effect. See mode descriptions for more details.
+6. **Mod A Knob** - Parameter A for the selected effect. See mode descriptions for more details.
 7. **Mod A CV** - Modulates Mod A knob.
 8. **Mod A Attenuverter** - Modifies CV for Mod A knob.
-9. **Mod B Knob** - Paramater B for the selected effect. See mode descriptions for more details.
+9. **Mod B Knob** - Parameter B for the selected effect. See mode descriptions for more details.
 10. **Mod B CV** - Modulates Mod B knob.
 11. **Mod B Attenuverter** - Modifies CV for Mod B knob.
 12. **Grain Size Knob** - Controls size of each grain being played in the effect.
@@ -80,7 +80,7 @@ Randomly delays some grain start times by a variable amount.
 - **Mod A** - Stability of delay. At 0 the delay is nearly random each time. At 1 the delay drifts slowly. 
 - **Mod B** - Amplitude of delay.
 
-### Exapnder
+### Expander
 
 When the expander is attached, Spork no longer applies a single mode. Instead, all six modes can be applied at varying strengths. Use the knobs and CVs on the expander to control how strong each mode is. The expander is added through the contextual menu.
 

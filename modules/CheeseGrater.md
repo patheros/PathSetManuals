@@ -39,9 +39,9 @@ This simple example puts a sine wave into the audio input on Cheese Grater. Pres
 22. **Slices of Toast** - Turn this up to layer up multiple grains at the same time. Use this to add more depth to a sound. It is especially useful when `grain size` or `consistency` is below 0. 
 23. **Slices of Toast CV** - Modulates Slices of Toast Knob.
 24. **Slices of Toast Attenuverter** - Modifies CV for Slices of Toast Knob.
-25. **Slice Seperation** - Controls the length of time between each `slice of toast` starting.
-26. **Slice Seperation CV** - Modulates Slice Seperation Knob.
-27. **Slice Seperation Attenuverter** - Modifies CV for Slice Seperation Knob.
+25. **Slice Separation** - Controls the length of time between each `slice of toast` starting.
+26. **Slice Separation CV** - Modulates Slice Separation Knob.
+27. **Slice Separation Attenuverter** - Modifies CV for Slice Separation Knob.
 28. **Slice Depth** - Controls where in the sample each slice of toast comes from.
 29. **Slice Depth CV** - Modulates Slice Depth Knob.
 30. **Slice Depth Attenuverter** - Modifies CV for Slice Depth Knob.

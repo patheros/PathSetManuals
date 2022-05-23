@@ -48,7 +48,7 @@ Warp Drive is a massive two-engine starship. Each engine is a voice with its own
 27. **Randomize Envelope Signature Button** - Creates a new envelope shape.
 28. **Envelope Coupling** - When on, the envelopes on the left and right engine use the same shape.
 29. **Envelope Output** - Direct output from the envelope generator.
-30. **Audio Output** - Main audio output. Main Coil output passed through VCA controled by envelope.
+30. **Audio Output** - Main audio output. Main Coil output passed through VCA controlled by envelope.
 31. **LFO/Clock Rate knob** - Controls the speed of the LFO/Clock.
 32. **LFO/Clock Rate CV** - Modulates LFO/Clock Rate knob.
 33. **LFO/Clock Rate Attenuverter** - Modifies CV for LFO/Clock Rate knob.
@@ -117,7 +117,7 @@ The `Mixture` knob controls whether the Envelope or the LFO is used for that mod
 ## Misc
 
 ### Bypass
-When Wapr Drive is bypassed all outputs stay at 0V.
+When Warp Drive is bypassed all outputs stay at 0V.
 
 ## Patch Examples
 
@@ -132,7 +132,7 @@ Row 3: VCF, Mixer, Audio Output.
 
 1. The Clock drives Sequencer.
 2. The Sequencer's Gate output is connected up to both `Clock inputs`  on WarpDrive.
-3. The Sequencer's quantized V/Oct is connected to both `1V/octave intputs` on WarpDrive.
+3. The Sequencer's quantized V/Oct is connected to both `1V/octave inputs` on WarpDrive.
 4. The Sequencer's End of Cycle is connected to the Clock on the clock divider.
 5. The Clock Dividers 2nd output is connected to the `New Main Coil Signature Trigger L input` on WarpDrive.
 6. The Clock Dividers 3rd output is connected to the `New Main Coil Signature Trigger R input` on WarpDrive.

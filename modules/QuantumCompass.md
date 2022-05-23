@@ -62,11 +62,11 @@ Unlike normal sequencers the Quantum Compass only takes suggestions on which not
 
 ### Steps 
 
-The `Max Steps Count`, `Steps Attenuveter` and `Steps CV` all control how many steps are in the sequence. Anywhere between 1 and 64 steps are supported. Increasing or decreasing the step count does not change the underlying pattern of notes, it only truncates it.
+The `Max Steps Count`, `Steps Attenuverter` and `Steps CV` all control how many steps are in the sequence. Anywhere between 1 and 64 steps are supported. Increasing or decreasing the step count does not change the underlying pattern of notes, it only truncates it.
 
 ### Ratchets
 
-Turning up the `Ratchet` knob adds ratcheting to some steps in the sequence. Ratcheted steps can play 2, 3 or 4 times in a single clock cycle. The switches bellow the ratchet know control which of these options are available.  Ratchet also has an attenuveter and CV input. Note that ratcheting pulls from the next 3 notes in the sequence creating more melodic interest. Note that with the `Chaos` knob set to 0 the ratcheting effect is consistent each time the pattern repeats.
+Turning up the `Ratchet` knob adds ratcheting to some steps in the sequence. Ratcheted steps can play 2, 3 or 4 times in a single clock cycle. The switches bellow the ratchet know control which of these options are available.  Ratchet also has an attenuverter and CV input. Note that ratcheting pulls from the next 3 notes in the sequence creating more melodic interest. Note that with the `Chaos` knob set to 0 the ratcheting effect is consistent each time the pattern repeats.
 
 ### Mutes
 
@@ -116,9 +116,9 @@ When Quantum Compass is bypassed all outputs stay at 0V.
 This example patch uses 5 modules. Left to right: [A clock](https://library.vcvrack.com/ImpromptuModular/Clocked-Clkd), an LFO, Quantum Compass, a [Voice](https://library.vcvrack.com/Bogaudio/Bogaudio-FMOp) and Audio Output.
 
 1. The Clock drives Quantum Compass.
-2. The clock also modulates Ratching.
+2. The clock also modulates Ratcheting.
 3. The LFO modulates Chaos
 4. The 1V/Octave and Gate go into the Voice.
-5. The Octive Up Gate modulates the sustane on the Voice.
+5. The Octave Up Gate modulates the sustain on the Voice.
 6. The Sharp Gate modulates the feedback
 
