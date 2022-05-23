@@ -8,7 +8,7 @@ The Path Set is family an eclectic and bespoke of plugins for [VCV Rack](https:/
 ### Blender
 <a href="modules/Blender.md">![Image of Blender module](images/Blender.png)</a><br/>
 [Blender Manual](modules/Blender.md)<br/>
-A "Distorion Looper". Play with 4 main knobs to snapshot dynamic effects.
+A "Distortion Looper". Play with 4 main knobs to snapshot dynamic effects.
 
 ### Cheese Grater
 <a href="modules/CheeseGrater.md">![Image of CheeseGrater module](images/CheeseGrater.png)</a><br/>
@@ -83,4 +83,4 @@ PathSet brand and artwork Copyright (c) 2022 Andrew Hanson, All rights reserved.
 
 The contents of the manuals here are licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
 
-The plugins they reference to are covered under various licenses. See their individual liceneses in the [VCV Rack Library](https://library.vcvrack.com/?brand=Path%20Set)
+The plugins they reference to are covered under various licenses. See their individual licenses in the [VCV Rack Library](https://library.vcvrack.com/?brand=Path%20Set)
