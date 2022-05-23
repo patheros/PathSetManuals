@@ -49,7 +49,7 @@ Ten total oscillators grouped into deep dual-drive systems. Explore a vast range
 ## Path Set: Free
 
 ### Astro Vibe
-<a href="https://github.com/patheros/PathSetModules#astro-vibe">![Image of AstroVibe module](images/AstroVibe.png)</a><br/>
+<a href="modules/AstroVibe.md">![Image of AstroVibe module](images/AstroVibe.png)</a><br/>
 [AstroVibe Manual](modules/AstroVibe.md)<br/>
 Three stereo oscillators or LFOs with random waveforms. Explore a universe of unique waveforms.
 <br/><br/>
@@ -61,13 +61,19 @@ Patchable, branchable, network sequencer. Create a cascading intricate self modu
 <br/><br/>
 
 ### Ice Tray
-<a href="https://github.com/patheros/PathSetModules#ice-tray">![Image of IceTray module](images/IceTray.png)</a><br/>
+<a href="modules/IceTray.md">![Image of IceTray module](images/IceTray.png)</a><br/>
 [IceTray Manual](modules/IceTray.md)<br/>
 Speed shifter and tape delay with selective memory. Perform into this and it will never forget your mistakes.
 <br/><br/>
 
+### Nudge
+<a href="modules/Nudge.md">![Image of Nudge module](images/Nudge.png)</a><br/>
+[Nudge Manual](modules/Shifty.md)<br/>
+Modulation generator that lets you randomly nudge the modulations whenever you want.
+<br/><br/>
+
 ### Shifty
-<a href="https://github.com/patheros/PathSetModules#shifty">![Image of Shifty module](images/Shifty.png)</a><br/>
+<a href="modules/Shifty.md">![Image of Shifty module](images/Shifty.png)</a><br/>
 [Shifty Manual](modules/Shifty.md)<br/>
 Gate shift register with controllable delays. Create generative gate sequences from a simple clock.
 <br/><br/>
