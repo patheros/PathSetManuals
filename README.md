@@ -68,7 +68,7 @@ Speed shifter and tape delay with selective memory. Perform into this and it wil
 
 ### Nudge
 <a href="modules/Nudge.md">![Image of Nudge module](images/Nudge.png)</a><br/>
-[Nudge Manual](modules/Shifty.md)<br/>
+[Nudge Manual](modules/Nudge.md)<br/>
 Modulation generator that lets you randomly nudge the modulations whenever you want.
 <br/><br/>
 
