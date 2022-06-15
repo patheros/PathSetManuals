@@ -62,7 +62,7 @@ The different bridge effects are:
 
 Like every sequencer in the Rainbows set, Bridge has an expander. You can add the expander in the contextual menu. The expander creates four independent playheads. When the expander is attached you will see the selected note ring is now broken up into four quadrants, one for each of the four playheads.
 
-The `Clock` and `Reset` inputs on the main module drives all four playheads, but you can also use independent clock and reset inputs on the expander to drive each playhead at a different rates.
+The `Clock` and `Reset` inputs on the main module drive all four playheads, but you can also use independent clock and reset inputs on the expander to drive each playhead at a different rate.
 
 On Bridge, the four playheads automatically start on different rows so that in its initial configuration, Bridge has four independent sequences. The `Start Row Knob` offsets all playheads.
 
