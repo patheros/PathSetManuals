@@ -17,7 +17,7 @@ Like every sequencer in the Rainbows set, Ring is designed to sequence notes. Ea
 5. **End of Cycle Gate output** - Gate signal that is high on the first step of the sequence after each time the cycle ends.
 6. **Ratchet Gate output** - Gate signal that is high whenever the sequencer is ratcheting.
 7. **Mute Gate output** - Gate signal that is high whenever the sequencer is muted.
-8. **Notes** - The Notes on Ring are divided into four 7 step sequences. Right click for more options.
+8. **Notes** - The Notes on Ring are divided into four seven-step sequences. Right click for more options.
 
 **Sequences**
 
@@ -25,33 +25,33 @@ The left wing of the panel has controls per sequence. The sequences are labeled 
 
 9. **Length Knob** - Sets the length of the sequence. When above 8, the sequence will ping-pong, repeating each end node.
 10. **Length CV** - Modulates Sequence Length Knob.
-11. **Length Attenuverter** - Modifiers the CV for the Sequence Length Knob.
+11. **Length Attenuverter** - Modifies the CV for the Sequence Length Knob.
 12. **Mute Knob** - Makes notes silent. The higher the knob the more often this happens. When the note is silent, the normal `Gate` is low and the `CV output` holds its previous value.
 13. **Mute CV** - Modulates Mute Chance Knob.
-14. **Mute Attenuverter** - Modifiers the CV for the Mute Chance Knob.
+14. **Mute Attenuverter** - Modifies the CV for the Mute Chance Knob.
 15. **Ratchet Knob** - Makes notes play quickly. The higher the knob the more often this happens. The number of notes played can be configured from Ratchet Speed option the contextual menu.
 16. **Ratchet CV** - Modulates Ratchet Chance Knob.
-17. **Ratchet Attenuverter** - Modifiers the CV for the Ratchet Knob.
+17. **Ratchet Attenuverter** - Modifies the CV for the Ratchet Knob.
 
 **Jump Points**
 
 The central panel has eight arrows, connecting the ends of all the sequences. Each of those arrows has the following controls:
 
-18. **Jump Knob** - Allows the the play-head to jump from one sequence to the next in a clockwise direction. The play-head can only jump when the sequence has reached its run through the sequence. The value on the knob determines how far it will jump. For example, when set to 1.3 the sequence will have a 30% chance to jump 2 steps, and 70% chance to jump 1.
+18. **Jump Knob** - Allows the the playhead to jump from one sequence to the next in a clockwise direction. The playhead can only jump when the sequence has reached its run through the sequence. The value on the knob determines how far it will jump. For example, when set to 1.3 the sequence will have a 30% chance to jump 2 steps, and 70% chance to jump 1.
 19. **Jump CV** - Modulates Jump Chance Knob.
-20. **Jump Attenuverter** - Modifiers the CV for the Jump Knob.
+20. **Jump Attenuverter** - Modifies the CV for the Jump Knob.
 
-An astute observer will notice there are 8 jump points but only 4 sequences. Half of the jump points connect to the back-end of a sequence. When a play-head reaches the back-end of a sequence, it plays that sequence in reverse. 
+An astute observer will notice there are 8 jump points but only 4 sequences. Half of the jump points connect to the back end of a sequence. When a playhead reaches the back end of a sequence, it plays that sequence in reverse. 
 
-It's also worth noting the jump from the back-end of a sequence will not trigger when the sequence is playing forward, and vis-a-versa. This means at any given time there is only ever one knob that can jump the play-head to a new sequence. This means if any of the jump knobs are at 0, the play-head can get suck on that sequence.
+It's also worth noting the jump from the back end of a sequence will not trigger when the sequence is playing forward, and vise-versa. This means at any given time there is only ever one knob that can jump the playhead to a new sequence. This means if any of the jump knobs are at 0, the playhead can get stuck on that sequence.
 
 **Rings**
 
 The right wing of the panel has controls per ring. The rings are numbered 1 to 4. With 1 being the inner most ring.
 
-21. **Ring # Cycle Knob** - Causes the notes in a ring to rotate periodically. At a value of 1 or -1, the ring will rotate each time the play-head completes one run through its current sequence. A positive value makes the ring rotate clockwise, and a negative value makes it rotate counter-clockwise.
+21. **Ring # Cycle Knob** - Causes the notes in a ring to rotate periodically. At a value of 1 or -1, the ring will rotate each time the playhead completes one run through its current sequence. A positive value makes the ring rotate clockwise, and a negative value makes it rotate counterclockwise.
 22. **Ring # Cycle CV** - Modulates Ring # Cycle Chance Knob.
-23. **Ring # Cycle Attenuverter** - Modifiers the CV for the Ring # Cycle Knob.
+23. **Ring # Cycle Attenuverter** - Modifies the CV for the Ring # Cycle Knob.
 24. **Ring # Cycle Left Trigger** - A rising value on this input will cause the ring to rotate one step to the left, regardless of what value the Cycle Knob is set to.
 25. **Ring # Cycle Right Trigger** - A rising value on this input will cause the ring to rotate one step to the right, regardless of what value the Cycle Knob is set to.
 26. **Ring # Cycle Gate output** - This gate will be high whenever the ring rotates, regardless of direction or source of the rotation.
@@ -83,15 +83,15 @@ The different Ring effects are:
 4. **Ratchet** - Causes several notes to be played in quick succession. The module selects notes from the same column. The number of notes played can be configured from Ratchet Speed option the contextual menu.
 5. **Borrow** - Plays the note from the other sequence instead.
 6. **Swap** - Swaps the notes from the two adjacent sequences.
-7. **Jump** - Moves the play-head over to the other sequence.
+7. **Jump** - Moves the playhead over to the other sequence.
 
-### Expander - Four Play-Heads
+### Expander - Four Playheads
 
-Like every sequencer in the Rainbows set, Ring has an expander. You can add the expander in the contextual menu. The expander creates four independent play-heads. When the expander is attached you will see the selected note ring is now broken up into for quadrants, one for each of the four play-heads.
+Like every sequencer in the Rainbows set, Ring has an expander. You can add the expander in the contextual menu. The expander creates four independent playheads. When the expander is attached you will see the selected note ring is now broken up into four quadrants, one for each of the four playheads.
 
-The `Clock` and `Reset` inputs on the main module drive all four-heads, but you can also use independently clock and reset inputs on the expander to drive each play-head at a different rates.
+The `Clock` and `Reset` inputs on the main module drive all four playheads, but you can also use independent clock and reset inputs on the expander to drive each playhead at a different rate.
 
-On Ring, the four-play heads automatically start on the four different sequences.
+On Ring, the four playheads automatically start on the four different sequences.
 
 ### Contextual Menu
 
