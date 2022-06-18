@@ -17,7 +17,7 @@ Like every sequencer in the Rainbows set, Ring is designed to sequence notes. Ea
 5. **End of Cycle Gate output** - Gate signal that is high on the first step of the sequence after each time the cycle ends.
 6. **Ratchet Gate output** - Gate signal that is high whenever the sequencer is ratcheting.
 7. **Mute Gate output** - Gate signal that is high whenever the sequencer is muted.
-8. **Notes** - The Notes on Ring are divided into four seven-step sequences. Right click for more options.
+8. **Notes** - The Notes on Ring are divided into four eight-step sequences. Right click for more options.
 
 **Sequences**
 
@@ -68,22 +68,6 @@ Like every sequencer in the Rainbows set, the notes on Ring can be set clicking 
 - **Set Any Note** - Lets you set the note, even if its not in the current scale.
 
 Rainbow set is limited to a 3 octave range, from A3 up to G#5
-
-### Ring Effects
-
-The space between the sequences on Ring have several different effects that can be configured. These settings affect the two adjacent notes. Each row of Ring effects has a chance to apply that can be controlled by the `Odds knobs` on the right of the panel.
-
-The different Ring effects are:
-
-![Image of different effects](../images/Ring/modes.png)
-
-1. **None** - No Effect
-2. **Skip** - The note is skipped. The Note still counts against the sequence length, effectively shortening the sequence. Also the sequence can not skip more than 8 notes in a row.
-3. **Mute** - The note is silent. The normal `Gate` is low, the `CV output` holds its previous value, and the `Mute Gate` is high.
-4. **Ratchet** - Causes several notes to be played in quick succession. The module selects notes from the same column. The number of notes played can be configured from Ratchet Speed option the contextual menu.
-5. **Borrow** - Plays the note from the other sequence instead.
-6. **Swap** - Swaps the notes from the two adjacent sequences.
-7. **Jump** - Moves the playhead over to the other sequence.
 
 ### Expander - Four Playheads
 
