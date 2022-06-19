@@ -20,6 +20,7 @@ Like every sequencer in the Rainbows set, Crossing is designed to sequence notes
 8. **Notes** - Field of Notes. Right click for more options.
 9. **Crossings** - Crossing. These crossings control how the playhead moves through the module. Right click to directly set the effect.
 10. **Ratchet Knob** - Controls the chance of a Ratchet Crossing to have its effect.
+11. **Ratchet CV** - Modulates the Ratchet Knob.
 12. **Ratchet Attenuverter** - Modifies CV for Ratchet Knob.
 13. **Mute Knob** - Controls the chance of the Crossing effects applying.
 14. **Mute CV** - Modulates the Mute Knob.
@@ -35,14 +36,16 @@ Like every sequencer in the Rainbows set, Crossing is designed to sequence notes
 
 ### Notes
 
-Like every sequencer in the Rainbows set, the notes on Crossing can be set clicking the light. Left clicking will allow you to select from the currently selected scale. Right clicking will allow for more options. From the right click menu you can:
+Like every sequencer in the Rainbows set, the notes on Crossing can be set clicking the light. Left clicking will cycle through the notes from the currently selected scale and range. Right clicking will allow for more options. From the right click menu you can:
 
-- **Randomize Notes** - Randomizes ALL notes on the module. Only selects from the current scale.
-- **Set Scale & Randomize** - Change the scale and randomizes all notes on the module.
-- **Set Scale** - Change the scales. Will NOT change any notes currently on the module.
+- **Set Note** - Lets you set the note from the current scale and range.
 - **Set Any Note** - Lets you set the note, even if its not in the current scale.
-
-Rainbow set is limited to a 3 octave range, from A3 up to G#5
+- **Randomize Notes** - Options for randomizing notes.
+  - **Randomize All Notes** - Randomizes ALL notes on the module. Only selects from the current scale.
+  - **+1 Octave To Some Notes** - Shifts some notes up an octave.
+  - **-1 Octave To Some Notes** - Shifts some notes down an octave.
+- **Set Scale** -  Change the scale and randomizes all notes on the module.
+- **Root Note** -  Change the root note and shifts all entered notes up by the difference from the current root note to the new root note.
 
 ### Crossing Effects
 
@@ -61,21 +64,37 @@ The different Crossing effects are:
 7. **Cross Down** - Same as Cross Up, but the dashed line goes the other way.
 8. **Roundabout** - The playhead travels around the Roundabout in a clockwise direction.
 
-### Expander - Four Playheads
+### Expander - Play Head Expander
 
-Like every sequencer in the Rainbows set, Crossing has an expander. You can add the expander in the contextual menu. The expander creates four independent playheads. When the expander is attached you will see the selected note ring is now broken up into four quadrants, one for each of the four playheads.
+Like every sequencer in the Rainbows set, Crossing has a play head expander. You can add the expander in the contextual menu. The expander creates four independent playheads. When the expander is attached you will see the selected note ring is now broken up into four quadrants, one for each of the four playheads.
 
 The `Clock` and `Reset` inputs on the main module drive all four playheads, but you can also use independent clock and reset inputs on the expander to drive each playhead at a different rate.
 
 On Crossing, the four playheads start at the same location, but if they reach a position with multiple possible paths, they may diverge.
 
+### Expander - Randomizer Expander
+
+Like every sequencer in the Rainbows set, Crossing has randomizer expander. You can add the expander in the contextual menu. The expander gives you four button & trigger pairs that can be used to randomize notes on the module. You can 
+
+The randomized notes can be configured. Hold down a button for one second to enter configuration mode. In configuration mode clicking a note on the panel toggles it on and off. Hold down the button on the expander again to exit configuration mode.
+
 ### Contextual Menu
 
-- **Randomize Notes** - Randomizes ALL notes on the module. Only selects from the current scale.
-- **Set Scale & Randomize** - Change the scale and randomizes all notes on the module.
-- **Set Scale** - Change the scales. Will NOT change any notes currently on the module.
+- **Randomize Notes** - Options for randomizing notes.
+  - **Randomize All Notes** - Randomizes ALL notes on the module. Only selects from the current scale.
+  - **+1 Octave To Some Notes** - Shifts some notes up an octave.
+  - **-1 Octave To Some Notes** - Shifts some notes down an octave.
+- **Crossings**
+  - **Initialize** - Resets all crossings to their default values.
+  - **Randomize** - Randomizes all crossings.
+- **Set Scale** -  Change the scale and randomizes all notes on the module.
+- **Root Note** -  Change the root note and shifts all entered notes up by the difference from the current root note to the new root note.
+- **Range** - Sets the range of the current notes. Octave range is centered around the perfect 5th note above the root note.
 - **Ratchet Speed** - Controls how fast the Ratchet mode plays. When set to `Whole Notes` the Ratchet speed is equal to the clock. `Half Notes` plays twice per clock etc.
-- **Add Expander** - Adds a 9HP expander to the right of the module. 
+- **Active Cursor Color** - Controls what color ring is used to show which notes are active.
+- **Add Expander** - Add various expanders.
+  - **Play Head Expander** - Gives the module 3 more playheads.
+  - **Randomizer Expander** - Gives buttons and triggers for randomizing notes on the module.
 
 ### Bypass
 

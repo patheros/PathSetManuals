@@ -49,34 +49,49 @@ Like every sequencer in the Rainbows set, Grid is designed to sequence notes. Ea
 
 ### Notes
 
-Like every sequencer in the Rainbows set, the notes on Grid can be set clicking the light. Left clicking will allow you to select from the currently selected scale. Right clicking will allow for more options. From the right click menu you can:
+Like every sequencer in the Rainbows set, the notes on Grid can be set clicking the light. Left clicking will cycle through the notes from the currently selected scale and range. Right clicking will allow for more options. From the right click menu you can:
 
-- **Randomize Notes** - Randomizes ALL notes on the module. Only selects from the current scale.
-- **Set Scale & Randomize** - Change the scale and randomizes all notes on the module.
-- **Set Scale** - Change the scales. Will NOT change any notes currently on the module.
+- **Set Note** - Lets you set the note from the current scale and range.
 - **Set Any Note** - Lets you set the note, even if its not in the current scale.
-
-Rainbow set is limited to a 3 octave range, from A3 up to G#5
+- **Randomize Notes** - Options for randomizing notes.
+  - **Randomize All Notes** - Randomizes ALL notes on the module. Only selects from the current scale.
+  - **+1 Octave To Some Notes** - Shifts some notes up an octave.
+  - **-1 Octave To Some Notes** - Shifts some notes down an octave.
+- **Set Scale** -  Change the scale and randomizes all notes on the module.
+- **Root Note** -  Change the root note and shifts all entered notes up by the difference from the current root note to the new root note.
 
 ### Phrases
 
 Grid has a built phrase generator on the bottom of the panel. Each time the sequence length is hit, Grid advances to the next Phrase. By default all the Phrases generated are the same sequence. Lower the `Phrase Consistency` knob to add some variant Phrases. These variant Phrases will be shown as different colored lights. The flavor of each variant can be changed with the `Phrase Step` knob. The total number of Phrases can be set with the `Phrase Count` knob.
 
-### Expander - Four Playheads
+### Expander - Play Head Expander
 
-Like every sequencer in the Rainbows set, Grid has an expander. You can add the expander in the contextual menu. The expander creates four independent playheads. When the expander is attached you will see the selected note ring is now broken up into four quadrants, one for each of the four playheads.
+Like every sequencer in the Rainbows set, Grid has a play head expander. You can add the expander in the contextual menu. The expander creates four independent playheads. When the expander is attached you will see the selected note ring is now broken up into four quadrants, one for each of the four playheads.
 
 The `Clock` and `Reset` inputs on the main module drive all four playheads, but you can also use independent clock and reset inputs on the expander to drive each playhead at a different rate.
 
 On Grid, the four playheads start at the same point. The only way to get them to deviate is to clock them differently.
 
+### Expander - Randomizer Expander
+
+Like every sequencer in the Rainbows set, Crossing has randomizer expander. You can add the expander in the contextual menu. The expander gives you four button & trigger pairs that can be used to randomize notes on the module. You can 
+
+The randomized notes can be configured. Hold down a button for one second to enter configuration mode. In configuration mode clicking a note on the panel toggles it on and off. Hold down the button on the expander again to exit configuration mode.
+
 ### Contextual Menu
 
-- **Randomize Notes** - Randomizes ALL notes on the module. Only selects from the current scale.
-- **Set Scale & Randomize** - Change the scale and randomizes all notes on the module.
-- **Set Scale** - Change the scales. Will NOT change any notes currently on the module.
+- **Randomize Notes** - Options for randomizing notes.
+  - **Randomize All Notes** - Randomizes ALL notes on the module. Only selects from the current scale.
+  - **+1 Octave To Some Notes** - Shifts some notes up an octave.
+  - **-1 Octave To Some Notes** - Shifts some notes down an octave.
+- **Set Scale** -  Change the scale and randomizes all notes on the module.
+- **Root Note** -  Change the root note and shifts all entered notes up by the difference from the current root note to the new root note.
+- **Range** - Sets the range of the current notes. Octave range is centered around the perfect 5th note above the root note.
 - **Ratchet Speed** - Controls how fast the Ratchet mode plays. When set to `Whole Notes` the Ratchet speed is equal to the clock. `Half Notes` plays twice per clock etc.
-- **Add Expander** - Adds a 9HP expander to the right of the module. 
+- **Active Cursor Color** - Controls what color ring is used to show which notes are active.
+- **Add Expander** - Add various expanders.
+  - **Play Head Expander** - Gives the module 3 more playheads.
+  - **Randomizer Expander** - Gives buttons and triggers for randomizing notes on the module.
 
 ### Bypass
 
