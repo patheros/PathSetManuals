@@ -5,6 +5,8 @@ The Path Set is family an eclectic and bespoke of plugins for [VCV Rack](https:/
 
 ## Path Set: Grains 
 
+Grains provides granualr synthesis modules with unique flavors.
+
 ### Blender
 <a href="modules/Blender.md">![Image of Blender module](images/Blender.png)</a><br/>
 [Blender Manual](modules/Blender.md)<br/>
@@ -26,7 +28,7 @@ A granular mixer. Sample 4 sound sources and recombine them endlessly through mo
 A granular FX module. Modulate 6 different granular effects.
 
 ## Path Set: Infinity
-The Infinity set explores modules with near-infinite internal configurations. These internal signatures can be randomizes but are unlikely to be found again once changed.
+Infinity explores modules with near-infinite internal configurations. These internal signatures can be randomizes but are unlikely to be found again once changed.
 
 ### Orchestrator
 <a href="modules/Orchestrator.md">![Image of Orchestrator module](images/Orchestrator.png)</a><br/>
