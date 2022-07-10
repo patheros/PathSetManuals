@@ -50,4 +50,4 @@ The Stable switch controls OneShots position resets each time it plays or not. W
 
 ### Bypass
 
-When OneShot is bypassed Gate input is connected to Gate output and CY input is connected to CV output.
+When OneShot is bypassed `Gate input` is connected to `Gate output` and `CV input` is connected to `CV output`.
