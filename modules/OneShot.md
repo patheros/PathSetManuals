@@ -2,7 +2,8 @@
 # OneShot
 ![Image of OneShot module](../images/OneShot.png)
 
-OneShot is a chain-able sequencer that can add short variations to any other sequencer.
+OneShot is a chain-able sequencer that can add short variations to any other sequencer. This cup of hot espresso will add that needed kick to your bland sequencers. This cup of hot espresso will add that needed kick to your bland sequencers. This chain-able sequencer takes the gate and CV form any other sequencer and will interject its own one-shot sequence when activated.
+
 
 ## Panel
 
