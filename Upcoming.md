@@ -37,7 +37,7 @@ Concentric rings of notes create an ever shifting sequence.
 ### Shuttle
 <a href="modules/Shuttle.md">![Image of Shuttle module](images/Shuttle.png)</a><br/>
 [Shuttle Manual](modules/Shuttle.md)<br/>
-Additive sine-wave oscillator with an infinite permutation of harmonics. Use it to travel to all the known planets and more.
+An additive sine-wave oscillator with up to 15 harmonics. Travel between the infinite permutations of different harmonics or use a polyphonic cable to modify your destination.
 
 ## Path Set: Free
 

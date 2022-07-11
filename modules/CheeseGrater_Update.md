@@ -50,21 +50,23 @@ This simple example puts a sine wave into the audio input on Cheese Grater. Pres
 
 *Added through contextual menu*
 
-31. **Clock Sync input** -
-32. **Playback Mode** -
+31. **Clock Sync input** - Triggers the sample to start playing from the beginning.
+32. **Playback Mode** - If clock sync input is connected and this is set to "One Shot" then the module only only play once for each Clock Sync input received.
 33. **Length Knob** - Controls how long each grain is.
 34. **Length CV** - Modulates Length Knob.
 35. **Length Attenuverter** - Modifies CV for Length Knob.
 36. **Start Knob** - Controls where in the buffer the grain starts from.
 37. **Start CV** - Modulates Start Knob.
 38. **Start Attenuverter** - Modifies CV for Start Knob.
-39. **Pitching Mode** - Controls how the grains are pitch-shifter when the Pitching Knob is not 0. In Tune the grains are pitched one ocative. In Semi Tuned grains can also be shifted a perfect 5th. In Detune the grains can be shifter any amount up to an octave.
-40. **Pitching Knob** - Controls how often each of the grains are pich shifted. When above 0 the grains are pitched up. When below 0 the grains are piched down.
+39. **Pitching Mode** - Controls how the grains are pitch-shifted when the Pitching Knob is not 0. In Tune, the grains are pitched one octave. In Semi Tuned, grains can also be shifted a perfect 5th. In Detune, the grains can be shifted any amount up to an octave.
+40. **Pitching Knob** - Controls how often each of the grains are pitch shifted. When above 0 the grains are pitched up. When below 0 the grains are pitched down.
 41. **Pitching CV** - Modulates Pitching Knob.
 42. **Pitching Attenuverter** - Modifies CV for Pitching Knob.
-43. **Speed Knob** - Controls how fast the play head moves through the sample. When below 0 the play head travels in reverese.
+43. **Speed Knob** - Controls how fast the play head moves through the sample. When below 0 the play head travels in reverse.
 44. **Speed CV** - Modulates Speed Knob.
 45. **Speed Attenuverter** - Modifies CV for Speed Knob.
+46. **Pause button** - Toggles Pause. When paused the Speed knob is ignored and and acts as if set to 0.
+47. **Pause input** - Forces Pause when signal is high.
 
 
 ### Bypass
