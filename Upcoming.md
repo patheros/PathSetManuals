@@ -30,7 +30,7 @@ Concentric rings of notes create an ever shifting sequence.
 ### CheeseGrater
 <a href="modules/CheeseGrater_Update.md">![Image of CheeseGrater module](images/CheeseGrater_Update.png)</a><br/>
 [CheeseGrater Manual](modules/CheeseGrater_Update.md)<br/>
-Concentric rings of notes create an ever shifting sequence.
+A granular sample and loop. Craft the exact right slice of sound for your music.
 
 ## Path Set: Infinity
 
