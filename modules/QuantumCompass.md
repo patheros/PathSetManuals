@@ -80,6 +80,11 @@ Inside the compass are a `Reset` button and `Reset Trigger` input. Either of the
 
 The upper left and upper right of the compass have controls and outputs for Accidentals (Flats and Sharps) and Octave Shifts (up or down one octave). These two sections work very similarly. The main `Accidental` or `Octave Shift` knobs can be turned left or right to add steps to the sequence that will have their corresponding effect. As you turn the knob the compass will show you which steps have which effects. If you turn the knobs far in either direction you will get both types of events (Flats and sharps or up and down shifts). Both knobs also have attenuverters and CV inputs. All four events also have output gates at the top. These gates are high the whole clock cycle that they are in effect.
 
+Note that Accidentals can be configured two three different modes via the right-click menu. The modes are:
+* **Non Diatonic** - Accidentals are musical accidentals. Flats and Sharps are one semitone off as you would expect.
+* **Diatonic** - Accidentals shift up one note on the selected scale. Select this option for a more harmonious sound.
+* **Middle** - Accidentals select notes half way beteen notes on the selected scale. This can create interesting sequences.
+
 ### Chaos
 
 After you've got a fun sequence dialed in you can use the central `Chaos` knob on the Quantum Compass add some randomness to break up the monotony. The compass display will show the effect of the Chaos on whatever other knob you last turned (or you can change the display from the contextual menu). Generally speaking the chaos knob adds more of whatever settings you have dialed in. Though if you turn the chaos knob up too far you'll soon see things become a blur. 
@@ -103,6 +108,8 @@ In sequence mode 0V maps to the first step in the sequence and 10Vs maps to the 
 **Set Scale** - Quickly set the active notes to a common scale. Each time you do this you will get a random sequence.
 
 **Shift Notes** - Shift all notes in the sequence up or down. Note the keyboard wraps so for example a C note shifted down turns into a B note one ocative higher.
+
+**Accidental Mode** - Controls how the Accidental section of the panel functions. See the 'Accidentals & Octaves' section above for details.
 
 ### Bypass
 When Quantum Compass is bypassed all outputs stay at 0V.

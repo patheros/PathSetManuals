@@ -3,6 +3,30 @@
 
 The Path Set is family an eclectic and bespoke of plugins for [VCV Rack](https://vcvrack.com/).
 
+## Path Set: Rainbows 
+
+Rainbows expands the horizions of generative sequencers with four powerfuly configurable sequencers that each can have two expanders added.
+
+### Bridge
+<a href="modules/Bridge.md">![Image of Bridge module](images/Bridge.png)</a><br/>
+[Bridge Manual](modules/Bridge.md)<br/>
+Start with four linear sequences and build bridges to connect and jump around.
+
+### Crossing
+<a href="modules/Crossing.md">![Image of Crossing module](images/Crossing.png)</a><br/>
+[Crossing Manual](modules/Crossing.md)<br/>
+Create paths and circuits and loops in this field of notes.
+
+### Grid
+<a href="modules/Grid.md">![Image of Grid module](images/Grid.png)</a><br/>
+[Grid Manual](modules/Grid.md)<br/>
+Generate a panoply of sequences using a small grid of nine notes.
+
+### Ring
+<a href="modules/Ring.md">![Image of Ring module](images/Ring.png)</a><br/>
+[Ring Manual](modules/Ring.md)<br/>
+Concentric rings of notes create an ever shifting sequence.
+
 ## Path Set: Grains 
 
 Grains provides granualr synthesis modules with unique flavors.
@@ -42,6 +66,11 @@ A conniving octopus that bends everything to it's master plan. Orchestrator gene
 Sequencer or Quantizer? Its both and neither at the same time. Create a melodic sequence by selecting notes and letting the Quantum Compass guide you on the rest of the path.
 <br/><br/>
 
+### Shuttle
+<a href="modules/Shuttle.md">![Image of Shuttle module](images/Shuttle.png)</a><br/>
+[Shuttle Manual](modules/Shuttle.md)<br/>
+An additive sine-wave oscillator with up to 15 harmonics. Travel between the infinite permutations of different harmonics or use a polyphonic cable to modify your destination.
+
 ### Warp Drive
 <a href="modules/WarpDrive.md">![Image of WarpDrive module](images/WarpDrive.png)</a><br/>
 [WarpDrive Manual](modules/WarpDrive.md)<br/>
@@ -73,6 +102,11 @@ Speed shifter and tape delay with selective memory. Perform into this and it wil
 [Nudge Manual](modules/Nudge.md)<br/>
 Modulation generator that lets you randomly nudge the modulations whenever you want.
 <br/><br/>
+
+### One Shot 
+<a href="modules/OneShot.md">![Image of OneShot module](images/OneShot.png)</a><br/>
+[OneShot Manual](modules/OneShot.md)<br/>
+Chain-able sequencer. Add shots of espresso to any bland sequencer.
 
 ### Shifty
 <a href="modules/Shifty.md">![Image of Shifty module](images/Shifty.png)</a><br/>

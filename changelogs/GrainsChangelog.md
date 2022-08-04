@@ -1,6 +1,11 @@
 
 # Path Set: Grains - Change Log
 
+## v2.1
+* Chesse Grater Expander - New Expander!
+  * Add more control over the granular samples including pitch-shifting, a clock sync, and more!
+* Expanders are now visibile in the module browser.   
+
 ## v2.0.1
 * Cheese Grater
   * Removed clicks that would happen when Consistency was above 0.
