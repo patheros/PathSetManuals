@@ -52,7 +52,7 @@ This simple example puts a sine wave into the audio input on Cheese Grater. Pres
 
 31. **Clock Sync input** - Triggers the sample to start playing from the beginning.
 32. **Playback Mode** - If clock sync input is connected and this is set to "One Shot" then the module only only play once for each Clock Sync input received.
-33. **Length Knob** - Controls how long each grain is.
+33. **Length Knob** - Controls the size of the Buffer that is actively being scanned.
 34. **Length CV** - Modulates Length Knob.
 35. **Length Attenuverter** - Modifies CV for Length Knob.
 36. **Start Knob** - Controls where in the buffer the grain starts from.
