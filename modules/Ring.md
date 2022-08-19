@@ -4,7 +4,15 @@
 
 Ring consists for four concentric rings of Notes. Play sequences across the rings. Rotate the rings to make those sequences shift over time.
 
-Like every sequencer in the Rainbows set, Ring is designed to sequence notes. Each step in the sequence can be set to a specific note by clicking the corresponding note. Ring also can also have three more sequencers running on the same module by adding the expander through the contextual menu.
+Ring is best understood in three parts:
+
+First Ring is four 8-step sequences. One of them is the horizontal row. One is the vertical row. And the other two are the two diagonal rows. The length, mutes, and ratchets for each of these these lines are independent and controlled on the left wing of the module.
+
+Second Ring is four concentring rings. The outer most ring down to the inner most ring. These rings can be “rotated” moving the notes clock wise or counter clock wise. This effectively jumbles up the “lines”, creating more variation over time. The controls for these rotations are on the right wing of the module.
+
+Finally the central panel has the Jump controls. These controls allow the playhead to jump between lines. The Jump Points section bellow describes this functionality in more details.
+
+Like every sequencer in the Rainbows set, Ring is designed to sequence notes. Each step in the sequence can be set to a specific note by clicking the corresponding note. Ring can also have two different expanders. One adds more play-heads the other one adds configurable randomizing triggers.
 
 ## Panel
 

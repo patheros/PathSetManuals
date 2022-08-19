@@ -4,7 +4,7 @@
 
 Crossing is a sequencer with field of notes and intersections. Each intersection can be configured to allow notes through in different ways.
 
-Like every sequencer in the Rainbows set, Crossing is designed to sequence notes. Each step in the sequence can be set to a specific note by clicking the corresponding note. Crossing also can also have three more sequencers running on the same module by adding the expander through the contextual menu.
+Like every sequencer in the Rainbows set, Crossing is designed to sequence notes. Each step in the sequence can be set to a specific note by clicking the corresponding note. Crossing can also have two different expanders. One adds more play-heads the other one adds configurable randomizing triggers.
 
 ## Panel
 

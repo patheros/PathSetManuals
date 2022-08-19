@@ -4,7 +4,7 @@
 
 Bridge is a sequencer with four rows of notes and three "bridges" that connect the rows.
 
-Like every sequencer in the Rainbows set, Bridge is designed to sequence notes. Each step in the sequence can be set to a specific note by clicking the corresponding note. Bridge also can also have three more sequencers running on the same module by adding the expander through the contextual menu.
+Like every sequencer in the Rainbows set, Bridge is designed to sequence notes. Each step in the sequence can be set to a specific note by clicking the corresponding note. Bridge can also have two different expanders. One adds more play-heads the other one adds configurable randomizing triggers.
 
 ## Panel
 

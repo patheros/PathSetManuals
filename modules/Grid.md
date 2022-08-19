@@ -4,7 +4,7 @@
 
 Grid packs a whole lot of sequencer into a small grid of 9 notes.
 
-Like every sequencer in the Rainbows set, Grid is designed to sequence notes. Each step in the sequence can be set to a specific note by clicking the corresponding note. Grid also can also have three more sequencers running on the same module by adding the expander through the contextual menu.
+Like every sequencer in the Rainbows set, Grid is designed to sequence notes. Each step in the sequence can be set to a specific note by clicking the corresponding note. Grid can also have two different expanders. One adds more play-heads the other one adds configurable randomizing triggers.
 
 ## Panel
 
