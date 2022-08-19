@@ -7,6 +7,9 @@ The Path Set is family an eclectic and bespoke of plugins for [VCV Rack](https:/
 
 Rainbows expands the horizions of generative sequencers with four powerfuly configurable sequencers that each can have two expanders added.
 
+### Video Manual
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/2AhMRoFNOko/0.jpg)](http://www.youtube.com/watch?v=2AhMRoFNOko "Video Manual")
+
 ### Bridge
 <a href="modules/Bridge.md">![Image of Bridge module](images/Bridge.png)</a><br/>
 [Bridge Manual](modules/Bridge.md)<br/>
