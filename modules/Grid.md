@@ -64,7 +64,7 @@ Like every sequencer in the Rainbows set, the notes on Grid can be set clicking 
 
 Grid has a built phrase generator on the bottom of the panel. Each time the sequence length is hit, Grid advances to the next Phrase. By default all the Phrases generated are the same sequence. Lower the `Phrase Consistency` knob to add some variant Phrases. These variant Phrases will be shown as different colored lights. The flavor of each variant can be changed with the `Phrase Step` knob. The total number of Phrases can be set with the `Phrase Count` knob.
 
-### Expander - Play Head Expander
+### Play Head Expander
 
 Like every sequencer in the Rainbows set, Grid has a play head expander. You can add the expander in the contextual menu. The expander creates four independent playheads. When the expander is attached you will see the selected note ring is now broken up into four quadrants, one for each of the four playheads.
 
@@ -72,9 +72,9 @@ The `Clock` and `Reset` inputs on the main module drive all four playheads, but 
 
 On Grid, the four playheads start at the same point. The only way to get them to deviate is to clock them differently.
 
-### Expander - Randomizer Expander
+### Randomizer Expander
 
-Like every sequencer in the Rainbows set, Crossing has randomizer expander. You can add the expander in the contextual menu. The expander gives you four button & trigger pairs that can be used to randomize notes on the module. You can 
+Like every sequencer in the Rainbows set, Crossing has randomizer expander. You can add the expander in the contextual menu. The expander gives you four button & trigger pairs that can be used to randomize notes on the module.
 
 The randomized notes can be configured. Hold down a button for one second to enter configuration mode. In configuration mode clicking a note on the panel toggles it on and off. Hold down the button on the expander again to exit configuration mode.
 

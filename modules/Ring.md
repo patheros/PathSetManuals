@@ -71,7 +71,7 @@ Like every sequencer in the Rainbows set, the notes on Ring can be set clicking 
 - **Set Scale** -  Change the scale and randomizes all notes on the module.
 - **Root Note** -  Change the root note and shifts all entered notes up by the difference from the current root note to the new root note.
 
-### Expander - Play Head Expander
+### Play Head Expander
 
 Like every sequencer in the Rainbows set, Ring has a play head expander. You can add the expander in the contextual menu. The expander creates four independent playheads. When the expander is attached you will see the selected note ring is now broken up into four quadrants, one for each of the four playheads.
 
@@ -79,15 +79,9 @@ The `Clock` and `Reset` inputs on the main module drive all four playheads, but 
 
 On Ring, the four playheads automatically start on the four different sequences.
 
-### Expander - Randomizer Expander
+### Randomizer Expander
 
-Like every sequencer in the Rainbows set, Crossing has randomizer expander. You can add the expander in the contextual menu. The expander gives you four button & trigger pairs that can be used to randomize notes on the module. You can 
-
-The randomized notes can be configured. Hold down a button for one second to enter configuration mode. In configuration mode clicking a note on the panel toggles it on and off. Hold down the button on the expander again to exit configuration mode.
-
-### Expander - Randomizer Expander
-
-Like every sequencer in the Rainbows set, Crossing has randomizer expander. You can add the expander in the contextual menu. The expander gives you four button & trigger pairs that can be used to randomize notes on the module. You can 
+Like every sequencer in the Rainbows set, Crossing has randomizer expander. You can add the expander in the contextual menu. The expander gives you four button & trigger pairs that can be used to randomize notes on the module.
 
 The randomized notes can be configured. Hold down a button for one second to enter configuration mode. In configuration mode clicking a note on the panel toggles it on and off. Hold down the button on the expander again to exit configuration mode.
 
