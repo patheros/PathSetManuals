@@ -4,6 +4,10 @@
 
 Ice Tray is a speed shifter and six tape delays, called ice cubes. Each cube can solidify, capturing what ever was last recorded into it for an indefinite amount of time. Left and Right inputs are connected directly to the outputs when bypassed.
 
+### Video
+
+[![Omri Cohen video on Ice Tray](http://img.youtube.com/vi/JJGFmtAUXNA/0.jpg)](http://www.youtube.com/watch?v=JJGFmtAUXNA "Video Manual")
+
 ### Ice Cubes
 
 The central section of the module displays the six `Ice Cubes`. The color of the large light indicates the`Solidity` of the ice cube:

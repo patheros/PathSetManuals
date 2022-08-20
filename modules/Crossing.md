@@ -6,6 +6,10 @@ Crossing is a sequencer with field of notes and intersections. Each intersection
 
 Like every sequencer in the Rainbows set, Crossing is designed to sequence notes. Each step in the sequence can be set to a specific note by clicking the corresponding note. Crossing can also have two different expanders. One adds more play-heads the other one adds configurable randomizing triggers.
 
+## Video
+
+[![Cabotage KSM Video on Rainbows](http://img.youtube.com/vi/2AhMRoFNOko/0.jpg)](https://youtu.be/2AhMRoFNOko?t=349 "Video Manual")
+
 ## Panel
 
 ![Image of controls](../images/Crossing/labels.png)

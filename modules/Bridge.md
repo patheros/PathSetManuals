@@ -6,6 +6,10 @@ Bridge is a sequencer with four rows of notes and three "bridges" that connect t
 
 Like every sequencer in the Rainbows set, Bridge is designed to sequence notes. Each step in the sequence can be set to a specific note by clicking the corresponding note. Bridge can also have two different expanders. One adds more play-heads the other one adds configurable randomizing triggers.
 
+## Video
+
+[![Cabotage KSM Video on Rainbows](http://img.youtube.com/vi/2AhMRoFNOko/0.jpg)](https://youtu.be/2AhMRoFNOko?t=207 "Video Manual")
+
 ## Panel
 
 ![Image of controls](../images/Bridge/labels.png)

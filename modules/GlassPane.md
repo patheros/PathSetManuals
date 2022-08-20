@@ -14,6 +14,10 @@ This quick example shows off all three different modes. The sequence it generate
 2. The second part uses the orange Random mode to create variability. You can see it in the second column connected with orange cables.
 3. The third part uses the purple Ratchet mode to create a faster pattern. You can see it on third and fourth columns with the purple cables.
 
+## Video
+
+[![Omri Cohen video on Ice Tray](http://img.youtube.com/vi/QsAEBx0LuhM/0.jpg)](http://www.youtube.com/watch?v=QsAEBx0LuhM "Video Manual")
+
 ## Panel
 
 ![Image of controls](../images/GlassPane/labels.png)

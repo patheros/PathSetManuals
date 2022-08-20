@@ -6,6 +6,10 @@ Grid packs a whole lot of sequencer into a small grid of 9 notes.
 
 Like every sequencer in the Rainbows set, Grid is designed to sequence notes. Each step in the sequence can be set to a specific note by clicking the corresponding note. Grid can also have two different expanders. One adds more play-heads the other one adds configurable randomizing triggers.
 
+## Video
+
+[![Cabotage KSM Video on Rainbows](http://img.youtube.com/vi/2AhMRoFNOko/0.jpg)](https://youtu.be/2AhMRoFNOko?t=11 "Video Manual")
+
 ## Panel
 
 ![Image of controls](../images/Grid/labels.png)
