@@ -74,7 +74,7 @@ On Bridge, the four playheads automatically start on different rows so that in i
 
 ### Randomizer Expander
 
-Like every sequencer in the Rainbows set, Crossing has randomizer expander. You can add the expander in the contextual menu. The expander gives you four button & trigger pairs that can be used to randomize notes on the module. You can also randomize each bridge on the module.
+Like every sequencer in the Rainbows set, Bridge has randomizer expander. You can add the expander in the contextual menu. The expander gives you four button & trigger pairs that can be used to randomize notes on the module. You can also randomize each bridge on the module.
 
 The randomized notes and bridges can be configured. Hold down a button for one second to enter configuration mode. In configuration mode clicking a note on the panel toggles it on and off. Hold down the button on the expander again to exit configuration mode.
 
