@@ -7362,7 +7362,7 @@
         ],
         "running": true,
         "waveArms": false,
-        "speedMultiplier": 100,
+        "speedMultiplier": 100.0,
         "curSeqTime": 2.091666541993618
       },
       "pos": [
