@@ -5,7 +5,7 @@ The Path Set is family an eclectic and bespoke of plugins for [VCV Rack](https:/
 
 ## Path Set: Rainbows 
 
-Rainbows expands the horizions of generative sequencers with four powerfuly configurable sequencers that each can have two expanders added.
+Rainbows expands the horizons of generative sequencers with four powerfully configurable sequencers that each can have two expanders added.
 
 ### Video Manual
 [![Cabotage KSM Video on Rainbows](http://img.youtube.com/vi/2AhMRoFNOko/0.jpg)](http://www.youtube.com/watch?v=2AhMRoFNOko "Video Manual")
@@ -32,7 +32,7 @@ Concentric rings of notes create an ever shifting sequence.
 
 ## Path Set: Grains 
 
-Grains provides granualr synthesis modules with unique flavors.
+Grains provides granular synthesis modules with unique flavors.
 
 ### Blender
 <a href="modules/Blender.md">![Image of Blender module](images/Blender.png)</a><br/>
