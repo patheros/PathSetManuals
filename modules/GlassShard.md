@@ -28,7 +28,7 @@ The imperfections in each configuration GlassShard are meant to be a creative mu
 **Per Node:**
 
 9. **Node Input** - Trigger input. Connect to the output of another node or an external gate.
-10. **CV Knobs** - Controls the CV value for this node. Each node can have 1 to 4 possible knobs. How many there are varies from configuration to configuration.
+10. **CV Knobs** - Controls the CV value for this node. Each node can have 1 to 4 possible knobs. How many there are varies from configuration to configuration. Each node take up four pulses, if fewer than four knobs are shown, the pulses will divide accordingly. Spacing between knobs denotes how this division is done.
 11. **Node Output** - Output for this node. Connect to the input of one or more other nodes or use as a gate.
 
 
