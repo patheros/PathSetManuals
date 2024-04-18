@@ -7,7 +7,7 @@ Shattered slivers of [Glass Pane](https://library.vcvrack.com/PathSet/GlassPane)
 
 ![Image of quick start patch](../images/GlassShard/quick_start_1.png)
 
-[Download Quick Start](../examples/GlassShard/GlassShard_QuickStart.vcvs?raw=true)
+[Quick Start](../examples/GlassShard/GlassShard_QuickStart.vcvs?raw=true) (Copy and paste into Rack)
 
 The imperfections in each configuration GlassShard are meant to be a creative muse. Each week you get a new configuration that will allow you to explore a new set of generative sequences. Unlike its pristine predecessor, [GlassPane](https://library.vcvrack.com/PathSet/GlassPane), GlassShard doesn't need much to start creating a sequence. Simply randomize the CVs, hook up a clock source and a voice, and you are in business.
 
