@@ -83,9 +83,11 @@ When GlassShard is bypassed all outputs stay at 0V.
 
 ### Contextual Menu
 
+**Quantizer** - Built in Quantizer.
+
 **Randomize CVs** - Randomizes all CV knobs on all nodes.
 
-**This Week's Config** - Sets the configuration of this module to be the current week's configuration. Note this is the initial configuration for a new module, so this won't have any effect on a new module
+**This Week's Config** - Sets the configuration of this module to be the current week's configuration. Note this is the initial configuration for a new module, so this won't have any effect on a new module. New configs are released on Sunday.
 
 **Config Collection** - Opens up the configuration library, allowing you to browse all configurations you've ever used.
 
