@@ -26,7 +26,7 @@ Glass Shim is a premium expander to the free sequencer [Glass Shard](https://lib
 9. **Left Arrow input** - Sets the arrow intensity on Glass Shard to Left Arrow
 10. **All Arrows input** - Sets the arrow intensity on Glass Shard to All Arrows
 11. **Shift Left Arrows input** - Changes the arrow intensity. All -> Left -> No -> All.
-12. **Shift Left Arrows input** - Sets the arrow intensity to a random value.
+12. **Random Arrows input** - Sets the arrow intensity to a random value other than its current value.
 13. **Shift Right Arrows input** - Changes the arrow intensity. No -> Left -> All -> No.
 
 **Voice Count Outputs:**
