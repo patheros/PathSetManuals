@@ -19,16 +19,16 @@ The imperfections in each configuration GlassShard are meant to be a creative mu
 2. **Reset** - Resets the sequencer. The COL controls how it is reset.
 3. **Reset Count** - Triggers a reset every X node transition. Turn completely clockwise to disable.
 4. **Reset Column** - Sets which column the sequencer resets to. Current keeps it in the same column. Next/Previous moves one to the right/left, wrapping around. Random selects a column at random each time.
-5. **CV Output** - The CV value here matches the knob of the current state. 
+5. **CV Output** - The CV value here matches the slider of the current state. 
 6. **Gate Output** - Gate signal to attach to a voice or envelope generator.
 7. **Arrow Intensity** - Controls which arrows are active. Note that each configuration of Glass Shard has different possible arrows.
-8. **Lowest/Highest CV** - Controls the CV range of the knobs and CV output.
+8. **Lowest/Highest CV** - Controls the CV range of the sliders and CV output.
 
 
 **Per Node:**
 
 9. **Node Input** - Trigger input. Connect to the output of another node or an external gate.
-10. **CV Knobs** - Controls the CV value for this node. Each node can have 1 to 4 possible knobs. The number and placement of knobs changes with different configurations of Glass Shard. Each node take up four pulses, if fewer than four knobs are shown, the pulses will divide accordingly. Spacing between knobs denotes how this division is done.
+10. **CV Sliders** - Controls the CV value for this node. Each node can have 1 to 4 possible sliders. The number and placement of sliders changes with different configurations of Glass Shard. Each node take up four pulses, if fewer than four sliders are shown, the pulses will divide accordingly. Spacing between sliders denotes how this division is done.
 11. **Node Output** - Output for this node. Connect to the input of one or more other nodes or use as a gate.
 
 
@@ -45,7 +45,7 @@ Turn Tooltips on and hover over any modifier to learn what it does.
 
 ### Configurations
 
-Each instance of Glass Shard can have a different configuration of arrows, symbols, and knobs. A new configuration is generated each week and is the same for all users. Every time you use a configuration it's added to your configuration library for use later. The premium module [Glass Smith](https://library.vcvrack.com/PathSet-GlassShard-Premium/GlassSmith) also lets you generate a new configuration each day.
+Each instance of Glass Shard can have a different configuration of arrows, symbols, and sliders. A new configuration is generated each week and is the same for all users. Every time you use a configuration it's added to your configuration library for use later. The premium module [Glass Smith](https://library.vcvrack.com/PathSet-GlassShard-Premium/GlassSmith) also lets you generate a new configuration each day.
 
 Use the options in the right-click menu to change between configurations.
 
@@ -85,7 +85,7 @@ When GlassShard is bypassed all outputs stay at 0V.
 
 **Quantizer** - Built in Quantizer.
 
-**Randomize CVs** - Randomizes all CV knobs on all nodes.
+**Randomize CVs** - Randomizes all CV sliders on all nodes.
 
 **This Week's Config** - Sets the configuration of this module to be the current week's configuration. Note this is the initial configuration for a new module, so this won't have any effect on a new module. New configs are released on Sunday.
 
