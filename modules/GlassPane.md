@@ -51,6 +51,8 @@ This quick example shows off all three different modes. The sequence it generate
 
 ### Contextual Menu
 
+**Randomize** - Has options for randomizing the CVs or Modes on this module.
+
 **Range** - Controls the voltage range of the CV knobs. Changing the range here does not update any knobs so it will change all of the output values immediately.
 
 **Cycle** - Controls how the Cycle mode works for all nodes. When `Evenly` is selected each output is visited an equal number of times. When `Weighted` the outputs of a node are more common on the left. So frequency is CV Knob > Output A > Output B > Output C.
@@ -58,6 +60,10 @@ This quick example shows off all three different modes. The sequence it generate
 **Odds** - Controls how the Random mode works for all nodes. When `Evenly` is selected each output is equally likely to occur. When `Weighted` the outputs of a node are more likely on the left. So odds are CV Knob > Output A > Output B > Output C.
 
 **Ratchet Speed** - Controls how fast the Ratchet mode plays. When set to `Whole Notes` the Ratchet speed is equal to the clock. `Half Notes` plays twice per clock etc. `Dynamic` plays a variable amount depending on how many outputs on a given node are connected.
+
+**Low Performance Mode** - Enables low performance mode. In low performance mode, each node only checks for a trigger when the clock goes high.
+
+**+Pane Expander** - Add +Pane expander on either side of Glass Pane. You can chain multiple expanders together. Each expander gets its own context menu settings.
 
 ## Features
 
