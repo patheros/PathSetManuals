@@ -19,8 +19,8 @@ The imperfections in each configuration GlassShard are meant to be a creative mu
 2. **Reset** - Resets the sequencer. The COL controls how it is reset.
 3. **Reset Count** - Triggers a reset every X node transition. Turn completely clockwise to disable.
 4. **Reset Column** - Sets which column the sequencer resets to. Current keeps it in the same column. Next/Previous moves one to the right/left, wrapping around. Random selects a column at random each time.
-5. **CV Output** - The CV value here matches the slider of the current state. 
-6. **Gate Output** - Gate signal to attach to a voice or envelope generator.
+5. **CV Output** - The CV value here matches the slider of the current state. This will have polphony when Echo, Waterfall, or Duet modifiers are present in the configuration.
+6. **Gate Output** - Gate signal to attach to a voice or envelope generator. This will have polphony when Echo, Waterfall, or Duet modifiers are present in the configuration.
 7. **Arrow Intensity** - Controls which arrows are active. Note that each configuration of Glass Shard has different possible arrows.
 8. **Lowest/Highest CV** - Controls the CV range of the sliders and CV output.
 
@@ -45,15 +45,23 @@ Turn Tooltips on and hover over any modifier to learn what it does.
 
 ### Configurations
 
-Each instance of Glass Shard can have a different configuration of arrows, symbols, and sliders. A new configuration is generated each week and is the same for all users. Every time you use a configuration it's added to your configuration library for use later. The premium module [Glass Smith](https://library.vcvrack.com/PathSet-GlassShard-Premium/GlassSmith) also lets you generate a new configuration each day.
+Each instance of Glass Shard can have a different configuration of arrows, symbols, and sliders.
 
-Use the options in the right-click menu to change between configurations.
+A new configuration is available each week and is the same for all users. Don't worry about your patch changing on you; Old instances of Glass Shard will remember their old configuration. If you would like the new configuration simply create a new instance of Glass Shard or update an existing instance by using the `This Week's Config` option in the context menu. The premium module [Glass Smith](https://library.vcvrack.com/PathSet-GlassShard-Premium/GlassSmith) also lets you generate a new configuration each day.
+
+Configurations are collectible. Every time you use a configuration it's added to your configuration library for use later. Use the options in the context menu to change between configurations.
 
 ### Arrows and Connections
 
-GlassShard has its own internal connections, shown as arrows on the panel. These arrows are different with each configuration and control which node plays next. You can turn these arrows on and off using the ARO (Arrow Intensity) control.
+Glass Shard has its own internal connections, shown as arrows on the panel. These arrows are different with each configuration and control which node plays next. You can turn these arrows on and off using the ARO (Arrow Intensity) control.
 
-In addition to the arrows on the panel, you can also patch your own connections. Connect the output of any node to the input of any other, to add another connection. You can even patch the same output to multiple inputs to create even more branching.
+In addition to the arrows on the panel, you can also patch your own connections. Connect the output of any node to the input of any other, to add another connection. You can even patch the same output to multiple inputs to create even more branching. You can also use cable stacking to multiple outputs to the same input.
+
+These arrows and connections control what order Glass Shard plays its nodes in. In the example picture below, the node has three different possible things it can do when it's done. It can A) trigger the left arrow, B) trigger the output cable, or C) trigger the right arrow. Normally nodes will remember the last option selected and do the next one in order. Modifiers can change this behavior.
+
+![Image of controls](../images/GlassShard/NodeTransitions.png)
+
+If the output of one node is connected to the input on multiple nodes, Glass Shard will cycle through each of the connected nodes each time the output cable is connected. With both arrows active and two nodes connected it would give a sequence of: Left, Node 1, Right, Left, Node 2, Right, repeat.
 
 ### Modifiers
 
@@ -63,7 +71,7 @@ You are encouraged to explore the modifiers as you find them, but if you would l
 
 ### Resets
 
-GlassShard's branching nature leads to pretty chaotic sequences. To help rein this in, GlassShard has an internal clock counter that triggers a reset. But what if you want chaos? Have no fear, just turn the knob all the way clockwise to disable the reset.
+Glass Shard's branching nature leads to pretty chaotic sequences. To help rein this in, Glass Shard has an internal clock counter that triggers a reset. But what if you want chaos? Have no fear, just turn the knob all the way clockwise to disable the reset.
 
 What a reset on GlasShard does can also be modified. The COL control sets which column the module resets to. It also has two special options. Current resets to the top of the currently active column. Next resets one column to the right, wrapping around as needed. The reset behavior is the same if the reset is from a CV trigger or from the internal clock.
 
@@ -79,7 +87,7 @@ You can also filter configs by pressing the Filter by Modifier button in the Con
 
 ### Bypass
 
-When GlassShard is bypassed all outputs stay at 0V.
+When Glass Shard is bypassed all outputs stay at 0V.
 
 ### Contextual Menu
 

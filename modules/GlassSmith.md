@@ -25,9 +25,9 @@ Here is a full list of all the modifiers for Glass Shard.
 
 | Image    | Name     | Effect   |
 | -------- | -------- | -------- |
-| ![Branching Random](../images/GlassShard/modifiers/Effect_branch_random.svg) | Branching Random | After this node finishes playing the next branch is selected at random from left, right, or output. |
-| ![Branching Weighted](../images/GlassShard/modifiers/Effect_branch_weight.svg) | Branching Weighted | Branching Sticky | The branches are weighted with the left branch being three times as likely as the right and the output branch being twice as likely as the right. |
-| ![Branching Memory](../images/GlassShard/modifiers/Effect_branch_sticky.svg) | Branching Memory | Remembers the last branching direction that was taken: left, right, or output. Has a high chance of repeating that last branch direction. |
+| ![Branching Random](../images/GlassShard/modifiers/Effect_branch_random.svg) | Branching Random | After this node finishes playing the next branch is selected at random from left, output, or right. |
+| ![Branching Weighted](../images/GlassShard/modifiers/Effect_branch_weight.svg) | Branching Weighted | The branches are weighted with the left branch being three times as likely as the right and the output branch being twice as likely as the right. |
+| ![Branching Memory](../images/GlassShard/modifiers/Effect_branch_sticky.svg) | Branching Memory | Remembers the last branching direction that was taken: left, output, or right. Has a high chance of repeating that last branch direction. |
 | ![Double Play](../images/GlassShard/modifiers/Effect_repeat_node_forward.svg) | Double Play | This node will play twice before continuing to the next node. |
 | ![Ping Pong](../images/GlassShard/modifiers/Effect_repeat_node_backward.svg) | Ping Pong | This node will place twice before continuing to the next node. On the second play. The sliders will play in reverse. |
 | ![All da Gates](../images/GlassShard/modifiers/Effect_runs.svg) | All da Gates | Every beat on this node will play a gate, repeating the CV values if needed. |
