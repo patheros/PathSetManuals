@@ -31,7 +31,7 @@ Glass Shim is a premium expander to the free sequencer [Glass Shard](https://lib
 
 **Voice Count Outputs:**
 
-14. **Voice Count output** - Outputs 1v for each voice actively playing. This will only be greater than 1v when Echo or Waterfall modifiers are active.
-15. **Inverted Voice Count output** - Outputs 10v if only one voice is playing, 5v if two voices, 3.33v if three voices, and 2.5v if four voices are playing. This will only be less than 10v when Echo or Waterfall modifiers are active.
+14. **Voice Count output** - Outputs 1v for each voice actively playing. This will only be greater than 1v when Echo, Waterfall, Perfect Double or Imperfect Double modifiers are active.
+15. **Inverted Voice Count output** - Outputs 10v if only one voice is playing, 5v if two voices, 3.33v if three voices, and 2.5v if four voices are playing. This will only be less than 10v when Echo, Waterfall, Perfect Double or Imperfect Double modifiers are active.
 
 Note: Neither of these ouptuts has any slew, so if you want to use them to control audio volumes run the signal through a slew limiter first.

@@ -19,8 +19,8 @@ The imperfections in each configuration GlassShard are meant to be a creative mu
 2. **Reset** - Resets the sequencer. The COL controls how it is reset.
 3. **Reset Count** - Triggers a reset every X node transition. Turn completely clockwise to disable.
 4. **Reset Column** - Sets which column the sequencer resets to. Current keeps it in the same column. Next/Previous moves one to the right/left, wrapping around. Random selects a column at random each time.
-5. **CV Output** - The CV value here matches the slider of the current state. This will have polphony when Echo, Waterfall, or Duet modifiers are present in the configuration.
-6. **Gate Output** - Gate signal to attach to a voice or envelope generator. This will have polphony when Echo, Waterfall, or Duet modifiers are present in the configuration.
+5. **CV Output** - The CV value here matches the slider of the current state. This will have polphony when Echo, Waterfall, Duet, Perfect Double, or Imperfect Double modifiers are present in the configuration.
+6. **Gate Output** - Gate signal to attach to a voice or envelope generator. This will have polphony when Echo, Waterfall, Duet, Perfect Double, or Imperfect Double modifiers are present in the configuration.
 7. **Arrow Intensity** - Controls which arrows are active. Note that each configuration of Glass Shard has different possible arrows.
 8. **Lowest/Highest CV** - Controls the CV range of the sliders and CV output.
 

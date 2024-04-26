@@ -39,3 +39,5 @@ Here is a full list of all the modifiers for Glass Shard.
 | ![Waterfall](../images/GlassShard/modifiers/Effect_waterfall.svg) | Waterfall | When this node is played all four nodes on this row are played as chord. |
 | ![Duet](../images/GlassShard/modifiers/Effect_split.svg) | Duet | Every other node is played on the second polyphony channel. |
 | ![Mix it Up](../images/GlassShard/modifiers/Effect_change_each_play.svg) | Mix it Up | Every time a slider is played it's CV value is randomized. |
+| ![Perfect Double](../images/GlassShard/modifiers/Effect_perfect_double.svg) | Perfect Double | Always have 2nd Poly Channel. When this modifier is active that channel plays off set by a perfect 5th or ocative, up or down. |
+| ![Imprfect Double](../images/GlassShard/modifiers/Effect_imperfect_dobule.svg) | Imperfect Double | Always have a copy of the note played on the second polyphony channel. When this modifier is active that channel can play offset up or down by up to two semitones. Turn on the quantizer to help tame this extra bit of spice.|
