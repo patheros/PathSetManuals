@@ -6,13 +6,13 @@ The Path Set is family an eclectic and bespoke of plugins for [VCV Rack](https:/
 ## Path Set: Glass Shard
 
 ### Glass Shard (Free)
-<a href="modules/GlasssShard.md">![Image of GlasssShard module](images/GlasssShard.png)</a><br/>
-[GlasssShard Manual](modules/GlasssShard.md)<br/>
+<a href="modules/GlassShard.md">![Image of GlasssShard module](images/GlassShard.png)</a><br/>
+[GlasssShard Manual](modules/GlassShard.md)<br/>
 Node based sequencer like with random imperfections each week to spark a creative melody in you.
 
 ### Glass Smith
-<a href="modules/GlasssSmith.md">![Image of GlasssShard module](images/GlasssSmith.png)</a><br/>
-[GlasssSmith Manual](modules/GlasssSmith.md)<br/>
+<a href="modules/GlassSmith.md">![Image of GlasssShard module](images/GlassSmith.png)</a><br/>
+[GlsssSmith Manual](modules/GlassSmith.md)<br/>
 Utility module for creating new configurations of GlassShard.
 
 ## Path Set: Rainbows 
